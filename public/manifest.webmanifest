@@ -1,6 +1,6 @@
 {
- "name": "CA TEF TCF Canada",
- "short_name": "TEF TCF Canada",
+ "name": "CLB NCLC",
+ "short_name": "CLB NCLC",
  "description": "Convert TEF Canada, TCF Canada and CELPIP scores to NCLC/CLB and Express Entry points, then practise reading and listening with questions written in-house.",
  "start_url": "/en/",
  "display": "standalone",

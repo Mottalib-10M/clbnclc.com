@@ -1,8 +1,8 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://ca-tef-tcf-canada.example";
-export const SITE_NAMES: Record<string, string> = {"en": "CA TEF TCF Canada", "fr": "CA TEF TCF Canada"};
+export const SITE_URL = "https://clbnclc.com";
+export const SITE_NAMES: Record<string, string> = {"en": "CLB NCLC", "fr": "CLB NCLC"};
 // Partie du nom affichée en couleur dans l'en-tête (RECETTE §10.3), « » pour aucune.
-export const BRAND_ACCENT = "TEF TCF";
+export const BRAND_ACCENT = "NCLC";
 export const LANG_TAGS: Record<string, string> = {"en": "en-CA", "fr": "fr-CA"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_CA", "fr": "fr_CA"};
 export const LOCALE_TAG = 'en-CA';
@@ -18,7 +18,7 @@ export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners is an 
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["TEF Canada", "TCF Canada", "CELPIP-General", "Canadian Language Benchmarks", "Express Entry language points", "TEF IRN and TCF IRN for France"], "fr": ["TEF Canada", "TCF Canada", "CELPIP-General", "Niveaux de compétence linguistique canadiens", "Points de langue d'Entrée express", "TEF IRN et TCF IRN pour la France"]};
-export const CONTACT_EMAIL = "contact@ca-tef-tcf-canada.example";
+export const CONTACT_EMAIL = "contact@clbnclc.com";
 export const THEME_COLOR = '#A6192E';
 export const LOGO_SYMBOL = 'CLB';
 export const BING_VERIFY_CODE = '';
