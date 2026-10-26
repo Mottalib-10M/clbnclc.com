@@ -1,0 +1,57 @@
+---
+/**
+ * Renders one tool with its page defaults. Kinds: `converter` (score → CLB/NCLC → CRS, props focus),
+ * `crs` (language points from levels), `target` (scores for a CLB, props level), `level` (which level
+ * for which programme, props program), `quiz` (props bank, mode practice|mock, test tef|tcf, level,
+ * theme), `writing` / `speaking` (props task), `calendar` (props test), `cost` (props test), `cefr`
+ * (props mode), `progress`, or `mini:<spec>` from lib/mini-specs.ts. Quiz questions shown first are
+ * drawn here at build time with a seed taken from the page id (RECETTE §17.5).
+ */
+import ScoreConverter from './calc/ScoreConverter';
+import CrsTool from './calc/CrsTool';
+import TargetTool from './calc/TargetTool';
+import LevelNeeded from './calc/LevelNeeded';
+import PracticeQuiz from './calc/PracticeQuiz';
+import ExpressionCoach from './calc/ExpressionCoach';
+import TestCalendar from './calc/TestCalendar';
+import TestCost from './calc/TestCost';
+import CefrTool from './calc/CefrTool';
+import ProgressBoard from './calc/ProgressBoard';
+import MiniSim from './calc/MiniSim';
+import { route, hasRoute, type Locale } from '../i18n/routes';
+import { getSpec } from '../lib/mini-specs';
+import { BANKS } from '../lib/banks-build';
+import { buildPractice, buildMock, seedOf, type BankKey } from '../lib/engine/quiz';
+import P from '../data/params-2026.json';
+import type { ToolDef } from '../lib/guide-types';
+interface Props { tool: ToolDef; lang: Locale; primary?: boolean; idPrefix?: string; seedKey?: string }
+const { tool, lang, primary = false, idPrefix, seedKey = 'home' } = Astro.props;
+const props = (tool.props ?? {}) as Record<string, any>;
+const kind = tool.kind;
+const bank = (props.bank ?? 'fr-reading') as BankKey;
+const seed = seedOf(`${seedKey}-${kind}-${bank}-${props.mode ?? ''}`);
+const mock = props.mode === 'mock';
+const skill = bank.endsWith('listening') ? 'co' : 'ce';
+const fmt = props.test === 'tcf' ? P.tcf.canada : P.tef.canada;
+const count = mock ? (fmt as any)[skill].q as number : 10;
+const minutes = mock ? (fmt as any)[skill].min as number : 0;
+const initial = kind === 'quiz' ? (mock ? buildMock(BANKS[bank], count, seed) : buildPractice(BANKS[bank], { level: props.level ?? '', theme: props.theme ?? '' }, seed, count)) : [];
+const mini = kind.startsWith('mini:') ? kind.slice(5) : null;
+const spec = mini ? getSpec(mini, lang) : null;
+const href = spec?.ctaPage && hasRoute(spec.ctaPage, lang) ? route(spec.ctaPage, lang) : undefined;
+const numDefaults: Record<string, number> = {};
+for (const [k, v] of Object.entries(props)) if (typeof v === 'number') numDefaults[k] = v;
+const id = idPrefix ?? (primary ? 'p' : 'm');
+---
+{kind === 'converter' && <ScoreConverter client:load lang={lang} focus={props.focus ?? 'all'} idPrefix={`${id}c`} />}
+{kind === 'crs' && <CrsTool client:load lang={lang} idPrefix={`${id}r`} firstDefault={props.first ?? 7} frenchFirst={!!props.french} />}
+{kind === 'target' && <TargetTool client:load lang={lang} level={props.level ?? 7} tests={props.tests} idPrefix={`${id}t`} />}
+{kind === 'level' && <LevelNeeded client:load lang={lang} program={props.program ?? 'fsw'} idPrefix={`${id}l`} />}
+{kind === 'quiz' && <PracticeQuiz client:load lang={lang} bank={bank} mode={mock ? 'mock' : 'practice'} count={count} minutes={minutes} level={props.level ?? ''} theme={props.theme ?? ''} initial={initial} seed={seed} idPrefix={`${id}q`} />}
+{kind === 'writing' && <ExpressionCoach client:load lang={lang} kind="writing" task={props.task} idPrefix={`${id}w`} />}
+{kind === 'speaking' && <ExpressionCoach client:load lang={lang} kind="speaking" task={props.task} idPrefix={`${id}s`} />}
+{kind === 'calendar' && <TestCalendar client:load lang={lang} test={props.test ?? 'tef'} idPrefix={`${id}d`} />}
+{kind === 'cost' && <TestCost client:load lang={lang} test={props.test ?? 'tef'} idPrefix={`${id}o`} />}
+{kind === 'cefr' && <CefrTool client:load lang={lang} mode={props.mode ?? 'tef'} idPrefix={`${id}e`} />}
+{kind === 'progress' && <ProgressBoard client:load lang={lang} />}
+{mini && <MiniSim client:load kind={mini} lang={lang} href={href} defaults={numDefaults} primary={primary} idPrefix={id} />}

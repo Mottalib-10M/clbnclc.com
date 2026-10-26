@@ -1,0 +1,30 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED, AUTHOR_NAME, CONTACT_EMAIL, AUTHOR_ROLE } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { organizationSchema, breadcrumbSchema, profilePageSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { helpers } from '../../lib/helpers';
+const lang = 'en';
+const h = helpers(lang);
+const P = h.P;
+---
+<PageLayout title="Radif Partners: who publishes these TEF and CLB tools" description="Who publishes the TEF Canada, TCF Canada and CELPIP converters and practice on this site, where every chart comes from, and what the site never sells or does." lang={lang} jsonLd={[organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path: route('about', lang) }])]} breadcrumbs={[{ label: 'About' }]}>
+  <header class="mb-6"><p class="kicker">About</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Who is behind these language test tools</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
+    <p>This site is published by Radif Partners, a company that turns published government rules into free tools. It is written for people who must prove English or French to Immigration, Refugees and Citizenship Canada, for Express Entry, a provincial program or citizenship, and for people applying for a residence card or naturalisation in France.</p>
+    <h2>What you can do here</h2>
+    <p>Convert a TEF Canada, TCF Canada, CELPIP-General, IELTS General Training or PTE Core report into CLB and NCLC levels, then into Express Entry language points. See which level a program asks for and which score reaches it. Practise French reading and listening ({h.bankSize.frReading + h.bankSize.frListening} questions from A1 to C2), English reading and listening ({h.bankSize.enReading + h.bankSize.enListening} questions from CLB 4 to CLB 10), writing and speaking tasks against the clock, and timed mock sections in the official format.</p>
+    <p>No account, email address or payment is asked for. Calculations run in your browser; quiz progress is kept in your browser's local storage only.</p>
+    <h2>Sources</h2>
+    <p>Charts come from IRCC pages and from the CCI Paris Île-de-France correspondence table; test formats from the CCI pages and the TCF candidate manual of France Éducation international; French rules from the orders of 22 December 2025 and Service-Public.fr. Each page links to what it relies on, and the <a href={route('method', lang)}>method page</a> explains the details. Charts were last read on {h.date(P.retrieved_at)}.</p>
+    <h2>What this site is not</h2>
+    <p>It is not IRCC, the Government of Canada or the French administration. It is not affiliated with the CCI Paris Île-de-France, France Éducation international or Paragon Testing, it is not a test centre and it registers no one. Its practice questions are written in-house and are not questions of the official tests.</p>
+    <h2>Funding</h2>
+    <p>Nothing is sold here: no course, coaching, book or app, no commission and no paid link. No school or test centre is recommended.</p>
+    <h2>Reporting a mistake</h2>
+    <p>Email <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the chart, figure or question concerned. What happens next is set out in the <a href={route('editorial', lang)}>editorial policy</a>.</p>
+    <p class="text-sm text-navy-600">Last checked on <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-CA')}</time>.</p>
+  </div>
+</PageLayout>

@@ -1,0 +1,26 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'fr';
+---
+<PageLayout title={`Politique éditoriale de ${SITE_NAMES[lang]} : sources`} description="Les pages d’IRCC, documents des organismes de test et textes français sur lesquels repose ce site, l’écriture des questions, les sources refusées et la datation des corrections." lang={lang} noindex={true} breadcrumbs={[{ label: 'Politique éditoriale' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Politique éditoriale et corrections</h1>
+    <p>Ces pages servent à lire une attestation, à remplir un profil Entrée express et à décider quand repasser un test. Une bande fausse peut coûter des points ou une échéance : chaque grille et chaque seuil est donc rattaché à la page officielle où il a été lu, avec la date de lecture.</p>
+    <h2>Responsable</h2><p>{AUTHOR_NAME}, joignable à <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>Ce que nous lisons</h2>
+    <ul>
+      <li>IRCC : grilles d’équivalence des tests, exigences linguistiques d’Entrée express, critères du Système de classement global, sélection par catégorie, preuve linguistique pour la citoyenneté ;</li>
+      <li>CCI Paris Île-de-France : pages du TEF Canada et du TEF IRN, résultats et conditions, tableaux de correspondance ;</li>
+      <li>France Éducation international : le manuel du candidat TCF ;</li>
+      <li>droit français : les deux arrêtés du 22 décembre 2025 et les fiches de Service-Public.fr sur les cartes de séjour et la naturalisation ;</li>
+      <li>pages de centres d’examen, uniquement pour des exemples de tarifs datés.</li>
+    </ul>
+    <h2>Écriture des questions</h2><p>Chaque document et chaque question sont rédigés par nous pour un niveau du CECR ou des Niveaux de compétence linguistique canadiens. Rien n’est repris d’un test officiel, d’un exemple d’épreuve, d’un manuel, d’un livre, d’une application ou d’un autre site d’entraînement, et rien n’est présenté comme une vraie question d’examen.</p>
+    <h2>Sources refusées</h2><p>Aucun chiffre ne vient d’un forum, d’une école, d’un consultant ou d’un autre site de préparation. Une règle qu’on ne peut pas rattacher à une page officielle n’est pas publiée, ou elle est signalée comme non confirmée.</p>
+    <h2>Corrections</h2>
+    <ol><li>La page officielle est relue.</li><li>La valeur ou la question est corrigée, et un test automatique est ajouté pour ce cas.</li><li>Le site reconstruit porte la nouvelle date de vérification.</li></ol>
+    <h2>Indépendance</h2><p>Aucun organisme de test, aucune école, aucun consultant ni aucun gouvernement ne finance ou n’approuve ces pages, et aucun lien ne rapporte de commission. Voir aussi la <a href={route('method', lang)}>page Méthode</a>. Version : {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

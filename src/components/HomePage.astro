@@ -1,0 +1,124 @@
+---
+/**
+ * Home of one language: the score converter first (TEF Canada, TCF Canada, CELPIP, IELTS General,
+ * PTE Core → CLB/NCLC → Express Entry language points), then the three tests side by side, the
+ * scores that reach CLB/NCLC 7, the practice tools and the French residence and naturalisation
+ * levels. Every figure is read from params-2026.json or from the question banks.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Tool from './Tool.astro';
+import Clamp from './Clamp.astro';
+import Sources from './Sources.astro';
+import { route, type Locale } from '../i18n/routes';
+import { PAGES } from '../lib/guides';
+import { helpers } from '../lib/helpers';
+import { LAST_UPDATED, AUTHOR_NAME } from '../data/site-config';
+import { displayDate } from '../lib/format';
+import { faqSchema, webApplicationSchema, websiteSchema, organizationSchema } from '../lib/seo';
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const fr = lang === 'fr';
+const h = helpers(lang, true);
+const P = h.P;
+const TE = P.tef.canada, TC = P.tcf.canada;
+const pagesOf = (g: string) => PAGES.filter((p) => p.group === g);
+
+const title = fr ? 'NCLC et points CRS : score TEF, TCF ou CELPIP converti' : 'CLB calculator: TEF Canada, TCF and CELPIP to CRS points';
+const description = fr
+  ? 'NCLC et points d’Entrée express à partir de vos scores TEF Canada, TCF Canada, CELPIP, IELTS General ou PTE Core, grilles d’IRCC 2026 et entraînement gratuit.'
+  : 'CLB calculator for TEF Canada, TCF Canada, CELPIP, IELTS General and PTE Core: each skill to CLB/NCLC, then Express Entry points, with free practice in French.';
+const faqs = fr ? [
+  { q: 'Quel test de langue choisir pour Entrée express ?', a: `IRCC accepte cinq tests : CELPIP-General, IELTS General Training, PTE Core pour l’anglais, TEF Canada et TCF Canada pour le français. Les points sont les mêmes à niveau égal : ce qui compte est le NCLC obtenu à chaque épreuve. Prenez le format qui vous convient et le centre où une date existe avant votre échéance ; passer un test dans chaque langue peut ajouter jusqu’à ${P.crs.second.max.single} points et le bonus francophone.` },
+  { q: 'Ce convertisseur donne-t-il mon score officiel ?', a: 'Non. Il applique aux scores que vous saisissez les grilles publiées par IRCC et la CCI Paris Île-de-France ; le niveau officiel est celui de votre attestation, et IRCC calcule vos points à partir de votre profil. L’outil sert à vérifier une attestation, à préparer un profil ou à savoir quel score viser au prochain essai. Rien de ce que vous saisissez n’est transmis.' },
+  { q: 'Pourquoi des points différents avec ou sans époux ?', a: `Le Système de classement global réserve une partie des points au conjoint qui accompagne le candidat. La première langue du candidat vaut alors au plus ${P.crs.first.max.withSpouse} points au lieu de ${P.crs.first.max.single}, et la seconde langue ${P.crs.second.max.withSpouse} au lieu de ${P.crs.second.max.single} ; la langue de l’époux peut ajouter jusqu’à ${P.crs.spouse.max} points de son côté.` },
+  { q: 'Les questions d’entraînement sont-elles celles du TEF ou du TCF ?', a: `Non. ${AUTHOR_NAME} rédige ses propres documents, enregistrements et questions à partir des niveaux publics du CECR et des NCLC ; aucun sujet officiel ni exemple d’épreuve n’est reproduit. Les examens blancs respectent le nombre de questions et la durée officiels, mais leur résultat est une indication, pas un score TEF ou TCF.` },
+  { q: 'Le site sert-il aussi pour la France ?', a: `Oui. Depuis le 1er janvier 2026, la France demande le niveau ${P.france.pluri} pour une première carte pluriannuelle, ${P.france.resident} pour une première carte de résident et ${P.france.naturalisation} pour la naturalisation, prouvé notamment par le TEF ou le TCF. Les pages France expliquent ces niveaux et le calcul du niveau global du TEF IRN.` },
+  { q: 'Combien de temps un résultat reste-t-il valable ?', a: `Pour IRCC, un résultat de TEF Canada, de TCF Canada ou de CELPIP compte ${P.tef.validityYears} ans à partir de la date du test, et il doit l’être encore le jour où vous créez votre profil et le jour où vous déposez la demande. Un nouvel essai est possible : au TEF après ${P.tef.retakeDays} jours, au TCF après ${P.tcf.retakeDays} jours.` },
+] : [
+  { q: 'Which language test should I take for Express Entry?', a: `IRCC accepts five: CELPIP-General, IELTS General Training and PTE Core for English, TEF Canada and TCF Canada for French. Points are the same for the same level, so what matters is the CLB or NCLC you reach in each skill. Pick the format you are most comfortable with and a centre with a date before your deadline; adding a test in the other language can bring up to ${P.crs.second.max.single} more points plus the French bonus.` },
+  { q: 'Does this calculator give my official score?', a: 'No. It applies the charts published by IRCC and by the CCI Paris Île-de-France to the scores you type; your official levels are the ones on your score report, and IRCC computes your points from your profile. Use it to check a report, prepare a profile or decide what score to aim for next time. Nothing you type leaves your browser.' },
+  { q: 'Why do points change with a spouse?', a: `The Comprehensive Ranking System sets aside part of the points for an accompanying spouse or partner. Your first official language is then worth at most ${P.crs.first.max.withSpouse} points instead of ${P.crs.first.max.single}, and your second language ${P.crs.second.max.withSpouse} instead of ${P.crs.second.max.single}, while your spouse's own test can add up to ${P.crs.spouse.max} points.` },
+  { q: 'Are the practice questions taken from the TEF or the TCF?', a: `No. ${AUTHOR_NAME} writes its own documents, recordings and questions from the public CEFR and Canadian Language Benchmarks descriptors; no official item or sample paper is reproduced. The mock sections follow the official number of questions and timing, but their result is an indication, not a TEF or TCF score.` },
+  { q: 'Is the site useful for France too?', a: `Yes. Since 1 January 2026 France asks for level ${P.france.pluri} for a first multi-year residence card, ${P.france.resident} for a first resident card and ${P.france.naturalisation} for naturalisation, proven by the TEF or the TCF among others. The France pages explain those levels and how the TEF IRN overall level is worked out.` },
+  { q: 'How long does a test result stay valid?', a: `For IRCC, a TEF Canada, TCF Canada or CELPIP result counts for ${P.tef.validityYears} years from the test date, and it must still be valid both when you create your profile and when you submit the application. You may retake the test: the TEF after ${P.tef.retakeDays} days, the TCF after ${P.tcf.retakeDays} days.` },
+];
+const jsonLd = [websiteSchema(lang), organizationSchema(lang), webApplicationSchema({ name: fr ? 'Convertisseur de scores en NCLC et points' : 'Language test score to CLB and CRS points', description, path: route('home', lang), lang }), faqSchema(faqs, lang)];
+const resume = fr
+  ? `Pour Entrée express, la citoyenneté et les programmes fédéraux, IRCC ne lit pas votre score brut : il le convertit en niveau NCLC (français) ou CLB (anglais), de 4 à 10 et plus, séparément pour la compréhension écrite, l’expression écrite, la compréhension orale et l’expression orale. Chaque test a sa grille : le TEF Canada en a trois selon la date de passation, le TCF Canada note l’écrit et l’oral sur 20, le CELPIP-General donne directement le niveau. Le niveau le plus faible des quatre décide des minimums, par exemple le NCLC ${P.ee.fsw} partout pour les travailleurs qualifiés et la catégorie française d’Entrée express, ou le NCLC ${P.citizenship.clb} à l’oral et à l’écoute pour la citoyenneté. Les points du Système de classement global, eux, s’additionnent épreuve par épreuve : jusqu’à ${P.crs.first.max.single} points en première langue pour un candidat seul, ${P.crs.second.max.single} en seconde langue et un bonus francophone de ${P.crs.frenchBonus.englishLow} ou ${P.crs.frenchBonus.englishClb5} points. Le convertisseur ci-dessus applique ces grilles, relues sur canada.ca le ${h.date(P.retrieved_at)}, sans rien transmettre.`
+  : `For Express Entry, citizenship and the federal programs, IRCC does not read your raw score: it converts it to a CLB level (English) or NCLC level (French), from 4 to 10 and above, separately for reading, writing, listening and speaking. Each test has its own chart: TEF Canada has three depending on the date of the test, TCF Canada marks writing and speaking out of 20, and CELPIP-General reports the level directly. The lowest of your four levels decides the minimums, such as CLB ${P.ee.fsw} in every skill for the Federal Skilled Worker program and the French-language category, or CLB ${P.citizenship.clb} in listening and speaking for citizenship. Comprehensive Ranking System points, on the other hand, add up skill by skill: up to ${P.crs.first.max.single} points in the first official language for a single applicant, ${P.crs.second.max.single} in the second, plus a French bonus of ${P.crs.frenchBonus.englishLow} or ${P.crs.frenchBonus.englishClb5} points. The converter above applies those charts, read on canada.ca on ${h.date(P.retrieved_at)}, and sends nothing anywhere.`;
+const tests = fr ? [
+  { name: 'TEF Canada', who: 'CCI Paris Île-de-France', rows: [['Compréhension écrite', `${TE.ce.q} questions, ${TE.ce.min} min`], ['Compréhension orale', `${TE.co.q} questions, ${TE.co.min} min`], ['Expression écrite', `2 sections, ${TE.ee.min} min`], ['Expression orale', `2 sections, ${TE.eo.min} min`], ['Résultats', `${P.tef.resultsDays[0]} à ${P.tef.resultsDays[1]} jours ouvrés`], ['Nouvel essai', `après ${P.tef.retakeDays} jours`]], id: 'tef-canada' },
+  { name: 'TCF Canada', who: 'France Éducation international', rows: [['Compréhension écrite', `${TC.ce.q} questions, ${TC.ce.min} min`], ['Compréhension orale', `${TC.co.q} questions, ${TC.co.min} min`], ['Expression écrite', `${TC.ee.tasks} tâches, ${TC.ee.min} min`], ['Expression orale', `${TC.eo.tasks} tâches, ${TC.eo.min} min`], ['Résultats', `${P.tcf.resultsDaysComputer} jours ouvrés au plus (ordinateur)`], ['Nouvel essai', `${P.tcf.retakeDays} jours entre deux passations`]], id: 'tcf-canada' },
+  { name: 'CELPIP-General', who: 'Paragon Testing', rows: [['Niveaux', `de 1 à 12, niveau n = CLB n de ${P.tests.celpip.min} à ${P.tests.celpip.max}`], ['Langue', 'anglais'], ['Entrée express', 'accepté'], ['Citoyenneté', `niveau ${P.citizenship.celpip} à l’écoute et à l’oral`]], id: 'celpip' },
+] : [
+  { name: 'TEF Canada', who: 'CCI Paris Île-de-France', rows: [['Reading', `${TE.ce.q} questions, ${TE.ce.min} min`], ['Listening', `${TE.co.q} questions, ${TE.co.min} min`], ['Writing', `2 sections, ${TE.ee.min} min`], ['Speaking', `2 sections, ${TE.eo.min} min`], ['Results', `${P.tef.resultsDays[0]} to ${P.tef.resultsDays[1]} working days`], ['Retake', `after ${P.tef.retakeDays} days`]], id: 'tef-canada' },
+  { name: 'TCF Canada', who: 'France Éducation international', rows: [['Reading', `${TC.ce.q} questions, ${TC.ce.min} min`], ['Listening', `${TC.co.q} questions, ${TC.co.min} min`], ['Writing', `${TC.ee.tasks} tasks, ${TC.ee.min} min`], ['Speaking', `${TC.eo.tasks} tasks, ${TC.eo.min} min`], ['Results', `within ${P.tcf.resultsDaysComputer} working days (computer)`], ['Retake', `${P.tcf.retakeDays} days between sittings`]], id: 'tcf-canada' },
+  { name: 'CELPIP-General', who: 'Paragon Testing', rows: [['Levels', `1 to 12, level n = CLB n from ${P.tests.celpip.min} to ${P.tests.celpip.max}`], ['Language', 'English'], ['Express Entry', 'accepted'], ['Citizenship', `level ${P.citizenship.celpip} in listening and speaking`]], id: 'celpip' },
+];
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} faqs={faqs} breadcrumbs={[]}>
+  <header class="mb-3">
+    <h1 class="mt-0 text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{fr ? 'Votre score de test de langue en NCLC et en points d’Entrée express' : 'Your language test score in CLB and Express Entry points'}</h1>
+    <p class="mt-2 text-base text-navy-700 sm:text-lg">{fr ? 'TEF Canada, TCF Canada, CELPIP, IELTS General ou PTE Core : quatre scores, et vous voyez le niveau de chaque épreuve, vos points et les programmes ouverts. Site indépendant, ni IRCC ni organisme de test.' : 'TEF Canada, TCF Canada, CELPIP, IELTS General or PTE Core: type four scores and see each level, your points and which programs you qualify for. Independent site, not IRCC or a test body.'}</p>
+  </header>
+  <div data-outil class="mb-4"><Tool tool={{ kind: 'converter', props: { focus: 'all' } }} lang={lang} primary={true} seedKey="home" /></div>
+  <Clamp text={resume} id="clamp-home" lang={lang} class="mb-3" />
+  <p class="mb-8 text-sm text-navy-600">{fr ? 'Grilles mises à jour le' : 'Charts updated on'} <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, fr ? 'fr-CA' : 'en-CA')}</time> · {AUTHOR_NAME} · <a href={route('method', lang)} class="underline hover:text-navy-900">{fr ? 'Méthode' : 'How charts and questions are built'}</a> · <a href={route('about', lang)} class="underline hover:text-navy-900">{fr ? 'À propos' : 'About this site'}</a></p>
+
+  <section class="mb-10">
+    <h2 class="mb-4 text-2xl font-bold text-navy-900">{fr ? 'Les trois tests côte à côte' : 'The three tests side by side'}</h2>
+    <div class="grid gap-4 md:grid-cols-3">
+      {tests.map((t) => (
+        <div class="rounded-xl border border-navy-200 bg-white p-4">
+          <p class="text-lg font-semibold text-navy-900"><a href={route(t.id, lang)} class="underline decoration-accent-300 hover:text-accent-800">{t.name}</a></p>
+          <p class="text-xs text-navy-600">{t.who}</p>
+          <dl class="mt-3 space-y-1 text-sm">{t.rows.map(([k, v]) => <div class="flex justify-between gap-3 border-b border-navy-100 py-1"><dt class="text-navy-700">{k}</dt><dd class="tabular-nums text-right text-navy-900">{v}</dd></div>)}</dl>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <div class="prose prose-slate max-w-none">
+    <h2>{fr ? 'Les scores qui donnent le NCLC 7' : 'The scores that reach CLB 7'}</h2>
+    <p>{fr
+      ? `Le niveau 7 est le seuil le plus recherché : minimum du programme des travailleurs qualifiés, de la catégorie française et du bonus francophone. Choisissez un autre niveau dans l’outil pour voir ses fourchettes.`
+      : `Level 7 is the threshold most people chase: it is the Federal Skilled Worker minimum, the French-language category minimum and the floor of the French bonus. Pick another level in the tool to see its ranges.`}</p>
+  </div>
+  <div class="mb-10 mt-4"><Tool tool={{ kind: 'target', props: { level: 7 } }} lang={lang} idPrefix="h1" /></div>
+
+  <div class="prose prose-slate max-w-none">
+    <h2>{fr ? 'S’entraîner en français et en anglais' : 'Practise in French and English'}</h2>
+    <p>{fr
+      ? `${h.bankSize.frReading} questions de compréhension écrite et ${h.bankSize.frListening} de compréhension orale en français, du niveau A1 au C2, et ${h.bankSize.enReading + h.bankSize.enListening} questions en anglais du CLB 4 au CLB 10 : tous les documents sont rédigés par ${AUTHOR_NAME}, les enregistrements sont lus par la synthèse vocale de votre navigateur et chaque réponse est expliquée. Les examens blancs suivent le nombre de questions et la durée des épreuves officielles.`
+      : `${h.bankSize.frReading} French reading and ${h.bankSize.frListening} French listening questions from A1 to C2, and ${h.bankSize.enReading + h.bankSize.enListening} English questions from CLB 4 to CLB 10: every document is written by ${AUTHOR_NAME}, recordings are read by your browser's speech synthesis and every answer is explained. Mock sections follow the number of questions and timing of the official tests.`}</p>
+  </div>
+  <ul class="not-prose mb-10 mt-4 grid gap-x-6 gap-y-3 md:grid-cols-2" data-sommaire>
+    {pagesOf('practice').map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline">{p[lang].nav}</a><span class="block text-sm text-navy-700">{p[lang].card}</span></li>)}
+  </ul>
+
+  <div class="prose prose-slate max-w-none">
+    <h2>{fr ? 'Inscription, coût, résultats et validité' : 'Booking, cost, results and validity'}</h2>
+    <p>{fr
+      ? `Chaque centre fixe son tarif, les résultats arrivent en quelques jours ouvrés et une attestation compte deux ans pour IRCC : de quoi organiser un calendrier avant de créer un profil ou de déposer une demande.`
+      : `Each centre sets its own fee, results arrive within a few working days and a report counts for two years with IRCC: enough to plan a calendar before you create a profile or apply.`}</p>
+  </div>
+  <ul class="not-prose mb-10 mt-4 grid gap-x-6 gap-y-3 md:grid-cols-2" data-sommaire>
+    {pagesOf('exam').map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline">{p[lang].nav}</a><span class="block text-sm text-navy-700">{p[lang].card}</span></li>)}
+  </ul>
+
+  <section class="mb-10 rounded-xl border border-navy-200 bg-navy-50 p-5">
+    <h2 class="text-2xl font-bold text-navy-900">{fr ? 'Pour la France : A2, B1, B2' : 'For France: A2, B1, B2'}</h2>
+    <p class="mt-2 text-navy-800">{fr
+      ? `Depuis le 1er janvier 2026 : ${P.france.pluri} pour la première carte pluriannuelle, ${P.france.resident} pour la première carte de résident, ${P.france.naturalisation} pour la naturalisation, attestations de moins de ${P.france.validityYears} ans.`
+      : `Since 1 January 2026: ${P.france.pluri} for a first multi-year residence card, ${P.france.resident} for a first resident card, ${P.france.naturalisation} for naturalisation, with reports less than ${P.france.validityYears} years old.`}</p>
+    <ul class="mt-3 grid gap-x-6 gap-y-2 sm:grid-cols-2" data-sommaire>{pagesOf('france').map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline">{p[lang].nav}</a></li>)}</ul>
+  </section>
+
+  <div class="prose prose-slate max-w-none">
+    <h2>{fr ? 'Ce que fait et ne fait pas ce site' : 'What this site does and does not do'}</h2>
+    <p>{fr
+      ? `${AUTHOR_NAME} relit les grilles et les règles sur les pages officielles, les date et les applique dans des outils qui tournent dans votre navigateur. Le site n’inscrit personne, ne vend aucune préparation et ne recommande aucun centre ni aucune école ; il n’est affilié ni à IRCC, ni à la CCI Paris Île-de-France, ni à France Éducation international, ni à Paragon Testing.`
+      : `${AUTHOR_NAME} reads the charts and rules on the official pages, dates them and applies them in tools that run in your browser. The site registers no one, sells no course and recommends no centre or school; it is not affiliated with IRCC, the CCI Paris Île-de-France, France Éducation international or Paragon Testing.`}</p>
+    <Sources lang={lang} keys={['ircc_equiv', 'ircc_ee_lang', 'ircc_crs', 'ircc_cit_lang', 'cci_tef_nclc', 'fei_tcf_manual', 'jo_titres', 'jo_naturalisation']} />
+  </div>
+</PageLayout>

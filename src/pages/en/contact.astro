@@ -1,0 +1,24 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'en';
+---
+<PageLayout title={`Contact ${SITE_NAMES[lang]}: a chart, a question, the widget`} description="Write when a CLB chart or a threshold looks out of date, when a practice question seems wrong, or to embed the free score converter on your own website." lang={lang} noindex={true} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Contact</h1>
+    <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Every message is read by a person at Radif Partners.</p>
+    <h2>A chart or a rule seems outdated</h2>
+    <p>Name the figure and, when you can, link the official page that shows a different one. We read the official page again, fix the value and record the date of the fix.</p>
+    <h2>A practice question looks wrong</h2>
+    <p>Send the opening words of the question or its document. If more than one answer can be defended, the question is rewritten or dropped.</p>
+    <h2>What we cannot do</h2>
+    <p>This site is not IRCC, not a test centre and gives no immigration advice. It cannot book a test, change a result or look at a file. Keep personal data out of your email: no UCI, passport number or candidate number.</p>
+    <h2>Showing the converter on your site</h2>
+    <p>Libraries, colleges, language classes and settlement agencies may embed it free of charge: the code is on the <a href={route('widget', lang)}>embed page</a>.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+    <p>Updated: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

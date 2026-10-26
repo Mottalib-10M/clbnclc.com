@@ -1,0 +1,26 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'en';
+---
+<PageLayout title={`Editorial policy of ${SITE_NAMES[lang]}: sources and fixes`} description="The IRCC pages, test body documents and French texts this site relies on, how its practice questions are written, which sources it refuses and how a fix is dated." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Editorial and corrections policy</h1>
+    <p>Readers use these pages to read a score report, to fill in an Express Entry profile and to decide when to sit a test again. A wrong band can cost points or a missed deadline, so every chart and threshold is tied to the official page it was read on, with the date of that reading.</p>
+    <h2>Who is responsible</h2><p>{AUTHOR_NAME}, reachable at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>What we read</h2>
+    <ul>
+      <li>IRCC: language test equivalency charts, Express Entry language requirements, Comprehensive Ranking System criteria, category-based selection, citizenship language proof;</li>
+      <li>CCI Paris Île-de-France: TEF Canada and TEF IRN pages, results and conditions, score correspondence tables;</li>
+      <li>France Éducation international: the TCF candidate manual;</li>
+      <li>French law: the two orders of 22 December 2025 and the Service-Public.fr pages on residence cards and naturalisation;</li>
+      <li>test centres' own pages, only for dated fee examples.</li>
+    </ul>
+    <h2>How the questions are written</h2><p>Each document and question is written by us for one level of the CEFR or of the Canadian Language Benchmarks. None is borrowed from an official test, a sample paper, a manual, a book, an app or another practice site, and none is presented as a real test question.</p>
+    <h2>Sources we refuse</h2><p>No figure comes from a forum, a school, a consultant or another test-prep site. A rule that cannot be traced to an official page is not published, or is marked as unconfirmed.</p>
+    <h2>Corrections</h2>
+    <ol><li>The official page is read again.</li><li>The value or the question is fixed, and an automated test is added for that case.</li><li>The rebuilt site carries the new review date.</li></ol>
+    <h2>Independence</h2><p>No test body, school, consultant or government funds or approves these pages, and no link earns a commission. See also the <a href={route('method', lang)}>method page</a>. Version: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

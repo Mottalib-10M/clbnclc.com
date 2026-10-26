@@ -1,0 +1,30 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, articleSchema } from '../../lib/seo';
+import { helpers } from '../../lib/helpers';
+const lang = 'en';
+const h = helpers(lang);
+const P = h.P;
+const s = (k: Parameters<typeof h.src>[0], t: string) => h.src(k, t);
+---
+<PageLayout title="Score conversion method: IRCC charts, CRS points, practice" description="How this site converts TEF Canada, TCF Canada, CELPIP, IELTS and PTE Core scores to CLB, counts language points, dates results and writes practice questions." lang={lang} jsonLd={[articleSchema({ title: 'How the charts, points and questions are built', description: 'Method of the language test converter', path: route('method', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Method', path: route('method', lang) }])]} breadcrumbs={[{ label: 'Method' }]}>
+  <header class="mb-6"><p class="kicker">Method</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">How the charts, the points and the questions are built</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <p>Every page and tool reads one parameter file holding the charts, thresholds, points and delays as read on {h.date(P.retrieved_at)}, each with the page it comes from. No chart or threshold is typed into a page: when IRCC or a test body changes one, a single edit updates the whole site.</p>
+    <h2>1. Converting a score</h2>
+    <p>Each skill is converted on its own with the chart of the test: <Fragment set:html={s('ircc_equiv', 'IRCC equivalency charts')} /> for CELPIP-General, IELTS General Training, PTE Core, TCF Canada and the TEF Canada charts of 2019 and the old scores; the <Fragment set:html={s('cci_tef_nclc', 'CCI correspondence table')} /> for TEF Canada tests from 11 December 2023, which goes up to NCLC 12. A score belongs to a level when it is at or above the bottom of its range; nothing is rounded except IELTS bands, which go by halves. A score outside the scale of the test is refused rather than guessed.</p>
+    <h2>2. Counting language points</h2>
+    <p>Points follow the <Fragment set:html={s('ircc_crs', 'Comprehensive Ranking System criteria')} />: first official language per skill, with or without spouse; second official language capped at {P.crs.second.max.withSpouse} or {P.crs.second.max.single}; spouse's language; French bonus of {P.crs.frenchBonus.englishLow} or {P.crs.frenchBonus.englishClb5}; and the two transferability factors that combine language with education or foreign work. When you enter both an English and a French test, both choices of first official language are computed and the better one is shown. Age, education alone, Canadian experience and the other factors are outside this site and never estimated.</p>
+    <h2>3. Program minimums and France</h2>
+    <p>Program thresholds come from the <Fragment set:html={s('ircc_ee_lang', 'Express Entry language page')} />, the category-based selection page and the <Fragment set:html={s('ircc_cit_lang', 'citizenship language proof page')} />. French levels come from the <Fragment set:html={s('jo_titres', 'order on residence cards')} />, the <Fragment set:html={s('jo_naturalisation', 'order on naturalisation')} /> and Service-Public.fr. The TEF IRN overall level applies the CCI rule (three tests at the threshold and the weakest at a lower one).</p>
+    <h2>4. Dates</h2>
+    <p>Results deadlines count working days from the test (TEF: {P.tef.resultsDays[0]} to {P.tef.resultsDays[1]}; TCF on computer: up to {P.tcf.resultsDaysComputer}), skipping weekends but not public holidays. The earliest new sitting follows the {P.tef.retakeDays}-day rule of the TEF and the {P.tcf.retakeDays}-day rule of the TCF. A report counts for IRCC until the day before its second anniversary.</p>
+    <h2>5. Practice questions</h2>
+    <p>Radif Partners writes every document, recording script and question from scratch, aiming at one level of the public <Fragment set:html={s('coe_cefr', 'CEFR global scale')} /> (French) or of the <Fragment set:html={s('cclb', 'Canadian Language Benchmarks')} /> (English); each question names the descriptor it targets and explains its answer in English and French. No official item, sample paper, manual exercise or third-party bank is used. Recordings are read by your browser's speech synthesis; voices differ between devices. A mock section draws the official number of questions in the official time, ordered from easy to hard; its result is a raw score with a rough indication of our own, never a TEF or TCF score.</p>
+    <h2>6. Automated checks</h2>
+    <p>Each build runs tests: every band of every chart is contiguous and lands on the right level; points match the CRS table; maximum totals are respected; each bank has unique ids, four distinct options, an explanation in both languages and a reference; mock sections have the official counts.</p>
+    <h2>7. What the site does not do</h2>
+    <ul><li>It does not compute your full CRS score or predict an invitation.</li><li>It does not register you for a test or recommend a centre or a school.</li><li>It does not send or keep what you type.</li></ul>
+  </div>
+</PageLayout>

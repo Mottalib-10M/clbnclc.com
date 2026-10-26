@@ -1,0 +1,24 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { SITE_URL } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema } from '../../lib/seo';
+import { t } from '../../i18n/ui';
+const lang = 'en';
+const code = `<iframe src="${SITE_URL}/embed/clb-calculator/" title="Language test score to CLB and CRS points" width="100%" height="900" style="border:0;max-width:1000px" loading="lazy"></iframe>`;
+const codeFr = `<iframe src="${SITE_URL}/embed/calculateur-nclc/" title="Score de test de langue en NCLC et en points" width="100%" height="900" style="border:0;max-width:1000px" loading="lazy"></iframe>`;
+---
+<PageLayout title="Embed the CLB and CRS points converter on your website" description="Show the free TEF Canada, TCF Canada and CELPIP to CLB converter on your website in English or French: one iframe, no sign-up, nothing typed is sent anywhere." lang={lang} noindex={true} jsonLd={[breadcrumbSchema([{ name: t(lang).breadcrumbHome, path: route('home', lang) }, { name: 'Embed', path: route('widget', lang) }])]} breadcrumbs={[{ label: 'Embed' }]} showAuthor={false}>
+  <header class="mb-6">
+    <h1 class="text-3xl font-bold text-navy-900 md:text-4xl">Embed the converter</h1>
+    <p class="mt-3 text-lg text-navy-700">For a library, a college, a settlement agency or a language class.</p>
+  </header>
+  <div class="prose prose-slate max-w-none">
+    <h2>English version</h2>
+    <pre class="overflow-x-auto rounded-lg bg-navy-900 p-4 text-sm text-white"><code>{code}</code></pre>
+    <h2>French version</h2>
+    <pre class="overflow-x-auto rounded-lg bg-navy-900 p-4 text-sm text-white"><code>{codeFr}</code></pre>
+    <p>One condition: leave the link under the frame visible. The tool comes as it is, without warranty, and follows chart changes by itself. What your visitors type stays in their own browser. Any question: <a href={route('contact', lang)}>contact</a>.</p>
+  </div>
+  <div class="mt-8 overflow-hidden rounded-xl border border-navy-200"><iframe src="/embed/clb-calculator/" title="Language test score to CLB and CRS points" width="100%" height="900" style="border:0" loading="lazy"></iframe></div>
+</PageLayout>

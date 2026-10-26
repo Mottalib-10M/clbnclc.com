@@ -1,0 +1,12 @@
+---
+/** Mention de droits en pied de toutes les pages, embeds compris (RECETTE §12.1, règle 3).
+ * Les questions et sujets sont rédigés par Radif Partners ; les grilles officielles sont des faits
+ * cités avec leur source ; aucune épreuve officielle ni exemple d'épreuve n'est reproduit. */
+interface Props { lang: 'en' | 'fr'; class?: string }
+const { lang, class: cls = 'text-xs text-navy-500' } = Astro.props;
+---
+{lang === 'en' ? (
+  <p class={cls} data-licence-notice>Practice questions, recordings and writing subjects written by Radif Partners; score charts quoted as facts with their official source. No official test item or sample paper is reproduced. TEF, TCF and CELPIP are names of tests of their respective owners. Independent site: not IRCC, not a test body.</p>
+) : (
+  <p class={cls} data-licence-notice>Questions, enregistrements et sujets d’entraînement rédigés par Radif Partners ; grilles de scores citées comme des faits avec leur source officielle. Aucune épreuve officielle ni aucun exemple d’épreuve n’est reproduit. TEF, TCF et CELPIP sont les noms de tests de leurs propriétaires respectifs. Site indépendant : ni IRCC, ni organisme de test.</p>
+)}

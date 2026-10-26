@@ -1,0 +1,70 @@
+import { definePage } from '../../lib/guide-types';
+import type { Helpers } from '../../lib/helpers';
+
+const total = (h: Helpers) => h.bankSize.frReading + h.bankSize.frListening + h.bankSize.enReading + h.bankSize.enListening;
+
+export default definePage({
+  id: 'review',
+  group: 'practice',
+  order: 56,
+  tool: { kind: 'progress' },
+  mini: { kind: 'mini:plan' },
+  related: ['french-reading', 'french-listening', 'tef-mock', 'celpip-reading', 'preparation'],
+  sources: ['coe_cefr', 'cclb'],
+  en: {
+    slug: 'practice-review',
+    nav: 'Review my mistakes',
+    card: 'Your practice results and every question you missed, to answer again until it is right. Stored in your browser only.',
+    title: 'Practice review: retry missed TEF, TCF, CELPIP questions',
+    description: 'Practice review for TEF, TCF and CELPIP: your results per bank and every missed question, to answer again until right. Kept in your browser, never sent.',
+    h1: 'Review my practice mistakes',
+    intro: 'Every question you missed on this site comes back here. Answer it again: when you get it right, it leaves the list.',
+    resume: (h) => `This page gathers what you have done in the practice tools of the site and turns your mistakes into a to-do list. It reads the answers saved in this browser by the French reading and listening practice, the TEF Canada and TCF Canada mock sections, and the English reading and listening practice: ${h.num(total(h))} questions in all across the four banks written by Radif Partners. At the top you see how many questions you have answered and, for each bank, how many were right on your last try. Below, every question whose last answer was wrong comes back with its document or transcript and its four options. Answer again: a right answer removes it from the list and shows the explanation; a wrong one shows the right option and the question stays. Your answers are not sent to any server and there is no account. The data lives in your browser's local storage only, so it does not follow you to another device or browser, and a private window starts empty. The "Clear my progress" button erases everything at once. The level labels come from the CEFR for French and the CLB for English.`,
+    faqs: (h) => [
+      { q: 'Where is my practice progress stored?', a: 'In the local storage of the browser you are using, on this device only. The site has no account and no server copy. Another browser, another device or a private window will show an empty review page, and clearing your browsing data or pressing "Clear my progress" removes it for good.' },
+      { q: 'Which answers appear on the review page?', a: `Every answer given in the site's reading and listening tools, practice sets and mock sections alike, in French and in English. For each question, only your latest answer is kept. The four banks hold ${h.num(total(h))} questions in all, so the counter at the top also shows how much of the material you have covered.` },
+      { q: 'Why does a question stay on my review list?', a: 'Because your last answer to it was wrong. A question leaves the list as soon as you answer it correctly, here or in a practice set. If it keeps coming back, read the explanation and the document again carefully: the trap is often a negation, a time or a detail in the last sentence.' },
+      { q: 'Can I share my practice progress with a teacher?', a: 'Not through the site: nothing is uploaded, so there is no link to share. You can show the page on your screen, or write down your results per bank. This is a deliberate choice, so that practising here never requires giving your name, email or test plans to anyone.' },
+    ],
+    body: (h) => `
+<h2>What the page shows</h2>
+<p>The panel on the right counts the questions you have answered in this browser and splits them by bank: French reading (${h.num(h.bankSize.frReading)} questions), French listening (${h.num(h.bankSize.frListening)}), English reading (${h.num(h.bankSize.enReading)}) and English listening (${h.num(h.bankSize.enListening)}). For each bank you see how many were right on your last try. The main column lists the questions to review, each with its bank, its level (CEFR for French, CLB for English), its theme, a fold-out document or transcript, and the four options.</p>
+<p>If the list is empty, either you have not practised yet in this browser or every question you met was right the last time. In the first case, start with the ${h.a('french-reading', 'French reading practice')} or the ${h.a('celpip-reading', 'English reading practice')}.</p>
+<h2>How answering again works</h2>
+<p>Click an option. If it is right, the question is marked as right in your saved progress, the explanation appears and the question will be gone from the list next time you open the page. If it is wrong, the page shows the right option and the explanation, and the question stays on your list. Listening questions are shown here with their transcript, folded under a "Transcript" heading: try answering from memory first, then open it.</p>
+<h2>Your data stays with you</h2>
+<p>The site stores only two things per question: whether your last answer was right and the date. It keeps them in your browser's local storage, under a single key, and reads them back on this page. Your answers are not transmitted, there is no account, and Radif Partners never sees them. The flip side is fragility: clearing your browsing data, using a private window or switching device starts from zero. If you want a record over several weeks, note your results per bank in a document of your own from time to time.</p>
+<h2>Turning mistakes into progress (our suggestion)</h2>
+<p>A missed question tells you more than a right one, but only if you find out why you missed it. When you review, classify each error before moving on: a word you did not know, a detail you read too fast, an inference you did not make, or, in listening, a sound you did not catch. Patterns appear after a few sessions, and they point to what to practise next: vocabulary by theme, slower reading of the questions, or more listening at one level. Come back to this page after each practice session rather than once a week, while the documents are still fresh. The plan calculator under the summary helps spread your weekly hours between the four skills.</p>
+<h2>Where the questions come from</h2>
+<p>All questions were written by Radif Partners. French items are graded against the ${h.src('coe_cefr', 'CEFR global scale')} of the Council of Europe, from A1 to C2; English items against the ${h.src('cclb', 'Canadian Language Benchmarks')}, from CLB ${h.P.clb.min} to ${h.P.clb.max}. They are practice material, not questions from the TEF, TCF or CELPIP, and getting them all right does not guarantee any official score. For timed practice, the ${h.a('tef-mock', 'TEF Canada mock sections')} put the same banks into the exam format, and the ${h.a('preparation', 'preparation page')} places review within a full plan.</p>`,
+  },
+  fr: {
+    slug: 'revision-erreurs',
+    nav: 'Revoir mes erreurs',
+    card: 'Vos résultats d’entraînement et toutes les questions manquées, à refaire jusqu’à la bonne réponse. Gardé dans votre navigateur.',
+    title: 'Révision des erreurs : questions TEF, TCF, CELPIP à refaire',
+    description: 'Révision des erreurs TEF, TCF et CELPIP : vos résultats par banque et chaque question manquée, à refaire jusqu’à la bonne réponse. Gardé dans le navigateur.',
+    h1: 'Revoir mes erreurs d’entraînement',
+    intro: 'Toutes les questions manquées sur le site reviennent ici. Répondez de nouveau : dès que la réponse est juste, la question quitte la liste.',
+    resume: (h) => `Cette page rassemble ce que vous avez fait dans les outils d’entraînement du site et transforme vos erreurs en liste de travail. Elle lit les réponses enregistrées dans ce navigateur par l’entraînement en compréhension écrite et orale, les sections d’examen blanc du TEF Canada et du TCF Canada, et l’entraînement en lecture et en écoute en anglais : ${h.num(total(h))} questions au total dans les quatre banques rédigées par Radif Partners. En haut, vous voyez combien de questions vous avez traitées et, pour chaque banque, combien étaient justes au dernier essai. En dessous, chaque question dont la dernière réponse était fausse revient avec son document ou sa transcription et ses quatre choix. Répondez de nouveau : une bonne réponse la retire de la liste et affiche l’explication ; une mauvaise montre la bonne option, et la question reste. Vos réponses ne partent vers aucun serveur et il n’y a pas de compte. Les données vivent dans le stockage local de votre navigateur : elles ne vous suivent pas sur un autre appareil, et une fenêtre privée part de zéro. Le bouton « Effacer ma progression » supprime tout d’un coup. Les niveaux suivent le CECR pour le français et les CLB pour l’anglais.`,
+    faqs: (h) => [
+      { q: 'Où ma progression d’entraînement est-elle enregistrée ?', a: 'Dans le stockage local du navigateur que vous utilisez, sur cet appareil seulement. Le site n’a ni compte ni copie sur un serveur. Un autre navigateur, un autre appareil ou une fenêtre privée affichent une page de révision vide, et effacer vos données de navigation ou appuyer sur « Effacer ma progression » la supprime définitivement.' },
+      { q: 'Quelles réponses apparaissent sur la page de révision ?', a: `Toutes les réponses données dans les outils de lecture et d’écoute du site, séries d’entraînement comme examens blancs, en français et en anglais. Pour chaque question, seule votre dernière réponse est conservée. Les quatre banques comptent ${h.num(total(h))} questions en tout : le compteur du haut montre aussi la part du matériel déjà parcourue.` },
+      { q: 'Pourquoi une question reste-t-elle dans ma liste de révision ?', a: 'Parce que votre dernière réponse était fausse. Une question quitte la liste dès que vous y répondez correctement, ici ou dans une série d’entraînement. Si elle revient sans cesse, relisez l’explication et le document avec soin : le piège tient souvent à une négation, à une date ou à un détail de la dernière phrase.' },
+      { q: 'Puis-je transmettre ma progression à un professeur ?', a: 'Pas par le site : rien n’est téléversé, il n’existe donc pas de lien à partager. Vous pouvez montrer la page à l’écran ou noter vos résultats par banque. C’est un choix délibéré : s’entraîner ici ne demande jamais de donner son nom, son courriel ou ses projets d’examen à qui que ce soit.' },
+    ],
+    body: (h) => `
+<h2>Ce que montre la page</h2>
+<p>Le panneau de droite compte les questions traitées dans ce navigateur et les répartit par banque : compréhension écrite en français (${h.num(h.bankSize.frReading)} questions), compréhension orale en français (${h.num(h.bankSize.frListening)}), lecture en anglais (${h.num(h.bankSize.enReading)}) et écoute en anglais (${h.num(h.bankSize.enListening)}). Pour chacune, il indique combien de réponses étaient justes au dernier essai. La colonne principale liste les questions à revoir, chacune avec sa banque, son niveau (CECR pour le français, CLB pour l’anglais), son thème, le document ou la transcription à déplier, et les quatre choix.</p>
+<p>Si la liste est vide, soit vous ne vous êtes pas encore entraîné dans ce navigateur, soit toutes les questions rencontrées étaient justes la dernière fois. Dans le premier cas, commencez par la ${h.a('french-reading', 'compréhension écrite')} ou par la ${h.a('celpip-reading', 'lecture en anglais')}.</p>
+<h2>Répondre de nouveau</h2>
+<p>Cliquez sur une réponse. Si elle est juste, la question est notée comme réussie dans votre progression, l’explication s’affiche et la question aura disparu de la liste à la prochaine ouverture de la page. Si elle est fausse, la page montre la bonne réponse et l’explication, et la question reste à revoir. Les questions d’écoute apparaissent ici avec leur transcription, repliée sous l’intitulé « Transcription » : essayez d’abord de répondre de mémoire, puis dépliez-la.</p>
+<h2>Vos données restent chez vous</h2>
+<p>Le site ne garde que deux informations par question : si votre dernière réponse était juste, et la date. Il les range dans le stockage local de votre navigateur, sous une seule clé, et les relit sur cette page. Vos réponses ne sont pas transmises, il n’y a pas de compte, et Radif Partners ne les voit jamais. Revers de la médaille : effacer les données de navigation, passer en fenêtre privée ou changer d’appareil repart de zéro. Pour garder une trace sur plusieurs semaines, notez de temps en temps vos résultats par banque dans un document à vous.</p>
+<h2>Faire de chaque erreur un progrès (notre suggestion)</h2>
+<p>Une question manquée en apprend plus qu’une question réussie, à condition de comprendre pourquoi. En révisant, classez chaque erreur avant de passer à la suivante : un mot inconnu, un détail lu trop vite, une déduction non faite ou, à l’écoute, un son mal perçu. Au bout de quelques séances, des tendances se dessinent et montrent quoi travailler : vocabulaire par thème, lecture plus posée des consignes, ou davantage d’écoute à un niveau donné. Revenez sur cette page après chaque séance d’entraînement plutôt qu’une fois par semaine, tant que les documents sont frais. Le calculateur de plan sous le résumé répartit vos heures hebdomadaires entre les quatre épreuves.</p>
+<h2>D’où viennent les questions</h2>
+<p>Toutes les questions ont été écrites par Radif Partners. Les questions en français sont graduées d’après l’${h.src('coe_cefr', 'échelle globale du CECR')} du Conseil de l’Europe, du A1 au C2 ; celles en anglais d’après les ${h.src('cclb', 'niveaux de compétence linguistique canadiens')}, du CLB ${h.P.clb.min} au CLB ${h.P.clb.max}. C’est du matériel d’entraînement, pas des questions du TEF, du TCF ou du CELPIP, et les réussir toutes ne garantit aucun score officiel. Pour travailler en temps limité, les ${h.a('tef-mock', 'sections d’examen blanc du TEF Canada')} reprennent les mêmes banques au format de l’examen, et la page de ${h.a('preparation', 'préparation')} situe la révision dans un plan complet.</p>`,
+  },
+});

@@ -1,0 +1,1328 @@
+{
+ "_lisezmoi": "Every rule, table and amount of the site lives here, with the source it was read on (RECETTE §4). Re-read each value on its source before changing it, then update retrieved_at.",
+ "year": 2026,
+ "retrieved_at": "2026-10-26",
+ "valid_from": "2026-01-01",
+ "valid_to": "2026-12-31",
+ "sources": {
+  "ircc_equiv": {
+   "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/atlantic-immigration/language-testing.html",
+   "label": {
+    "en": "IRCC: language testing, equivalency charts for CELPIP, IELTS, PTE Core, TEF Canada and TCF Canada (page modified 2026-05-28)",
+    "fr": "IRCC : évaluation linguistique, tableaux d’équivalence CELPIP, IELTS, PTE Core, TEF Canada et TCF Canada (page modifiée le 2026-05-28)"
+   },
+   "read": "2026-10-26",
+   "urlFr": "https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/programme-immigration-atlantique/evaluation-competences-linquistiques.html",
+   "pageDate": "2026-05-28"
+  },
+  "ircc_equiv_suv": {
+   "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/start-visa/language-testing.html",
+   "label": {
+    "en": "IRCC: Start-up Visa language testing, same equivalency charts (page modified 2025-03-12)",
+    "fr": "IRCC : évaluation linguistique du programme de visa pour démarrage d’entreprise, mêmes tableaux (page modifiée le 2025-03-12)"
+   },
+   "read": "2026-10-26",
+   "pageDate": "2025-03-12"
+  },
+  "ircc_ee_lang": {
+   "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-requirements.html",
+   "label": {
+    "en": "IRCC: Express Entry language requirements (page modified 2026-10-16)",
+    "fr": "IRCC : exigences linguistiques d’Entrée express (page modifiée le 2026-10-16)"
+   },
+   "read": "2026-10-26",
+   "urlFr": "https://www.canada.ca/fr/immigration-refugies-citoyennete/services/immigrer-canada/entree-express/documents/exigences-linguistiques.html",
+   "pageDate": "2026-10-16"
+  },
+  "ircc_crs": {
+   "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html",
+   "label": {
+    "en": "IRCC: Comprehensive Ranking System (CRS) criteria (page modified 2026-10-16)",
+    "fr": "IRCC : critères du Système de classement global (SCG), page anglaise modifiée le 2026-10-16"
+   },
+   "read": "2026-10-26",
+   "pageDate": "2026-10-16"
+  },
+  "ircc_cbs": {
+   "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/rounds-invitations/category-based-selection.html",
+   "label": {
+    "en": "IRCC: Express Entry category-based selection (page modified 2026-10-16)",
+    "fr": "IRCC : sélection par catégorie d’Entrée express, page anglaise modifiée le 2026-10-16"
+   },
+   "read": "2026-10-26",
+   "pageDate": "2026-10-16"
+  },
+  "ircc_cit_lang": {
+   "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/become-canadian-citizen/eligibility/language-proof/step-2.html",
+   "label": {
+    "en": "IRCC: citizenship language proof, accepted tests and scores (page modified 2025-09-26)",
+    "fr": "IRCC : preuve des compétences linguistiques pour la citoyenneté, tests et résultats acceptés (page modifiée le 2025-09-26)"
+   },
+   "read": "2026-10-26",
+   "urlFr": "https://www.canada.ca/fr/immigration-refugies-citoyennete/services/citoyennete-canadienne/devenir-citoyen-canadien/admissibilite/preuve-competences-linguistiques/etape-2.html",
+   "pageDate": "2025-09-26"
+  },
+  "cci_tef_canada": {
+   "url": "https://www.lefrancaisdesaffaires.fr/candidat/test-evaluation-francais/tef-canada/presentation/",
+   "label": {
+    "en": "CCI Paris Île-de-France: TEF Canada, presentation of the four tests",
+    "fr": "CCI Paris Île-de-France : TEF Canada, présentation des quatre épreuves"
+   },
+   "read": "2026-10-26"
+  },
+  "cci_tef_canada_results": {
+   "url": "https://www.lefrancaisdesaffaires.fr/candidat/test-evaluation-francais/tef-canada/resultats/",
+   "label": {
+    "en": "CCI Paris Île-de-France: TEF Canada results, scores and validity",
+    "fr": "CCI Paris Île-de-France : résultats du TEF Canada, scores et validité"
+   },
+   "read": "2026-10-26"
+  },
+  "cci_tef_canada_attestation": {
+   "url": "https://www.lefrancaisdesaffaires.fr/candidat/test-evaluation-francais/tef-canada/attestation/",
+   "label": {
+    "en": "CCI Paris Île-de-France: TEF Canada score report (attestation), 20-day rule",
+    "fr": "CCI Paris Île-de-France : attestation du TEF Canada, règle des 20 jours"
+   },
+   "read": "2026-10-26"
+  },
+  "cci_tef_nclc": {
+   "url": "https://www.lefrancaisdesaffaires.fr/wp-content/uploads/2024/10/correspondance-tef-nclc.pdf",
+   "label": {
+    "en": "CCI Paris Île-de-France: TEF Canada score to NCLC table (PDF)",
+    "fr": "CCI Paris Île-de-France : correspondance score TEF Canada et niveau NCLC (PDF)"
+   },
+   "read": "2026-10-26"
+  },
+  "cci_tef_cecr": {
+   "url": "https://www.lefrancaisdesaffaires.fr/wp-content/uploads/2024/09/correspondance-tef-cecr.pdf",
+   "label": {
+    "en": "CCI Paris Île-de-France: TEF score to CEFR level table (PDF)",
+    "fr": "CCI Paris Île-de-France : correspondance score TEF et niveau CECR (PDF)"
+   },
+   "read": "2026-10-26"
+  },
+  "cci_conditions": {
+   "url": "https://www.lefrancaisdesaffaires.fr/candidat/conditions-dinscription-et-de-passation/",
+   "label": {
+    "en": "CCI Paris Île-de-France: TEF registration and sitting conditions",
+    "fr": "CCI Paris Île-de-France : conditions d’inscription et de passation du TEF"
+   },
+   "read": "2026-10-26"
+  },
+  "cci_tef_irn": {
+   "url": "https://www.lefrancaisdesaffaires.fr/candidat/test-evaluation-francais/tef-irn/presentation/",
+   "label": {
+    "en": "CCI Paris Île-de-France: TEF IRN, presentation",
+    "fr": "CCI Paris Île-de-France : TEF IRN, présentation"
+   },
+   "read": "2026-10-26"
+  },
+  "cci_tef_irn_passation": {
+   "url": "https://www.lefrancaisdesaffaires.fr/candidat/test-evaluation-francais/tef-irn/passation/",
+   "label": {
+    "en": "CCI Paris Île-de-France: TEF IRN, how the tests run",
+    "fr": "CCI Paris Île-de-France : TEF IRN, déroulement des épreuves"
+   },
+   "read": "2026-10-26"
+  },
+  "cci_tef_irn_results": {
+   "url": "https://www.lefrancaisdesaffaires.fr/candidat/test-evaluation-francais/tef-irn/resultats/",
+   "label": {
+    "en": "CCI Paris Île-de-France: TEF IRN results and overall level",
+    "fr": "CCI Paris Île-de-France : résultats du TEF IRN et niveau global"
+   },
+   "read": "2026-10-26"
+  },
+  "fei_tcf_manual": {
+   "url": "https://medellin.alianzafrancesa.edu.co/manuel_du_candidat_tcf",
+   "label": {
+    "en": "France Éducation international: TCF candidate manual, version J, September 2024 (copy published by a test centre)",
+    "fr": "France Éducation international : Manuel du candidat TCF, version J, septembre 2024 (copie diffusée par un centre agréé)"
+   },
+   "read": "2026-10-26"
+  },
+  "fei_tcf_canada": {
+   "url": "https://www.france-education-international.fr/test/tcf-canada",
+   "label": {
+    "en": "France Éducation international: TCF Canada page (registration and centres)",
+    "fr": "France Éducation international : page du TCF Canada (inscription et centres)"
+   },
+   "read": "2026-10-26"
+  },
+  "jo_titres": {
+   "url": "https://www.lefrancaisdesaffaires.fr/wp-content/uploads/2026/07/2025-12-22-arrete-certifications-linguistiques-immigration.pdf",
+   "label": {
+    "en": "French order of 22 December 2025 on language certifications for residence cards, NOR INTV2536147A (Journal officiel, 26 December 2025)",
+    "fr": "Arrêté du 22 décembre 2025 sur les certifications de langue pour les cartes de séjour, NOR INTV2536147A (JO du 26 décembre 2025)"
+   },
+   "read": "2026-10-26"
+  },
+  "jo_naturalisation": {
+   "url": "https://www.lefrancaisdesaffaires.fr/wp-content/uploads/2026/07/2025-12-22-arrete-certifications-linguistiques-naturalisation.pdf",
+   "label": {
+    "en": "French order of 22 December 2025 on the French level of naturalisation applicants, NOR INTV2536113A (Journal officiel, 26 December 2025)",
+    "fr": "Arrêté du 22 décembre 2025 relatif au niveau de français des candidats à la nationalité, NOR INTV2536113A (JO du 26 décembre 2025)"
+   },
+   "read": "2026-10-26"
+  },
+  "sp_naturalisation": {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11926",
+   "label": {
+    "en": "Service-Public.fr: French level required for naturalisation (checked 1 January 2026)",
+    "fr": "Service-Public.fr : niveau de français exigé pour la naturalisation (vérifié le 1er janvier 2026)"
+   },
+   "read": "2026-10-26",
+   "pageDate": "2026-01-01"
+  },
+  "sp_resident": {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2208",
+   "label": {
+    "en": "Service-Public.fr: 10-year resident card (checked 1 July 2026)",
+    "fr": "Service-Public.fr : carte de résident valable dix ans (vérifié le 1er juillet 2026)"
+   },
+   "read": "2026-10-26",
+   "pageDate": "2026-07-01"
+  },
+  "sp_pluri": {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2209",
+   "label": {
+    "en": "Service-Public.fr: multi-year residence card (checked 1 May 2026)",
+    "fr": "Service-Public.fr : carte de séjour pluriannuelle (vérifié le 1er mai 2026)"
+   },
+   "read": "2026-10-26",
+   "pageDate": "2026-05-01"
+  },
+  "fee_af_edmonton": {
+   "url": "https://www.afedmonton.com/exams/tef",
+   "label": {
+    "en": "Alliance française d’Edmonton: TEF Canada fees and dates (centre page)",
+    "fr": "Alliance française d’Edmonton : tarifs et dates du TEF Canada (page du centre)"
+   },
+   "read": "2026-10-26"
+  },
+  "fee_usherbrooke": {
+   "url": "https://www.usherbrooke.ca/centredelangues/tests-et-certifications/test-de-connaissance-du-francais-tcf",
+   "label": {
+    "en": "Université de Sherbrooke language centre: TCF Canada fees and sessions (centre page)",
+    "fr": "Centre de langues de l’Université de Sherbrooke : tarif et sessions du TCF Canada (page du centre)"
+   },
+   "read": "2026-10-26"
+  },
+  "coe_cefr": {
+   "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+   "label": {
+    "en": "Council of Europe: CEFR global scale of common reference levels",
+    "fr": "Conseil de l’Europe : échelle globale des niveaux communs de référence du CECR"
+   },
+   "read": "2026-10-26"
+  },
+  "cclb": {
+   "url": "https://www.language.ca/resourcesexpertise/on-clb/",
+   "label": {
+    "en": "Centre for Canadian Language Benchmarks: about the CLB and NCLC",
+    "fr": "Centre des niveaux de compétence linguistique canadiens : à propos des NCLC et CLB"
+   },
+   "read": "2026-10-26"
+  }
+ },
+ "clb": {
+  "min": 4,
+  "max": 10,
+  "skills": [
+   "R",
+   "W",
+   "L",
+   "S"
+  ]
+ },
+ "tests": {
+  "celpip": {
+   "note": "CELPIP-General level n = CLB n for n from 4 to 10 (IRCC chart)",
+   "min": 4,
+   "max": 10
+  },
+  "ielts": {
+   "R": [
+    [
+     10,
+     8.0
+    ],
+    [
+     9,
+     7.0
+    ],
+    [
+     8,
+     6.5
+    ],
+    [
+     7,
+     6.0
+    ],
+    [
+     6,
+     5.0
+    ],
+    [
+     5,
+     4.0
+    ],
+    [
+     4,
+     3.5
+    ]
+   ],
+   "W": [
+    [
+     10,
+     7.5
+    ],
+    [
+     9,
+     7.0
+    ],
+    [
+     8,
+     6.5
+    ],
+    [
+     7,
+     6.0
+    ],
+    [
+     6,
+     5.5
+    ],
+    [
+     5,
+     5.0
+    ],
+    [
+     4,
+     4.0
+    ]
+   ],
+   "L": [
+    [
+     10,
+     8.5
+    ],
+    [
+     9,
+     8.0
+    ],
+    [
+     8,
+     7.5
+    ],
+    [
+     7,
+     6.0
+    ],
+    [
+     6,
+     5.5
+    ],
+    [
+     5,
+     5.0
+    ],
+    [
+     4,
+     4.5
+    ]
+   ],
+   "S": [
+    [
+     10,
+     7.5
+    ],
+    [
+     9,
+     7.0
+    ],
+    [
+     8,
+     6.5
+    ],
+    [
+     7,
+     6.0
+    ],
+    [
+     6,
+     5.5
+    ],
+    [
+     5,
+     5.0
+    ],
+    [
+     4,
+     4.0
+    ]
+   ]
+  },
+  "pte": {
+   "R": [
+    [
+     10,
+     88
+    ],
+    [
+     9,
+     78
+    ],
+    [
+     8,
+     69
+    ],
+    [
+     7,
+     60
+    ],
+    [
+     6,
+     51
+    ],
+    [
+     5,
+     42
+    ],
+    [
+     4,
+     33
+    ]
+   ],
+   "W": [
+    [
+     10,
+     90
+    ],
+    [
+     9,
+     88
+    ],
+    [
+     8,
+     79
+    ],
+    [
+     7,
+     69
+    ],
+    [
+     6,
+     60
+    ],
+    [
+     5,
+     51
+    ],
+    [
+     4,
+     41
+    ]
+   ],
+   "L": [
+    [
+     10,
+     89
+    ],
+    [
+     9,
+     82
+    ],
+    [
+     8,
+     71
+    ],
+    [
+     7,
+     60
+    ],
+    [
+     6,
+     50
+    ],
+    [
+     5,
+     39
+    ],
+    [
+     4,
+     28
+    ]
+   ],
+   "S": [
+    [
+     10,
+     89
+    ],
+    [
+     9,
+     84
+    ],
+    [
+     8,
+     76
+    ],
+    [
+     7,
+     68
+    ],
+    [
+     6,
+     59
+    ],
+    [
+     5,
+     51
+    ],
+    [
+     4,
+     42
+    ]
+   ]
+  },
+  "tef2023": {
+   "from": "2023-12-11",
+   "max": 699,
+   "R": [
+    [
+     12,
+     615
+    ],
+    [
+     11,
+     573
+    ],
+    [
+     10,
+     546
+    ],
+    [
+     9,
+     503
+    ],
+    [
+     8,
+     462
+    ],
+    [
+     7,
+     434
+    ],
+    [
+     6,
+     393
+    ],
+    [
+     5,
+     352
+    ],
+    [
+     4,
+     306
+    ]
+   ],
+   "L": [
+    [
+     12,
+     615
+    ],
+    [
+     11,
+     573
+    ],
+    [
+     10,
+     546
+    ],
+    [
+     9,
+     503
+    ],
+    [
+     8,
+     462
+    ],
+    [
+     7,
+     434
+    ],
+    [
+     6,
+     393
+    ],
+    [
+     5,
+     352
+    ],
+    [
+     4,
+     306
+    ]
+   ],
+   "W": [
+    [
+     12,
+     619
+    ],
+    [
+     11,
+     577
+    ],
+    [
+     10,
+     558
+    ],
+    [
+     9,
+     512
+    ],
+    [
+     8,
+     472
+    ],
+    [
+     7,
+     428
+    ],
+    [
+     6,
+     379
+    ],
+    [
+     5,
+     330
+    ],
+    [
+     4,
+     268
+    ]
+   ],
+   "S": [
+    [
+     12,
+     642
+    ],
+    [
+     11,
+     592
+    ],
+    [
+     10,
+     556
+    ],
+    [
+     9,
+     518
+    ],
+    [
+     8,
+     494
+    ],
+    [
+     7,
+     456
+    ],
+    [
+     6,
+     422
+    ],
+    [
+     5,
+     387
+    ],
+    [
+     4,
+     328
+    ]
+   ]
+  },
+  "tef2019": {
+   "from": "2019-10-01",
+   "to": "2023-12-10",
+   "max": 699,
+   "all": [
+    [
+     10,
+     566
+    ],
+    [
+     9,
+     533
+    ],
+    [
+     8,
+     500
+    ],
+    [
+     7,
+     450
+    ],
+    [
+     6,
+     400
+    ],
+    [
+     5,
+     350
+    ],
+    [
+     4,
+     300
+    ]
+   ]
+  },
+  "tefOld": {
+   "to": "2019-09-30",
+   "max": {
+    "R": 300,
+    "W": 450,
+    "L": 360,
+    "S": 450
+   },
+   "R": [
+    [
+     10,
+     263
+    ],
+    [
+     9,
+     248
+    ],
+    [
+     8,
+     233
+    ],
+    [
+     7,
+     207
+    ],
+    [
+     6,
+     181
+    ],
+    [
+     5,
+     151
+    ],
+    [
+     4,
+     121
+    ]
+   ],
+   "W": [
+    [
+     10,
+     393
+    ],
+    [
+     9,
+     371
+    ],
+    [
+     8,
+     349
+    ],
+    [
+     7,
+     310
+    ],
+    [
+     6,
+     271
+    ],
+    [
+     5,
+     226
+    ],
+    [
+     4,
+     181
+    ]
+   ],
+   "L": [
+    [
+     10,
+     316
+    ],
+    [
+     9,
+     298
+    ],
+    [
+     8,
+     280
+    ],
+    [
+     7,
+     249
+    ],
+    [
+     6,
+     217
+    ],
+    [
+     5,
+     181
+    ],
+    [
+     4,
+     145
+    ]
+   ],
+   "S": [
+    [
+     10,
+     393
+    ],
+    [
+     9,
+     371
+    ],
+    [
+     8,
+     349
+    ],
+    [
+     7,
+     310
+    ],
+    [
+     6,
+     271
+    ],
+    [
+     5,
+     226
+    ],
+    [
+     4,
+     181
+    ]
+   ]
+  },
+  "tcf": {
+   "max": {
+    "R": 699,
+    "L": 699,
+    "W": 20,
+    "S": 20
+   },
+   "R": [
+    [
+     10,
+     549
+    ],
+    [
+     9,
+     524
+    ],
+    [
+     8,
+     499
+    ],
+    [
+     7,
+     453
+    ],
+    [
+     6,
+     406
+    ],
+    [
+     5,
+     375
+    ],
+    [
+     4,
+     342
+    ]
+   ],
+   "L": [
+    [
+     10,
+     549
+    ],
+    [
+     9,
+     523
+    ],
+    [
+     8,
+     503
+    ],
+    [
+     7,
+     458
+    ],
+    [
+     6,
+     398
+    ],
+    [
+     5,
+     369
+    ],
+    [
+     4,
+     331
+    ]
+   ],
+   "W": [
+    [
+     10,
+     16
+    ],
+    [
+     9,
+     14
+    ],
+    [
+     8,
+     12
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     4,
+     4
+    ]
+   ],
+   "S": [
+    [
+     10,
+     16
+    ],
+    [
+     9,
+     14
+    ],
+    [
+     8,
+     12
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     4,
+     4
+    ]
+   ]
+  }
+ },
+ "crs": {
+  "first": {
+   "withSpouse": [
+    0,
+    0,
+    0,
+    0,
+    6,
+    6,
+    8,
+    16,
+    22,
+    29,
+    32
+   ],
+   "single": [
+    0,
+    0,
+    0,
+    0,
+    6,
+    6,
+    9,
+    17,
+    23,
+    31,
+    34
+   ],
+   "max": {
+    "withSpouse": 128,
+    "single": 136
+   }
+  },
+  "second": {
+   "perAbility": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    3,
+    3,
+    6,
+    6
+   ],
+   "max": {
+    "withSpouse": 22,
+    "single": 24
+   }
+  },
+  "spouse": {
+   "perAbility": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    3,
+    3,
+    5,
+    5
+   ],
+   "max": 20
+  },
+  "frenchBonus": {
+   "nclc": 7,
+   "englishLow": 25,
+   "englishClb5": 50,
+   "max": 50
+  },
+  "transfer": {
+   "education": {
+    "none": [
+     0,
+     0
+    ],
+    "oneYear": [
+     13,
+     25
+    ],
+    "twoPlus": [
+     25,
+     50
+    ],
+    "masters": [
+     25,
+     50
+    ],
+    "phd": [
+     25,
+     50
+    ]
+   },
+   "foreignWork": {
+    "none": [
+     0,
+     0
+    ],
+    "oneTwo": [
+     13,
+     25
+    ],
+    "threePlus": [
+     25,
+     50
+    ]
+   },
+   "certificate": [
+    25,
+    50
+   ],
+   "maxEach": 50,
+   "max": 100
+  },
+  "sections": {
+   "coreWithSpouse": 460,
+   "coreSingle": 500,
+   "spouse": 40,
+   "transfer": 100,
+   "additional": 600,
+   "total": 1200
+  }
+ },
+ "ee": {
+  "fsw": 7,
+  "cecTeer01": 7,
+  "cecTeer23": 5,
+  "fst": {
+   "S": 5,
+   "L": 5,
+   "R": 4,
+   "W": 4
+  },
+  "fswSecondMin": 5,
+  "frenchCategory": 7,
+  "validityYears": 2,
+  "categories": 10
+ },
+ "citizenship": {
+  "ages": [
+   18,
+   54
+  ],
+  "clb": 4,
+  "celpip": 4,
+  "ielts": {
+   "L": 4.5,
+   "S": 4.0
+  },
+  "pte": {
+   "L": 28,
+   "S": 42
+  },
+  "tefCefr": "B1",
+  "tcfCefr": "B1",
+  "expiredOk": true
+ },
+ "tef": {
+  "canada": {
+   "ce": {
+    "q": 40,
+    "min": 60
+   },
+   "co": {
+    "q": 40,
+    "min": 40
+   },
+   "ee": {
+    "min": 60,
+    "a": {
+     "min": 25,
+     "words": 80
+    },
+    "b": {
+     "min": 35,
+     "words": 200
+    }
+   },
+   "eo": {
+    "min": 15,
+    "a": 5,
+    "b": 10
+   },
+   "citizenshipTests": [
+    "co",
+    "eo"
+   ]
+  },
+  "resultsDays": [
+   1,
+   10
+  ],
+  "validityYears": 2,
+  "retakeDays": 20,
+  "appealDays": 30,
+  "minAge": 16,
+  "centres": 500,
+  "countries": 110,
+  "cecr": [
+   [
+    "C2",
+    600
+   ],
+   [
+    "C1",
+    500
+   ],
+   [
+    "B2",
+    400
+   ],
+   [
+    "B1",
+    300
+   ],
+   [
+    "A2",
+    200
+   ],
+   [
+    "A1",
+    100
+   ]
+  ],
+  "irn": {
+   "ce": {
+    "q": 20,
+    "min": 30
+   },
+   "co": {
+    "q": 20,
+    "min": 20
+   },
+   "ee": {
+    "min": 30,
+    "a": {
+     "min": 10,
+     "words": 40
+    },
+    "b": {
+     "min": 20,
+     "words": 100
+    }
+   },
+   "eo": {
+    "min": 10,
+    "a": 5,
+    "b": 5
+   },
+   "levels": [
+    [
+     "B2",
+     400,
+     367
+    ],
+    [
+     "B1",
+     300,
+     267
+    ],
+    [
+     "A2",
+     200,
+     167
+    ]
+   ],
+   "a1": 100
+  }
+ },
+ "tcf": {
+  "canada": {
+   "co": {
+    "q": 39,
+    "min": 35
+   },
+   "ce": {
+    "q": 39,
+    "min": 60
+   },
+   "ee": {
+    "tasks": 3,
+    "min": 60,
+    "words": [
+     [
+      60,
+      120
+     ],
+     [
+      120,
+      150
+     ],
+     [
+      120,
+      180
+     ]
+    ]
+   },
+   "eo": {
+    "tasks": 3,
+    "min": 12,
+    "t1": 2,
+    "t2": 3.5,
+    "t2prep": 2,
+    "t3": 4.5
+   },
+   "totalMin": 167
+  },
+  "resultsDaysComputer": 10,
+  "resultsDaysPaper": 15,
+  "validityYears": 2,
+  "retakeDays": 30,
+  "choices": 4,
+  "cecr": [
+   [
+    "C2",
+    600
+   ],
+   [
+    "C1",
+    500
+   ],
+   [
+    "B2",
+    400
+   ],
+   [
+    "B1",
+    300
+   ],
+   [
+    "A2",
+    200
+   ],
+   [
+    "A1",
+    100
+   ]
+  ],
+  "cecr20": [
+   [
+    "C2",
+    18
+   ],
+   [
+    "C1",
+    14
+   ],
+   [
+    "B2",
+    10
+   ],
+   [
+    "B1",
+    6
+   ],
+   [
+    "A2",
+    2
+   ],
+   [
+    "A1",
+    1
+   ]
+  ]
+ },
+ "france": {
+  "from": "2026-01-01",
+  "pluri": "A2",
+  "resident": "B1",
+  "naturalisation": "B2",
+  "ageExempt": 65,
+  "validityYears": 2,
+  "refugeeAge": 70,
+  "refugeeYears": 15
+ },
+ "fees": {
+  "afEdmonton": {
+   "full": 390,
+   "ls": 195,
+   "read": "2026-10-26"
+  },
+  "usherbrooke": {
+   "tcfCanada": 415,
+   "read": "2026-10-26"
+  }
+ }
+}

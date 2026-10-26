@@ -1,0 +1,30 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, articleSchema } from '../../lib/seo';
+import { helpers } from '../../lib/helpers';
+const lang = 'fr';
+const h = helpers(lang);
+const P = h.P;
+const s = (k: Parameters<typeof h.src>[0], t: string) => h.src(k, t);
+---
+<PageLayout title="Méthode de conversion : grilles d’IRCC, points et questions" description="Comment ce site convertit les scores TEF Canada, TCF Canada, CELPIP, IELTS et PTE Core en NCLC, compte les points, date les résultats et rédige ses questions." lang={lang} jsonLd={[articleSchema({ title: 'Comment sont faits les grilles, les points et les questions', description: 'Méthode du convertisseur de scores', path: route('method', lang), lang }), breadcrumbSchema([{ name: 'Accueil', path: route('home', lang) }, { name: 'Méthode', path: route('method', lang) }])]} breadcrumbs={[{ label: 'Méthode' }]}>
+  <header class="mb-6"><p class="kicker">Méthode</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Comment sont faits les grilles, les points et les questions</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <p>Toutes les pages et tous les outils lisent un même fichier de paramètres : grilles, seuils, points et délais tels que relus le {h.date(P.retrieved_at)}, chacun avec la page d’où il vient. Aucune grille n’est tapée dans une page : quand IRCC ou un organisme de test en change une, une seule modification met tout le site à jour.</p>
+    <h2>1. Convertir un score</h2>
+    <p>Chaque épreuve se convertit séparément, avec la grille de son test : <Fragment set:html={s('ircc_equiv', 'grilles d’équivalence d’IRCC')} /> pour le CELPIP-General, l’IELTS General Training, le PTE Core, le TCF Canada et les grilles TEF Canada de 2019 et des anciens scores ; <Fragment set:html={s('cci_tef_nclc', 'tableau de correspondance de la CCI')} /> pour le TEF Canada passé depuis le 11 décembre 2023, qui monte jusqu’au NCLC 12. Un score appartient à un niveau dès qu’il atteint le bas de sa fourchette ; rien n’est arrondi, sauf les bandes IELTS qui vont par demi-points. Un score hors de l’échelle du test est refusé plutôt que deviné.</p>
+    <h2>2. Compter les points de langue</h2>
+    <p>Les points suivent les <Fragment set:html={s('ircc_crs', 'critères du Système de classement global')} /> : première langue officielle par épreuve, avec ou sans époux ; seconde langue plafonnée à {P.crs.second.max.withSpouse} ou {P.crs.second.max.single} ; langue de l’époux ; bonus francophone de {P.crs.frenchBonus.englishLow} ou {P.crs.frenchBonus.englishClb5} ; et les deux facteurs de transférabilité qui croisent la langue avec les études ou l’expérience à l’étranger. Si vous saisissez un test d’anglais et un test de français, les deux choix de première langue sont calculés et le meilleur est affiché. L’âge, les études seules, l’expérience canadienne et les autres facteurs sortent du cadre du site et ne sont jamais estimés.</p>
+    <h2>3. Minimums des programmes et France</h2>
+    <p>Les seuils viennent de la <Fragment set:html={s('ircc_ee_lang', 'page d’IRCC sur les exigences linguistiques d’Entrée express')} />, de la page sur la sélection par catégorie et de la <Fragment set:html={s('ircc_cit_lang', 'page sur la preuve linguistique pour la citoyenneté')} />. Les niveaux français viennent de l’<Fragment set:html={s('jo_titres', 'arrêté sur les cartes de séjour')} />, de l’<Fragment set:html={s('jo_naturalisation', 'arrêté sur la naturalisation')} /> et de Service-Public.fr. Le niveau global du TEF IRN applique la règle de la CCI (trois épreuves au seuil, la moins réussie à un seuil inférieur).</p>
+    <h2>4. Les dates</h2>
+    <p>Les délais de résultats se comptent en jours ouvrés depuis le test (TEF : {P.tef.resultsDays[0]} à {P.tef.resultsDays[1]} ; TCF sur ordinateur : {P.tcf.resultsDaysComputer} au plus), sans les fins de semaine mais avec les jours fériés. La nouvelle passation la plus proche suit la règle des {P.tef.retakeDays} jours du TEF et des {P.tcf.retakeDays} jours du TCF. Une attestation compte pour IRCC jusqu’à la veille de son deuxième anniversaire.</p>
+    <h2>5. Les questions d’entraînement</h2>
+    <p>Radif Partners rédige de zéro chaque document, chaque script d’écoute et chaque question, en visant un niveau de l’<Fragment set:html={s('coe_cefr', 'échelle globale du CECR')} /> (français) ou des <Fragment set:html={s('cclb', 'Niveaux de compétence linguistique canadiens')} /> (anglais) ; chaque question indique le descripteur visé et explique sa réponse en français et en anglais. Aucun sujet officiel, exemple d’épreuve, exercice de manuel ni banque tierce n’est utilisé. Les enregistrements sont lus par la synthèse vocale de votre navigateur ; les voix varient d’un appareil à l’autre. Une section d’examen blanc tire le nombre officiel de questions dans le temps officiel, de la plus facile à la plus difficile ; son résultat est un score brut avec une indication approximative de notre cru, jamais un score TEF ou TCF.</p>
+    <h2>6. Contrôles automatiques</h2>
+    <p>Chaque construction du site lance des tests : chaque bande de chaque grille est continue et tombe sur le bon niveau ; les points suivent le barème du SCG ; les plafonds sont respectés ; chaque banque a des identifiants uniques, quatre options distinctes, une explication dans les deux langues et une référence ; les examens blancs ont le nombre officiel de questions.</p>
+    <h2>7. Ce que le site ne fait pas</h2>
+    <ul><li>Il ne calcule pas votre score SCG complet et ne prédit aucune invitation.</li><li>Il n’inscrit à aucun test et ne recommande ni centre ni école.</li><li>Il ne transmet ni ne conserve ce que vous saisissez.</li></ul>
+  </div>
+</PageLayout>

@@ -1,0 +1,1096 @@
+{
+  "questions": [
+    {
+      "id": "ece-001",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB4",
+      "theme": "daily",
+      "docId": "ece-d01",
+      "doc": "Maple Court Apartments – Laundry Room\nOpen every day from 7 a.m. to 10 p.m. Please take your clothes out as soon as the machine stops. Do not leave clothes in the room overnight. The dryer on the left is broken until Friday. Questions? Call the building manager at extension 12.",
+      "q": "When does the laundry room close?",
+      "options": [
+        "At 7 p.m.",
+        "At 7 a.m.",
+        "At 10 p.m.",
+        "At 12 p.m."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The notice says the room is 'Open every day from 7 a.m. to 10 p.m.', so it closes at 10 p.m. Seven a.m. is the opening time and 12 is the manager's extension.",
+        "fr": "L’avis indique « Open every day from 7 a.m. to 10 p.m. » : la salle ferme donc à 22 h. 7 h est l’heure d’ouverture et 12 est le poste du gestionnaire."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 4 reading: find specific details in short, simple everyday texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-002",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB4",
+      "theme": "daily",
+      "docId": "ece-d01",
+      "doc": "Maple Court Apartments – Laundry Room\nOpen every day from 7 a.m. to 10 p.m. Please take your clothes out as soon as the machine stops. Do not leave clothes in the room overnight. The dryer on the left is broken until Friday. Questions? Call the building manager at extension 12.",
+      "q": "What problem does the notice mention?",
+      "options": [
+        "Clothes were left in the room.",
+        "The room is closed until Friday.",
+        "The manager cannot be reached.",
+        "One dryer is not working."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The notice says 'The dryer on the left is broken until Friday.' The room itself stays open, and the manager can be called at extension 12.",
+        "fr": "L’avis dit « The dryer on the left is broken until Friday ». La salle reste ouverte, et on peut joindre le gestionnaire au poste 12."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 4 reading: find specific details in short, simple everyday texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-003",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB4",
+      "theme": "work",
+      "docId": "ece-d02",
+      "doc": "Hi Ana, it's Raj from the bakery. Can you work this Saturday instead of Sunday? Same hours, 6 a.m. to 2 p.m. Mei is sick and can't come in on Saturday. You can take Sunday off. Please text me back by tonight. Thanks!",
+      "q": "What does Raj want Ana to do?",
+      "options": [
+        "Work both Saturday and Sunday.",
+        "Cover Mei's shift on Sunday morning.",
+        "Work longer hours on Sunday.",
+        "Work Saturday instead of Sunday."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Raj asks: 'Can you work this Saturday instead of Sunday?' He adds that she can take Sunday off, so she would not work both days.",
+        "fr": "Raj demande : « Can you work this Saturday instead of Sunday? » Il ajoute qu’elle peut prendre son dimanche : elle ne travaillerait donc pas les deux jours."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 4 reading: find specific details in short, simple everyday texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-004",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB4",
+      "theme": "work",
+      "docId": "ece-d02",
+      "doc": "Hi Ana, it's Raj from the bakery. Can you work this Saturday instead of Sunday? Same hours, 6 a.m. to 2 p.m. Mei is sick and can't come in on Saturday. You can take Sunday off. Please text me back by tonight. Thanks!",
+      "q": "When does Ana need to answer?",
+      "options": [
+        "By tonight.",
+        "Before 6 a.m.",
+        "By Saturday morning.",
+        "By Sunday."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The message ends with 'Please text me back by tonight.' Saturday and Sunday are the days of the shifts, and 6 a.m. is the start time.",
+        "fr": "Le message se termine par « Please text me back by tonight ». Samedi et dimanche sont les jours de travail, et 6 h est l’heure de début."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 4 reading: find specific details in short, simple everyday texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-005",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB4",
+      "theme": "health",
+      "docId": "ece-d03",
+      "doc": "Riverside Family Clinic\nStarting March 3, the clinic will open at 8 a.m. instead of 9 a.m. on weekdays. Walk-in patients are seen in the morning only. For an afternoon appointment, please call the front desk. Bring your health card to every visit.",
+      "q": "What is changing at the clinic?",
+      "options": [
+        "It will open one hour earlier.",
+        "It will close one hour earlier.",
+        "It will close in the afternoon.",
+        "It will only see walk-in patients."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The notice says the clinic 'will open at 8 a.m. instead of 9 a.m. on weekdays', which is one hour earlier. Nothing changes about closing time.",
+        "fr": "L’avis dit que la clinique « will open at 8 a.m. instead of 9 a.m. on weekdays », soit une heure plus tôt. Rien ne change pour la fermeture."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 4 reading: find specific details in short, simple everyday texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-006",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB4",
+      "theme": "health",
+      "docId": "ece-d03",
+      "doc": "Riverside Family Clinic\nStarting March 3, the clinic will open at 8 a.m. instead of 9 a.m. on weekdays. Walk-in patients are seen in the morning only. For an afternoon appointment, please call the front desk. Bring your health card to every visit.",
+      "q": "How can a patient see a doctor in the afternoon?",
+      "options": [
+        "By showing a health card at 9 a.m.",
+        "By coming in as a walk-in.",
+        "By calling for an appointment.",
+        "By arriving at 8 a.m."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Walk-in patients are seen 'in the morning only'. For the afternoon, the notice says: 'please call the front desk' to get an appointment.",
+        "fr": "Les patients sans rendez-vous sont vus « in the morning only ». Pour l’après-midi, l’avis dit : « please call the front desk » pour obtenir un rendez-vous."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 4 reading: find specific details in short, simple everyday texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-007",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB5",
+      "theme": "housing",
+      "docId": "ece-d04",
+      "doc": "Subject: Water shut-off on Thursday\nDear residents,\nThe water in the building will be turned off this Thursday from 9 a.m. to 1 p.m. so that a plumber can replace a pipe in the basement. Please fill a few bottles with water the night before. The elevator will work normally. If you need water during this time for a medical reason, please let me know by Wednesday at noon so I can help.\nThank you for your patience,\nLinda Osei, Building Manager",
+      "q": "Why will the water be turned off?",
+      "options": [
+        "The elevator is being repaired.",
+        "The basement is being cleaned.",
+        "A pipe needs to be replaced.",
+        "The building is getting new taps."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The email explains the shut-off is 'so that a plumber can replace a pipe in the basement'. It also says the elevator will work normally.",
+        "fr": "Le courriel explique que la coupure a lieu « so that a plumber can replace a pipe in the basement ». Il précise aussi que l’ascenseur fonctionnera normalement."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 5 reading: understand key facts in short notices, messages and emails",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-008",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB5",
+      "theme": "housing",
+      "docId": "ece-d04",
+      "doc": "Subject: Water shut-off on Thursday\nDear residents,\nThe water in the building will be turned off this Thursday from 9 a.m. to 1 p.m. so that a plumber can replace a pipe in the basement. Please fill a few bottles with water the night before. The elevator will work normally. If you need water during this time for a medical reason, please let me know by Wednesday at noon so I can help.\nThank you for your patience,\nLinda Osei, Building Manager",
+      "q": "What should a resident with a medical need do?",
+      "options": [
+        "Stay out of the building until 1 p.m.",
+        "Call a plumber before Thursday.",
+        "Tell the manager by Wednesday noon.",
+        "Fill bottles on Thursday morning."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Residents who need water for a medical reason should 'let me know by Wednesday at noon'. Bottles should be filled the night before, not on Thursday morning.",
+        "fr": "Les résidents qui ont besoin d’eau pour raison médicale doivent « let me know by Wednesday at noon ». Les bouteilles se remplissent la veille, pas le jeudi matin."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 5 reading: understand key facts in short notices, messages and emails",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-009",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB5",
+      "theme": "transport",
+      "docId": "ece-d05",
+      "doc": "Route 22 Service Change\nFrom May 5 to June 30, Route 22 buses will not stop on Elm Street because of road repairs. Please use the temporary stop on Birch Avenue, one block north. Buses will run every 15 minutes during rush hour and every 30 minutes at other times. Weekend service is not affected. We are sorry for the inconvenience.",
+      "q": "Where should riders catch the bus during the repairs?",
+      "options": [
+        "One block south of Elm.",
+        "On Elm Street.",
+        "At the next regular stop.",
+        "On Birch Avenue."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Buses will not stop on Elm Street, so riders should 'use the temporary stop on Birch Avenue, one block north'.",
+        "fr": "Les autobus ne s’arrêteront pas sur Elm Street : il faut « use the temporary stop on Birch Avenue, one block north », un pâté de maisons plus au nord."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 5 reading: understand key facts in short notices, messages and emails",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-010",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB5",
+      "theme": "transport",
+      "docId": "ece-d05",
+      "doc": "Route 22 Service Change\nFrom May 5 to June 30, Route 22 buses will not stop on Elm Street because of road repairs. Please use the temporary stop on Birch Avenue, one block north. Buses will run every 15 minutes during rush hour and every 30 minutes at other times. Weekend service is not affected. We are sorry for the inconvenience.",
+      "q": "Which statement is true?",
+      "options": [
+        "Route 22 will stop running during repairs.",
+        "Weekend buses will run as usual.",
+        "Buses will come every 15 minutes all day.",
+        "The change will end in late May."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The notice says 'Weekend service is not affected.' Buses run every 15 minutes only at rush hour, and the change lasts until June 30.",
+        "fr": "L’avis précise « Weekend service is not affected ». Les autobus passent toutes les 15 minutes seulement aux heures de pointe, et le changement dure jusqu’au 30 juin."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 5 reading: understand key facts in short notices, messages and emails",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-011",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB5",
+      "theme": "education",
+      "docId": "ece-d06",
+      "doc": "Free Conversation Circle – Westview Community Centre\nWant to practise your English in a relaxed setting? Join our conversation circle every Wednesday from 6:30 to 8 p.m. in Room 4. Each week, we choose a different topic, such as food, travel or work. All levels are welcome, but you should be able to introduce yourself. No registration needed – just come! Coffee and tea are provided. Children cannot attend, but free childcare is available in Room 2.",
+      "q": "Who is the conversation circle for?",
+      "options": [
+        "Beginners who speak no English yet.",
+        "Volunteers who want to lead a group.",
+        "Children who want to practise English.",
+        "Adults with at least basic English."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "'All levels are welcome, but you should be able to introduce yourself' means some basic English is needed. Children cannot attend the circle.",
+        "fr": "« All levels are welcome, but you should be able to introduce yourself » : il faut donc un peu d’anglais de base. Les enfants ne peuvent pas participer."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 5 reading: understand key facts in short notices, messages and emails",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-012",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB5",
+      "theme": "education",
+      "docId": "ece-d06",
+      "doc": "Free Conversation Circle – Westview Community Centre\nWant to practise your English in a relaxed setting? Join our conversation circle every Wednesday from 6:30 to 8 p.m. in Room 4. Each week, we choose a different topic, such as food, travel or work. All levels are welcome, but you should be able to introduce yourself. No registration needed – just come! Coffee and tea are provided. Children cannot attend, but free childcare is available in Room 2.",
+      "q": "What must people do before coming?",
+      "options": [
+        "Choose a topic for the week.",
+        "Book childcare in Room 2.",
+        "Register at the front desk.",
+        "Nothing; they can just show up."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The ad says 'No registration needed – just come!' Topics are chosen each week by the group, and childcare is simply available.",
+        "fr": "L’annonce dit « No registration needed – just come! » Le sujet est choisi chaque semaine par le groupe, et la garderie est simplement offerte sur place."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 5 reading: understand key facts in short notices, messages and emails",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-013",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB6",
+      "theme": "work",
+      "docId": "ece-d07",
+      "doc": "MEMO\nTo: All warehouse staff\nFrom: Daniel Fortin, Operations Supervisor\nRe: New process for vacation requests\nStarting next month, all vacation requests must be submitted through the staff portal instead of on paper. Requests should be made at least four weeks before the first day off. For July and August, requests are approved in the order they are received, so please plan early. If two people on the same shift ask for the same week, the person who submitted first will get it. Paper forms will still be accepted until the end of this month. If you have trouble logging in to the portal, see Priya in Human Resources.",
+      "q": "What is the main purpose of the memo?",
+      "options": [
+        "To introduce a new Human Resources employee.",
+        "To announce new summer shift times.",
+        "To remind staff to use paper forms.",
+        "To explain a new way to request vacation."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The subject line is 'New process for vacation requests', and the memo explains that requests 'must be submitted through the staff portal instead of on paper'.",
+        "fr": "L’objet est « New process for vacation requests », et la note explique que les demandes « must be submitted through the staff portal instead of on paper »."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 6 reading: get main ideas and details from routine everyday texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-014",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB6",
+      "theme": "work",
+      "docId": "ece-d07",
+      "doc": "MEMO\nTo: All warehouse staff\nFrom: Daniel Fortin, Operations Supervisor\nRe: New process for vacation requests\nStarting next month, all vacation requests must be submitted through the staff portal instead of on paper. Requests should be made at least four weeks before the first day off. For July and August, requests are approved in the order they are received, so please plan early. If two people on the same shift ask for the same week, the person who submitted first will get it. Paper forms will still be accepted until the end of this month. If you have trouble logging in to the portal, see Priya in Human Resources.",
+      "q": "Two workers on one shift ask for the same week in July. Who gets it?",
+      "options": [
+        "The worker who used the online portal.",
+        "The worker whose request came first.",
+        "The worker who asked four weeks ahead.",
+        "The worker with more years of service."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The memo states: 'If two people on the same shift ask for the same week, the person who submitted first will get it.' Seniority is never mentioned.",
+        "fr": "La note précise : « If two people on the same shift ask for the same week, the person who submitted first will get it ». L’ancienneté n’est jamais mentionnée."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 6 reading: get main ideas and details from routine everyday texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-015",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB6",
+      "theme": "admin",
+      "docId": "ece-d08",
+      "doc": "Dear Mr. Okafor,\nOur records show that your Lakeview Public Library card will expire on October 31. To renew it, please visit any branch with one piece of photo ID and a document showing your current address, such as a lease or a utility bill dated within the last three months. Renewal is free. If you have moved outside the city, you may still use the library, but a yearly fee will apply. Please note that borrowed items must be returned or renewed before your card can be updated. You currently have one book that is two weeks overdue.\nSincerely,\nMember Services",
+      "q": "What must Mr. Okafor do before his card can be renewed?",
+      "options": [
+        "Mail a copy of his lease to the library.",
+        "Visit the main branch downtown.",
+        "Return or renew his overdue book.",
+        "Pay the library's yearly fee."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The letter says borrowed items 'must be returned or renewed before your card can be updated', and he has 'one book that is two weeks overdue'.",
+        "fr": "La lettre dit que les documents empruntés « must be returned or renewed before your card can be updated », et il a « one book that is two weeks overdue »."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 6 reading: get main ideas and details from routine everyday texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-016",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB6",
+      "theme": "admin",
+      "docId": "ece-d08",
+      "doc": "Dear Mr. Okafor,\nOur records show that your Lakeview Public Library card will expire on October 31. To renew it, please visit any branch with one piece of photo ID and a document showing your current address, such as a lease or a utility bill dated within the last three months. Renewal is free. If you have moved outside the city, you may still use the library, but a yearly fee will apply. Please note that borrowed items must be returned or renewed before your card can be updated. You currently have one book that is two weeks overdue.\nSincerely,\nMember Services",
+      "q": "Which document could he use to prove his address?",
+      "options": [
+        "His current library card and photo ID.",
+        "An expired photo ID card.",
+        "A utility bill from last year.",
+        "A utility bill from last month."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Proof of address can be 'a lease or a utility bill dated within the last three months', so last month's bill works but last year's does not.",
+        "fr": "Le justificatif peut être « a lease or a utility bill dated within the last three months » : une facture du mois dernier convient, mais pas celle de l’an dernier."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 6 reading: get main ideas and details from routine everyday texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-017",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB6",
+      "theme": "daily",
+      "docId": "ece-d09",
+      "doc": "Oakridge Street Community Garage Sale – Saturday, June 14\nTwenty households on Oakridge Street are holding a giant garage sale from 8 a.m. to 2 p.m. You'll find furniture, children's clothes, books, tools and more. Several neighbours will also sell homemade baked goods, with all money going to the local school's playground fund. Please note that Oakridge Street will be closed to cars during the sale, so park on Hill Road and walk over. Bring cash, as most sellers cannot accept cards. If it rains, the sale will move to Sunday, same time.",
+      "q": "Where will the money from the baked goods go?",
+      "options": [
+        "To a school playground project.",
+        "To the neighbours who baked them.",
+        "To the families holding the sale.",
+        "To repairs on Oakridge Street."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The notice says baked goods will be sold 'with all money going to the local school's playground fund', so the sellers and bakers keep none of it.",
+        "fr": "L’avis précise que les pâtisseries seront vendues « with all money going to the local school’s playground fund », c’est-à-dire au profit du terrain de jeu de l’école."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 6 reading: get main ideas and details from routine everyday texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-018",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB6",
+      "theme": "daily",
+      "docId": "ece-d09",
+      "doc": "Oakridge Street Community Garage Sale – Saturday, June 14\nTwenty households on Oakridge Street are holding a giant garage sale from 8 a.m. to 2 p.m. You'll find furniture, children's clothes, books, tools and more. Several neighbours will also sell homemade baked goods, with all money going to the local school's playground fund. Please note that Oakridge Street will be closed to cars during the sale, so park on Hill Road and walk over. Bring cash, as most sellers cannot accept cards. If it rains, the sale will move to Sunday, same time.",
+      "q": "What are visitors advised to do?",
+      "options": [
+        "Park their car on another street.",
+        "Arrive early on Sunday morning.",
+        "Pay for their items by card.",
+        "Bring their own baked goods."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Because Oakridge Street 'will be closed to cars', visitors should 'park on Hill Road and walk over'. They should bring cash, not cards.",
+        "fr": "Comme Oakridge Street « will be closed to cars », les visiteurs doivent « park on Hill Road and walk over ». Il faut apporter de l’argent comptant, pas une carte."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 6 reading: get main ideas and details from routine everyday texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-019",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB7",
+      "theme": "health",
+      "docId": "ece-d10",
+      "doc": "Taking Short Breaks at Work\nStaff at one Calgary office have started a simple experiment: every hour, a soft chime reminds employees to stand up, stretch or walk for two minutes. The idea came from Helen Marsh, a team leader who noticed that her colleagues often complained of stiff backs by mid-afternoon. 'At first, people found the chime annoying,' she admits. 'Some even turned it off.' After a month, however, most of the team had changed their minds. Several said they felt more focused after a short walk, and fewer people took long coffee breaks. Marsh is careful not to make big claims. 'We're not scientists,' she says. 'But for a small change that costs nothing, the results have been encouraging.'",
+      "q": "How did employees react to the chime at first?",
+      "options": [
+        "Most felt more focused right away.",
+        "Many found it irritating.",
+        "They asked for longer coffee breaks.",
+        "They complained of stiff backs."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Marsh says: 'At first, people found the chime annoying. Some even turned it off.' Feeling more focused came later, after a month.",
+        "fr": "Marsh dit : « At first, people found the chime annoying. Some even turned it off. » Le sentiment d’être plus concentré n’est venu qu’après un mois."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 7 reading: understand main ideas, details and opinions in moderately complex texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-020",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB7",
+      "theme": "health",
+      "docId": "ece-d10",
+      "doc": "Taking Short Breaks at Work\nStaff at one Calgary office have started a simple experiment: every hour, a soft chime reminds employees to stand up, stretch or walk for two minutes. The idea came from Helen Marsh, a team leader who noticed that her colleagues often complained of stiff backs by mid-afternoon. 'At first, people found the chime annoying,' she admits. 'Some even turned it off.' After a month, however, most of the team had changed their minds. Several said they felt more focused after a short walk, and fewer people took long coffee breaks. Marsh is careful not to make big claims. 'We're not scientists,' she says. 'But for a small change that costs nothing, the results have been encouraging.'",
+      "q": "Why does Marsh say 'We're not scientists'?",
+      "options": [
+        "She does not understand the results.",
+        "She does not want to exaggerate.",
+        "She thinks the experiment has failed.",
+        "She wants experts to repeat the test."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The text says 'Marsh is careful not to make big claims' just before the quote, and she still calls the results 'encouraging'.",
+        "fr": "Le texte dit « Marsh is careful not to make big claims » juste avant la citation, et elle qualifie quand même les résultats d’« encouraging »."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 7 reading: understand main ideas, details and opinions in moderately complex texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-021",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB7",
+      "theme": "environment",
+      "docId": "ece-d11",
+      "doc": "Green Bin Program Expands to Apartment Buildings\nStarting this fall, the City of Port Alder will offer green bins for food scraps to apartment and condo buildings with more than six units. Until now, only houses could take part. Building owners who want to join must apply online before August 31. Each participating building will receive large shared bins for the garbage room, plus one small kitchen container per unit. Residents can put fruit and vegetable peels, coffee grounds, bones and dirty paper towels in the bin, but not plastic bags, even those labelled 'compostable.' Collection will take place once a week. Buildings that do not apply this year can join next spring.",
+      "q": "Who must apply to join the program?",
+      "options": [
+        "Owners of apartment buildings.",
+        "Each apartment's residents.",
+        "Buildings with fewer than six units.",
+        "Owners of single houses."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The notice states: 'Building owners who want to join must apply online before August 31.' Residents simply use the bins once the building is in.",
+        "fr": "L’avis dit : « Building owners who want to join must apply online before August 31 ». Les résidents utilisent simplement les bacs une fois l’immeuble inscrit."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 7 reading: understand main ideas, details and opinions in moderately complex texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-022",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB7",
+      "theme": "environment",
+      "docId": "ece-d11",
+      "doc": "Green Bin Program Expands to Apartment Buildings\nStarting this fall, the City of Port Alder will offer green bins for food scraps to apartment and condo buildings with more than six units. Until now, only houses could take part. Building owners who want to join must apply online before August 31. Each participating building will receive large shared bins for the garbage room, plus one small kitchen container per unit. Residents can put fruit and vegetable peels, coffee grounds, bones and dirty paper towels in the bin, but not plastic bags, even those labelled 'compostable.' Collection will take place once a week. Buildings that do not apply this year can join next spring.",
+      "q": "Which item can NOT go in the green bin?",
+      "options": [
+        "Leftover bones from a chicken dinner.",
+        "A dirty paper towel.",
+        "Used coffee grounds.",
+        "A bag labelled 'compostable'."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The bin does not accept 'plastic bags, even those labelled compostable.' Coffee grounds, bones and dirty paper towels are all listed as accepted.",
+        "fr": "Le bac n’accepte pas « plastic bags, even those labelled compostable ». Le marc de café, les os et l’essuie-tout sale figurent tous dans la liste acceptée."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 7 reading: understand main ideas, details and opinions in moderately complex texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-023",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB7",
+      "theme": "culture",
+      "docId": "ece-d12",
+      "doc": "Review: The Ferry Keeper\nThe Cove Street Players' new production tells the story of a ferry operator on a small island who refuses to retire. On paper, it doesn't sound like much. On stage, it is often moving. Gloria Mendes, in the title role, is excellent: funny, stubborn and, in the final scene, heartbreaking. The set is simple, just a dock, a bench and a lantern, but the lighting creates a convincing sense of fog and night. The second act is weaker; a subplot about a land developer feels rushed and is never really resolved. Still, this is community theatre at its best. Tickets are $18, and the show runs until November 9.",
+      "q": "What is the reviewer's overall opinion?",
+      "options": [
+        "Mixed, mainly because of the set.",
+        "Positive, despite some weaknesses.",
+        "Very negative about the whole second act.",
+        "Negative, as the story is too simple."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The reviewer praises the lead actor and lighting and calls it 'community theatre at its best', while noting that 'The second act is weaker'.",
+        "fr": "Le critique salue l’actrice principale et l’éclairage et parle de « community theatre at its best », tout en notant que « The second act is weaker »."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 7 reading: understand main ideas, details and opinions in moderately complex texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-024",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB7",
+      "theme": "culture",
+      "docId": "ece-d12",
+      "doc": "Review: The Ferry Keeper\nThe Cove Street Players' new production tells the story of a ferry operator on a small island who refuses to retire. On paper, it doesn't sound like much. On stage, it is often moving. Gloria Mendes, in the title role, is excellent: funny, stubborn and, in the final scene, heartbreaking. The set is simple, just a dock, a bench and a lantern, but the lighting creates a convincing sense of fog and night. The second act is weaker; a subplot about a land developer feels rushed and is never really resolved. Still, this is community theatre at its best. Tickets are $18, and the show runs until November 9.",
+      "q": "What criticism does the reviewer make?",
+      "options": [
+        "One storyline is not well developed.",
+        "The set is too complicated.",
+        "The tickets are too expensive for families.",
+        "The lead actor is not convincing."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The review says 'a subplot about a land developer feels rushed and is never really resolved'. The lead actor is called excellent and the set simple.",
+        "fr": "La critique dit qu’« a subplot about a land developer feels rushed and is never really resolved ». L’actrice principale est jugée excellente et le décor simple."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 7 reading: understand main ideas, details and opinions in moderately complex texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-025",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB8",
+      "theme": "work",
+      "docId": "ece-d13",
+      "doc": "Four Days, Same Work?\nWhen Tallgrass Design, a 40-person graphic design firm in Saskatoon, announced it would test a four-day work week, some clients worried that projects would be delayed. Six months later, the company says the opposite has happened. Employees now work four nine-hour days, with Fridays off, and meetings are limited to 30 minutes. 'When you lose a day, you stop wasting time,' says founder Marc Leblanc. Not everyone is convinced. One designer, who asked not to be named, says the longer days are exhausting, especially for parents who must pick up children after school. Others report that client emails sent on Fridays simply pile up until Monday. Leblanc admits the model is not perfect, but says fewer employees have quit since the change, and he plans to continue the trial for another year.",
+      "q": "What is the main idea of the article?",
+      "options": [
+        "Employees at a design firm are asking for a four-day week.",
+        "A firm has ended its four-day week experiment.",
+        "The new schedule mostly works, despite some drawbacks.",
+        "Clients have left a firm because of its new schedule."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The company says projects were not delayed and fewer people quit, but the article also reports exhausting days and piled-up emails. The trial will continue another year.",
+        "fr": "L’entreprise dit que les projets n’ont pas pris de retard et que moins d’employés sont partis, mais l’article signale aussi des journées épuisantes et des courriels en attente."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 8 reading: identify opinions, arguments and purpose in longer texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-026",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB8",
+      "theme": "work",
+      "docId": "ece-d13",
+      "doc": "Four Days, Same Work?\nWhen Tallgrass Design, a 40-person graphic design firm in Saskatoon, announced it would test a four-day work week, some clients worried that projects would be delayed. Six months later, the company says the opposite has happened. Employees now work four nine-hour days, with Fridays off, and meetings are limited to 30 minutes. 'When you lose a day, you stop wasting time,' says founder Marc Leblanc. Not everyone is convinced. One designer, who asked not to be named, says the longer days are exhausting, especially for parents who must pick up children after school. Others report that client emails sent on Fridays simply pile up until Monday. Leblanc admits the model is not perfect, but says fewer employees have quit since the change, and he plans to continue the trial for another year.",
+      "q": "Why does one designer criticize the new schedule?",
+      "options": [
+        "Meetings are now too short to be useful.",
+        "Long days are hard to combine with family duties.",
+        "More employees have quit since the change.",
+        "Clients send too many emails on Fridays."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The designer says 'the longer days are exhausting, especially for parents who must pick up children after school'. The Friday emails are reported by others.",
+        "fr": "La designer dit que « the longer days are exhausting, especially for parents who must pick up children after school ». Les courriels du vendredi sont signalés par d’autres."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 8 reading: identify opinions, arguments and purpose in longer texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-027",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB8",
+      "theme": "housing",
+      "docId": "ece-d14",
+      "doc": "Opinion: Let Homeowners Build Laneway Suites\nOur city faces a housing shortage, yet thousands of backyards sit empty. Allowing homeowners to build small laneway suites, separate cottages facing the back lane, would add homes without changing the character of our streets. Critics argue that these units will bring more cars and noise to quiet neighbourhoods. That concern is understandable, but it is exaggerated. A laneway suite is usually home to one or two people, often a family member or a young worker who cannot afford a full house. Others worry about parking. Here, the city could simply require that new suites be close to public transit. What we cannot afford is to keep saying no to every idea that changes our neighbourhoods even slightly. Doing nothing is also a choice, and it has a cost.",
+      "q": "What is the writer's main argument?",
+      "options": [
+        "Homeowners should be paid to build laneway suites.",
+        "Laneway suites would add homes without hurting streets.",
+        "Laneway suites should be kept for family members.",
+        "The city should build more public transit in quiet areas."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The writer says laneway suites 'would add homes without changing the character of our streets'. Transit is mentioned only as a way to deal with parking.",
+        "fr": "L’auteur affirme que ces logements « would add homes without changing the character of our streets ». Le transport en commun n’est cité que pour régler le stationnement."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 8 reading: identify opinions, arguments and purpose in longer texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-028",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB8",
+      "theme": "housing",
+      "docId": "ece-d14",
+      "doc": "Opinion: Let Homeowners Build Laneway Suites\nOur city faces a housing shortage, yet thousands of backyards sit empty. Allowing homeowners to build small laneway suites, separate cottages facing the back lane, would add homes without changing the character of our streets. Critics argue that these units will bring more cars and noise to quiet neighbourhoods. That concern is understandable, but it is exaggerated. A laneway suite is usually home to one or two people, often a family member or a young worker who cannot afford a full house. Others worry about parking. Here, the city could simply require that new suites be close to public transit. What we cannot afford is to keep saying no to every idea that changes our neighbourhoods even slightly. Doing nothing is also a choice, and it has a cost.",
+      "q": "How does the writer respond to concerns about cars and noise?",
+      "options": [
+        "The writer says they only concern parking.",
+        "The writer agrees they are a serious problem.",
+        "The writer accepts them but calls them exaggerated.",
+        "The writer says they need to be studied more carefully first."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The writer answers: 'That concern is understandable, but it is exaggerated,' then explains that a suite usually houses only one or two people.",
+        "fr": "L’auteur répond : « That concern is understandable, but it is exaggerated », puis explique qu’un tel logement n’accueille en général qu’une ou deux personnes."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 8 reading: identify opinions, arguments and purpose in longer texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-029",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB8",
+      "theme": "transport",
+      "docId": "ece-d15",
+      "doc": "Letter: The Bike Lane Is Working, but Not for Everyone\nI have cycled to work on Front Street for ten years, and the new protected bike lane has changed my daily trip. I no longer arrive at the office shaking after a close call with a delivery truck. So I was surprised to read last week's editorial calling the lane 'a costly mistake.' That said, the editorial raised one fair point. The new design makes it harder for people with disabilities to be dropped off at the medical clinic on the corner, since vehicles can no longer stop at the curb. This is a real problem, and it should be fixed with a proper loading zone, not used as an argument to remove the lane altogether.\nJoanne Park, Kingsford",
+      "q": "Why did the writer send this letter?",
+      "options": [
+        "To defend the bike lane while admitting one problem.",
+        "To complain about delivery trucks on Front Street.",
+        "To agree that the bike lane was a costly mistake.",
+        "To ask the clinic to move to another street."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "She disagrees with the editorial calling the lane 'a costly mistake' but admits it 'raised one fair point' about drop-offs at the clinic.",
+        "fr": "Elle conteste l’éditorial qui qualifie la piste de « costly mistake », mais reconnaît qu’il « raised one fair point » au sujet de l’accès à la clinique."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 8 reading: identify opinions, arguments and purpose in longer texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-030",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB8",
+      "theme": "transport",
+      "docId": "ece-d15",
+      "doc": "Letter: The Bike Lane Is Working, but Not for Everyone\nI have cycled to work on Front Street for ten years, and the new protected bike lane has changed my daily trip. I no longer arrive at the office shaking after a close call with a delivery truck. So I was surprised to read last week's editorial calling the lane 'a costly mistake.' That said, the editorial raised one fair point. The new design makes it harder for people with disabilities to be dropped off at the medical clinic on the corner, since vehicles can no longer stop at the curb. This is a real problem, and it should be fixed with a proper loading zone, not used as an argument to remove the lane altogether.\nJoanne Park, Kingsford",
+      "q": "What solution does the writer suggest?",
+      "options": [
+        "Removing the bike lane in front of the clinic.",
+        "Creating a place where vehicles can drop people off.",
+        "Banning delivery trucks from Front Street.",
+        "Moving the medical clinic to a different corner."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "She says the problem 'should be fixed with a proper loading zone, not used as an argument to remove the lane altogether'.",
+        "fr": "Elle dit que le problème « should be fixed with a proper loading zone », une zone d’arrêt pour déposer les gens, et non servir d’argument pour retirer la piste."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 8 reading: identify opinions, arguments and purpose in longer texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-031",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB9",
+      "theme": "science",
+      "docId": "ece-d16",
+      "doc": "Do Backyard Birds Prefer Messy Gardens?\nFor three summers, a team of volunteers in Pine Harbour, Nova Scotia, counted birds in 60 backyards. Half of the yards were neatly kept, with short lawns and few shrubs; the other half had been left partly wild, with tall grass, piles of branches and native plants. The results, published in the volunteers' own report, were striking: the 'messy' gardens attracted almost twice as many bird species on average. Project coordinator Ruth Abernathy is cautious about the conclusion, however. The wilder gardens, she notes, also tended to be larger and closer to the forest, which could explain part of the difference. 'We can't say tidiness alone is the cause,' she says. Still, she hopes the findings will encourage homeowners to leave at least one corner of their yard untouched. 'You don't have to give up your lawn,' she adds. 'Even a small pile of leaves in the fall can make a difference for insects, and therefore for the birds that eat them.'",
+      "q": "Why is Abernathy cautious about the results?",
+      "options": [
+        "The neat yards attracted more of the rare bird species.",
+        "The study lasted only a single summer.",
+        "Other differences between yards may explain them.",
+        "The volunteers counted birds in different ways."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "She notes that the wilder gardens 'also tended to be larger and closer to the forest, which could explain part of the difference'. The study lasted three summers.",
+        "fr": "Elle souligne que les jardins sauvages « also tended to be larger and closer to the forest, which could explain part of the difference ». L’étude a duré trois étés."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 9 reading: interpret implied meaning and the writer's intent in complex texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-032",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB9",
+      "theme": "science",
+      "docId": "ece-d16",
+      "doc": "Do Backyard Birds Prefer Messy Gardens?\nFor three summers, a team of volunteers in Pine Harbour, Nova Scotia, counted birds in 60 backyards. Half of the yards were neatly kept, with short lawns and few shrubs; the other half had been left partly wild, with tall grass, piles of branches and native plants. The results, published in the volunteers' own report, were striking: the 'messy' gardens attracted almost twice as many bird species on average. Project coordinator Ruth Abernathy is cautious about the conclusion, however. The wilder gardens, she notes, also tended to be larger and closer to the forest, which could explain part of the difference. 'We can't say tidiness alone is the cause,' she says. Still, she hopes the findings will encourage homeowners to leave at least one corner of their yard untouched. 'You don't have to give up your lawn,' she adds. 'Even a small pile of leaves in the fall can make a difference for insects, and therefore for the birds that eat them.'",
+      "q": "What does Abernathy suggest homeowners do?",
+      "options": [
+        "Count the birds in their own backyard.",
+        "Replace their whole lawn with tall grass.",
+        "Leave a small part of the yard natural.",
+        "Move their garden closer to the forest."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "She hopes people will 'leave at least one corner of their yard untouched' and adds 'You don't have to give up your lawn.'",
+        "fr": "Elle espère que les gens vont « leave at least one corner of their yard untouched » et ajoute « You don’t have to give up your lawn »."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 9 reading: interpret implied meaning and the writer's intent in complex texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-033",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB9",
+      "theme": "society",
+      "docId": "ece-d17",
+      "doc": "The Library Is Not Just About Books\nEvery few years, someone asks whether public libraries still matter when information is a click away. The question misunderstands what libraries do. Visit the Eastgate branch on a weekday afternoon and you will see students doing homework because their apartments are too crowded, seniors attending a smartphone workshop, a job seeker printing résumés, and a parent at story time with a toddler who has never owned a picture book. Very few of these people are there for 'information' in the narrow sense. They are there because the library is one of the last indoor places where you can stay for hours without being expected to buy anything. That is not a small thing. In a city where a coffee costs five dollars, a free, warm, quiet room is a public service as essential as a bus route. Cutting library hours to save money may look sensible in a spreadsheet. On the ground, it means closing the door on the people who have the fewest alternatives.",
+      "q": "What is the writer's main purpose?",
+      "options": [
+        "To argue that libraries are an essential public space.",
+        "To propose new ways for libraries to save money.",
+        "To describe the programs offered at one library branch.",
+        "To explain how libraries are adapting to the internet."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The writer says the library is 'one of the last indoor places where you can stay for hours' and calls it 'a public service as essential as a bus route'.",
+        "fr": "L’auteur dit que la bibliothèque est « one of the last indoor places where you can stay for hours » et la juge « as essential as a bus route »."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 9 reading: interpret implied meaning and the writer's intent in complex texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-034",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB9",
+      "theme": "society",
+      "docId": "ece-d17",
+      "doc": "The Library Is Not Just About Books\nEvery few years, someone asks whether public libraries still matter when information is a click away. The question misunderstands what libraries do. Visit the Eastgate branch on a weekday afternoon and you will see students doing homework because their apartments are too crowded, seniors attending a smartphone workshop, a job seeker printing résumés, and a parent at story time with a toddler who has never owned a picture book. Very few of these people are there for 'information' in the narrow sense. They are there because the library is one of the last indoor places where you can stay for hours without being expected to buy anything. That is not a small thing. In a city where a coffee costs five dollars, a free, warm, quiet room is a public service as essential as a bus route. Cutting library hours to save money may look sensible in a spreadsheet. On the ground, it means closing the door on the people who have the fewest alternatives.",
+      "q": "Why does the writer mention the price of a coffee?",
+      "options": [
+        "To complain about the high cost of living.",
+        "To suggest that libraries open their own café.",
+        "To show that most places expect people to spend.",
+        "To compare library budgets with private businesses."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The coffee price follows the idea that the library is a place 'without being expected to buy anything': elsewhere, sitting somewhere usually costs money.",
+        "fr": "Le prix du café suit l’idée que la bibliothèque est un lieu « without being expected to buy anything » : ailleurs, s’asseoir quelque part coûte généralement de l’argent."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 9 reading: interpret implied meaning and the writer's intent in complex texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-035",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB9",
+      "theme": "education",
+      "docId": "ece-d18",
+      "doc": "From Classroom to Job Site\nWhen Amira Saleh finished high school, her parents expected her to go to university. Instead, she enrolled in an electrical apprenticeship at Lakeshore Technical College, a program in which students spend about 80 percent of their time working for an employer and the rest in class. 'My friends thought I was giving up on my future,' she recalls. 'Now some of them are in debt and still looking for work, and I'm earning a salary while I learn.' Program director Tom Reilly says stories like Amira's are becoming more common, but he warns against presenting apprenticeships as an easy shortcut. The hours are long, the work is physically demanding, and students who fall behind in class can lose their placement. 'It's not the right choice for everyone,' he says. 'But it should be presented as a real choice, not as a backup plan for students who couldn't get into university.'",
+      "q": "What point does Reilly make?",
+      "options": [
+        "Students should try university before an apprenticeship.",
+        "Apprenticeships are demanding but deserve equal respect.",
+        "Apprenticeships are an easy way to avoid student debt.",
+        "Apprenticeships are the best option for most students."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Reilly warns they are not 'an easy shortcut' and 'not the right choice for everyone', but should be 'a real choice, not a backup plan'.",
+        "fr": "Reilly prévient que ce n’est pas « an easy shortcut » ni « the right choice for everyone », mais que cela doit être « a real choice, not a backup plan »."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 9 reading: interpret implied meaning and the writer's intent in complex texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-036",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB9",
+      "theme": "education",
+      "docId": "ece-d18",
+      "doc": "From Classroom to Job Site\nWhen Amira Saleh finished high school, her parents expected her to go to university. Instead, she enrolled in an electrical apprenticeship at Lakeshore Technical College, a program in which students spend about 80 percent of their time working for an employer and the rest in class. 'My friends thought I was giving up on my future,' she recalls. 'Now some of them are in debt and still looking for work, and I'm earning a salary while I learn.' Program director Tom Reilly says stories like Amira's are becoming more common, but he warns against presenting apprenticeships as an easy shortcut. The hours are long, the work is physically demanding, and students who fall behind in class can lose their placement. 'It's not the right choice for everyone,' he says. 'But it should be presented as a real choice, not as a backup plan for students who couldn't get into university.'",
+      "q": "What does Amira suggest about her friends' first reaction?",
+      "options": [
+        "They thought she would earn too little.",
+        "They also decided to start apprenticeships.",
+        "They encouraged her to become an electrician.",
+        "They saw her choice as less ambitious."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "She recalls: 'My friends thought I was giving up on my future,' meaning they saw the apprenticeship as a step down from university.",
+        "fr": "Elle se souvient : « My friends thought I was giving up on my future » ; ses amis voyaient donc l’apprentissage comme un choix moins ambitieux que l’université."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 9 reading: interpret implied meaning and the writer's intent in complex texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-037",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB10",
+      "theme": "media",
+      "docId": "ece-d19",
+      "doc": "The Tyranny of the Headline\nMost of us now meet the news not in articles but in headlines, scrolled past on a phone, glimpsed between messages, shared by a friend who may not have read further either. This would matter less if headlines were neutral summaries. They are not, and they were never meant to be. A headline's job is to make you stop. The more crowded the feed, the harder it must work, and the easier it is for 'Council considers options for park' to become 'Park could vanish, residents fear.' Neither version is false. One is simply more likely to be clicked. Editors I have spoken to are not cynical about this; most are uneasy. They point out, fairly, that a perfectly accurate headline nobody reads informs no one. The trouble is that readers increasingly treat the headline as the story itself, forming opinions on a dozen words written to provoke. The solution is not to blame journalists, nor to demand that readers click every link. It may be more modest: a habit of asking, before reacting, what the headline is designed to make me feel, and whether the article, if I read it, would make me feel the same.",
+      "q": "What is the author's attitude toward editors?",
+      "options": [
+        "Understanding of the pressure they face.",
+        "Indifferent to their point of view.",
+        "Critical of their dishonest headlines.",
+        "Admiring of their neutral summaries."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The author says editors 'are not cynical' but 'uneasy', and that they point out, 'fairly', that an unread headline informs no one. The tone is sympathetic.",
+        "fr": "L’auteur dit que les éditeurs « are not cynical » mais « uneasy », et qu’ils font remarquer, « fairly », qu’un titre non lu n’informe personne. Le ton est compréhensif."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 10 reading: analyze tone, nuance and argument structure in demanding texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-038",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB10",
+      "theme": "media",
+      "docId": "ece-d19",
+      "doc": "The Tyranny of the Headline\nMost of us now meet the news not in articles but in headlines, scrolled past on a phone, glimpsed between messages, shared by a friend who may not have read further either. This would matter less if headlines were neutral summaries. They are not, and they were never meant to be. A headline's job is to make you stop. The more crowded the feed, the harder it must work, and the easier it is for 'Council considers options for park' to become 'Park could vanish, residents fear.' Neither version is false. One is simply more likely to be clicked. Editors I have spoken to are not cynical about this; most are uneasy. They point out, fairly, that a perfectly accurate headline nobody reads informs no one. The trouble is that readers increasingly treat the headline as the story itself, forming opinions on a dozen words written to provoke. The solution is not to blame journalists, nor to demand that readers click every link. It may be more modest: a habit of asking, before reacting, what the headline is designed to make me feel, and whether the article, if I read it, would make me feel the same.",
+      "q": "Why does the author give the two headlines about the park?",
+      "options": [
+        "To show how the same facts can be framed to attract clicks.",
+        "To compare the work of two competing local newspapers in town.",
+        "To show that local news is less reliable than other news.",
+        "To prove that one of the two headlines is actually false."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The author stresses 'Neither version is false. One is simply more likely to be clicked': the example shows framing, not lying.",
+        "fr": "L’auteur insiste : « Neither version is false. One is simply more likely to be clicked » ; l’exemple montre un cadrage différent, pas un mensonge."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 10 reading: analyze tone, nuance and argument structure in demanding texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-039",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB10",
+      "theme": "environment",
+      "docId": "ece-d20",
+      "doc": "In Defence of the Imperfect Lawn\nEvery spring, a quiet competition begins on suburban streets. The prize is a lawn of uniform green, free of dandelions, clover and any other sign that nature has opinions of its own. We rarely ask why we want this. The perfect lawn is a demanding ideal: it requires regular watering, frequent mowing and, often, products whose main purpose is to kill everything except one kind of grass. I do not wish to lecture anyone. I mowed my own lawn every Saturday for years, and I understood the pleasure of a neat edge. But when a dry summer and a broken mower forced me to let things go, something unexpected happened. Clover filled the bare patches, bees appeared, and my lawn stayed greener during the drought than my neighbours' did. My neighbours were polite about it. One of them asked, with real concern, whether I was 'going through something.' Perhaps I was. What I discovered is that the tidy lawn is less a natural preference than a social signal, proof that we are keeping up. The question is whether that signal is still worth what it costs.",
+      "q": "What does the neighbour's question suggest?",
+      "options": [
+        "The neighbour was worried about the long drought.",
+        "An untidy lawn may be seen as a sign of personal trouble.",
+        "The writer had been rude to several people living on the street.",
+        "The neighbour wanted advice about growing clover."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Asking 'with real concern' whether the writer was 'going through something' shows that a neglected lawn is seen as a sign of personal difficulty.",
+        "fr": "Demander « with real concern » si l’auteur était « going through something » montre qu’une pelouse négligée est perçue comme le signe de difficultés personnelles."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 10 reading: analyze tone, nuance and argument structure in demanding texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-040",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB10",
+      "theme": "environment",
+      "docId": "ece-d20",
+      "doc": "In Defence of the Imperfect Lawn\nEvery spring, a quiet competition begins on suburban streets. The prize is a lawn of uniform green, free of dandelions, clover and any other sign that nature has opinions of its own. We rarely ask why we want this. The perfect lawn is a demanding ideal: it requires regular watering, frequent mowing and, often, products whose main purpose is to kill everything except one kind of grass. I do not wish to lecture anyone. I mowed my own lawn every Saturday for years, and I understood the pleasure of a neat edge. But when a dry summer and a broken mower forced me to let things go, something unexpected happened. Clover filled the bare patches, bees appeared, and my lawn stayed greener during the drought than my neighbours' did. My neighbours were polite about it. One of them asked, with real concern, whether I was 'going through something.' Perhaps I was. What I discovered is that the tidy lawn is less a natural preference than a social signal, proof that we are keeping up. The question is whether that signal is still worth what it costs.",
+      "q": "What is the writer's main argument?",
+      "options": [
+        "Clover grows better than grass during a dry summer.",
+        "The tidy lawn is largely a social signal worth questioning.",
+        "Homeowners should stop mowing their lawns altogether.",
+        "Chemical lawn products should be banned in the suburbs."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The writer concludes that the tidy lawn is 'less a natural preference than a social signal' and asks 'whether that signal is still worth what it costs'.",
+        "fr": "L’auteur conclut que la pelouse impeccable est « less a natural preference than a social signal » et se demande « whether that signal is still worth what it costs »."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 10 reading: analyze tone, nuance and argument structure in demanding texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-041",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB10",
+      "theme": "culture",
+      "docId": "ece-d21",
+      "doc": "Why I Reread\nFriends sometimes look at me with pity when they see me reading a novel I have read three times before. With so many new books published every year, they ask, isn't rereading a waste of time? I understand the logic, but I think it rests on a misunderstanding of what a book is for. A first reading is driven by curiosity: we want to know what happens. That hunger is powerful, but it is also a little greedy; we rush past sentences to reach the next turn of the plot. On a second reading, the suspense is gone, and something else takes its place. We notice how the author prepared the ending in the first chapter, how a minor character was quietly important all along. By the third reading, the book has not changed, but I have, and so it reads differently. A novel I found romantic at twenty seems sad at forty. In this sense, rereading is not the opposite of discovery. It is discovery of a different kind, less about the book, perhaps, and more about the reader. None of this is an argument against new books. It is only a defence of the old ones, which are too often treated like meals: finished once, and never ordered again.",
+      "q": "According to the writer, what changes from one reading to the next?",
+      "options": [
+        "The book, which reveals new events.",
+        "The suspense, which grows each time.",
+        "The plot, which the reader slowly forgets over time.",
+        "The reader, who brings a new perspective."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The writer says 'the book has not changed, but I have, and so it reads differently', giving the example of a novel romantic at twenty and sad at forty.",
+        "fr": "L’auteur écrit « the book has not changed, but I have, and so it reads differently », avec l’exemple d’un roman romantique à vingt ans et triste à quarante."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 10 reading: analyze tone, nuance and argument structure in demanding texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "ece-042",
+      "skill": "reading",
+      "lang": "en",
+      "level": "CLB10",
+      "theme": "culture",
+      "docId": "ece-d21",
+      "doc": "Why I Reread\nFriends sometimes look at me with pity when they see me reading a novel I have read three times before. With so many new books published every year, they ask, isn't rereading a waste of time? I understand the logic, but I think it rests on a misunderstanding of what a book is for. A first reading is driven by curiosity: we want to know what happens. That hunger is powerful, but it is also a little greedy; we rush past sentences to reach the next turn of the plot. On a second reading, the suspense is gone, and something else takes its place. We notice how the author prepared the ending in the first chapter, how a minor character was quietly important all along. By the third reading, the book has not changed, but I have, and so it reads differently. A novel I found romantic at twenty seems sad at forty. In this sense, rereading is not the opposite of discovery. It is discovery of a different kind, less about the book, perhaps, and more about the reader. None of this is an argument against new books. It is only a defence of the old ones, which are too often treated like meals: finished once, and never ordered again.",
+      "q": "What does the comparison with meals suggest?",
+      "options": [
+        "People wrongly treat books as things to enjoy only once.",
+        "Books should be read slowly, the way a meal is eaten.",
+        "Rereading is an expensive luxury, like eating out.",
+        "Old books are less satisfying than newly published ones."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Old books are 'too often treated like meals: finished once, and never ordered again'. The writer criticizes the idea that a book is used up after one reading.",
+        "fr": "Les vieux livres sont « too often treated like meals: finished once, and never ordered again ». L’auteur critique l’idée qu’un livre est épuisé après une seule lecture."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 10 reading: analyze tone, nuance and argument structure in demanding texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    }
+  ]
+}

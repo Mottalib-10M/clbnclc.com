@@ -1,0 +1,20 @@
+{
+ "accent": "#A6192E",
+ "symbol": "CLB",
+ "variants": [
+  {
+   "file": "og-en.png",
+   "title": "TEF Canada & TCF Canada\nscore to CLB and CRS",
+   "subtitle": "NCLC per skill · CRS language points · free practice",
+   "badge": "IRCC equivalency charts read on canada.ca, October 2026",
+   "brand": "CA TEF TCF Canada"
+  },
+  {
+   "file": "og-fr.png",
+   "title": "TEF Canada et TCF Canada\nscore, NCLC et points",
+   "subtitle": "NCLC par épreuve · points CRS · entraînement gratuit",
+   "badge": "Grilles d'IRCC relevées sur canada.ca, octobre 2026",
+   "brand": "CA TEF TCF Canada"
+  }
+ ]
+}

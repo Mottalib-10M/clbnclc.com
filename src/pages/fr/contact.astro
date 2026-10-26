@@ -1,0 +1,24 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'fr';
+---
+<PageLayout title={`Contact ${SITE_NAMES[lang]} : une grille, une question`} description="Écrivez-nous quand une grille NCLC ou un seuil semble dépassé, quand une question d’entraînement paraît fausse, ou pour intégrer le convertisseur gratuit sur votre site." lang={lang} noindex={true} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Contact</h1>
+    <p>Courriel : <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Chaque message est lu par une personne de Radif Partners.</p>
+    <h2>Une grille ou une règle semble dépassée</h2>
+    <p>Citez le chiffre et, si possible, le lien de la page officielle qui en donne un autre. Nous relisons la page officielle, corrigeons la valeur et datons la correction.</p>
+    <h2>Une question d’entraînement paraît fausse</h2>
+    <p>Envoyez le début de la question ou de son document. Si plusieurs réponses se défendent, la question est réécrite ou retirée.</p>
+    <h2>Ce que nous ne pouvons pas faire</h2>
+    <p>Ce site n’est ni IRCC ni un centre d’examen et ne donne aucun conseil en immigration. Il ne peut ni réserver un test, ni modifier un résultat, ni consulter un dossier. Ne mettez aucune donnée personnelle dans votre courriel : ni IUC, ni numéro de passeport, ni numéro de candidat.</p>
+    <h2>Intégrer le convertisseur</h2>
+    <p>Bibliothèques, collèges, cours de langue et organismes d’accueil peuvent l’intégrer gratuitement : le code est sur la <a href={route('widget', lang)}>page d’intégration</a>.</p>
+    <h2>Éditeur</h2>
+    <LegalIdentity lang={lang} />
+    <p>Mise à jour : {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

@@ -1,0 +1,1564 @@
+{
+  "questions": [
+    {
+      "id": "fco-001",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "daily",
+      "docId": "fco-d01",
+      "doc": "Bonjour à tous. Aujourd’hui, la piscine municipale de Sainte-Rose ferme à dix-sept heures au lieu de vingt heures. Demain, elle ouvre normalement à sept heures. Merci et bonne journée.",
+      "q": "À quelle heure la piscine ferme-t-elle aujourd’hui ?",
+      "options": [
+        "À dix-sept heures.",
+        "À vingt heures.",
+        "À sept heures.",
+        "À dix-neuf heures."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The announcement says the pool closes today 'à dix-sept heures au lieu de vingt heures'. Twenty hours is the usual closing time and seven is tomorrow's opening time.",
+        "fr": "L’annonce dit que la piscine ferme aujourd’hui « à dix-sept heures au lieu de vingt heures ». Vingt heures est l’heure habituelle, et sept heures l’ouverture de demain."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des expressions familières et des énoncés très simples du quotidien",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-002",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "transport",
+      "docId": "fco-d02",
+      "doc": "Mesdames et messieurs, attention : le train pour Québec partira du quai numéro quatre, et non du quai numéro deux. Le départ est prévu à quatorze heures dix. Merci de votre attention.",
+      "q": "De quel quai part le train ?",
+      "options": [
+        "Du quai numéro deux.",
+        "Du quai numéro quatre.",
+        "Du quai numéro quatorze.",
+        "Du quai numéro dix."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The message corrects the platform: the train leaves 'du quai numéro quatre, et non du quai numéro deux'. Ten and fourteen come from the departure time, fourteen ten.",
+        "fr": "Le message corrige le quai : le train part « du quai numéro quatre, et non du quai numéro deux ». Dix et quatorze viennent de l’heure de départ, quatorze heures dix."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des expressions familières et des énoncés très simples du quotidien",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-003",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "health",
+      "docId": "fco-d03",
+      "doc": "— Clinique du Parc, bonjour.\n— Bonjour, je voudrais un rendez-vous avec le docteur Lemieux, s’il vous plaît.\n— Jeudi à dix heures, ça vous va ?\n— Oui, c’est parfait. Merci beaucoup !",
+      "q": "Quand est le rendez-vous ?",
+      "options": [
+        "Jeudi à deux heures.",
+        "Jeudi à onze heures.",
+        "Jeudi à dix heures.",
+        "Mardi à dix heures."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The receptionist offers 'jeudi à dix heures' and the caller answers 'c'est parfait', so the appointment is on Thursday at ten o'clock.",
+        "fr": "La réceptionniste propose « jeudi à dix heures » et la personne répond « c’est parfait » : le rendez-vous est donc jeudi à dix heures."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des expressions familières et des énoncés très simples du quotidien",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-004",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "housing",
+      "docId": "fco-d04",
+      "doc": "Bonjour madame Diallo, c’est Paul, le concierge. Je passe chez vous samedi matin pour réparer le robinet de la cuisine. Si ce n’est pas possible, appelez-moi. Merci et à samedi !",
+      "q": "Pourquoi Paul va-t-il venir samedi ?",
+      "options": [
+        "Pour réparer le robinet de la cuisine.",
+        "Pour visiter l’appartement.",
+        "Pour nettoyer la cuisine.",
+        "Pour réparer la porte de la salle de bain."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Paul says he is coming on Saturday morning 'pour réparer le robinet de la cuisine'. He does not mention cleaning, a visit or the front door.",
+        "fr": "Paul dit qu’il passe samedi matin « pour réparer le robinet de la cuisine ». Il ne parle ni de ménage, ni de visite, ni de porte d’entrée."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des expressions familières et des énoncés très simples du quotidien",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-005",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "daily",
+      "docId": "fco-d05",
+      "doc": "— Bonjour, combien coûtent les pommes ?\n— Trois dollars le kilo, madame.\n— Et les fraises ?\n— Cinq dollars la boîte.\n— Alors, deux boîtes de fraises, s’il vous plaît.\n— Voilà, ça fait dix dollars.",
+      "q": "Combien coûte une boîte de fraises ?",
+      "options": [
+        "Deux dollars.",
+        "Dix dollars.",
+        "Cinq dollars.",
+        "Trois dollars."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The seller says the strawberries cost 'cinq dollars la boîte'. Three dollars is the price of a kilo of apples, and ten dollars is the total for two boxes.",
+        "fr": "Le vendeur dit que les fraises coûtent « cinq dollars la boîte ». Trois dollars est le prix d’un kilo de pommes, et dix dollars le total pour deux boîtes."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des expressions familières et des énoncés très simples du quotidien",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-006",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "daily",
+      "docId": "fco-d05",
+      "doc": "— Bonjour, combien coûtent les pommes ?\n— Trois dollars le kilo, madame.\n— Et les fraises ?\n— Cinq dollars la boîte.\n— Alors, deux boîtes de fraises, s’il vous plaît.\n— Voilà, ça fait dix dollars.",
+      "q": "Qu’est-ce que la cliente achète ?",
+      "options": [
+        "Un kilo de pommes.",
+        "Deux boîtes de fraises.",
+        "Deux kilos de pommes.",
+        "Une seule boîte de fraises."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The customer asks about apples but finally orders 'deux boîtes de fraises', which is why the total is ten dollars.",
+        "fr": "La cliente demande le prix des pommes, mais elle commande finalement « deux boîtes de fraises » ; c’est pourquoi le total est de dix dollars."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des expressions familières et des énoncés très simples du quotidien",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-007",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "education",
+      "docId": "fco-d06",
+      "doc": "Bonjour, ici l’école primaire Les Mésanges. Demain, mardi, il n’y a pas d’école, parce que les enseignants ont une formation. Les cours reprennent mercredi à huit heures quinze. Merci.",
+      "q": "Pourquoi n’y a-t-il pas d’école mardi ?",
+      "options": [
+        "L’école est fermée pour travaux.",
+        "Il y a une tempête de neige.",
+        "Les enseignants ont une formation.",
+        "C’est un jour de fête nationale."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The message explains there is no school on Tuesday 'parce que les enseignants ont une formation'. Classes start again on Wednesday at eight fifteen.",
+        "fr": "Le message explique qu’il n’y a pas d’école mardi « parce que les enseignants ont une formation ». Les cours reprennent mercredi à huit heures quinze."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des expressions familières et des énoncés très simples du quotidien",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-008",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "work",
+      "docId": "fco-d07",
+      "doc": "— Salut Karim, tu commences à quelle heure demain ?\n— À six heures. Cette semaine, je travaille le matin.\n— Et tu finis quand ?\n— À quatorze heures. Après, je vais à la piscine.",
+      "q": "À quelle heure Karim finit-il le travail demain ?",
+      "options": [
+        "À quatorze heures.",
+        "À douze heures.",
+        "À six heures.",
+        "À seize heures."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Karim starts at six, and when asked when he finishes he answers 'à quatorze heures'. After work, he goes to the pool.",
+        "fr": "Karim commence à six heures ; quand on lui demande quand il finit, il répond « à quatorze heures ». Après le travail, il va à la piscine."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des expressions familières et des énoncés très simples du quotidien",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-009",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "transport",
+      "docId": "fco-d08",
+      "doc": "Bienvenue dans le bus numéro douze. Prochain arrêt : bibliothèque centrale. Attention : aujourd’hui, à cause de travaux, le bus ne s’arrête pas à la gare. Pour aller à la gare, descendez à l’arrêt Hôtel-de-Ville.",
+      "q": "Quel est le prochain arrêt du bus ?",
+      "options": [
+        "La bibliothèque centrale.",
+        "Le terminus de la ligne douze.",
+        "L’Hôtel-de-Ville.",
+        "La gare."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The recording says 'Prochain arrêt : bibliothèque centrale'. The station and the city hall stop are mentioned later, for passengers going to the station.",
+        "fr": "L’enregistrement dit « Prochain arrêt : bibliothèque centrale ». La gare et l’arrêt Hôtel-de-Ville sont mentionnés ensuite, pour les personnes qui vont à la gare."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des expressions familières et des énoncés très simples du quotidien",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-010",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "transport",
+      "docId": "fco-d08",
+      "doc": "Bienvenue dans le bus numéro douze. Prochain arrêt : bibliothèque centrale. Attention : aujourd’hui, à cause de travaux, le bus ne s’arrête pas à la gare. Pour aller à la gare, descendez à l’arrêt Hôtel-de-Ville.",
+      "q": "Pour aller à la gare aujourd’hui, où faut-il descendre ?",
+      "options": [
+        "Au terminus de la ligne.",
+        "À la bibliothèque centrale.",
+        "À l’arrêt de la gare.",
+        "À l’arrêt Hôtel-de-Ville."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Because of roadwork the bus does not stop at the station today: 'Pour aller à la gare, descendez à l'arrêt Hôtel-de-Ville'.",
+        "fr": "À cause des travaux, le bus ne s’arrête pas à la gare aujourd’hui : « Pour aller à la gare, descendez à l’arrêt Hôtel-de-Ville »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des expressions familières et des énoncés très simples du quotidien",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-011",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "admin",
+      "docId": "fco-d09",
+      "doc": "Bonjour monsieur Tremblay, ici Sophie Gagnon, du bureau municipal. Votre vignette de stationnement est prête. Vous pouvez venir la chercher du lundi au vendredi, entre neuf heures et seize heures. N’oubliez pas d’apporter une preuve d’adresse, par exemple une facture d’électricité. Bonne journée.",
+      "q": "Que doit apporter M. Tremblay ?",
+      "options": [
+        "Un document qui prouve son adresse.",
+        "L’argent pour payer sa facture.",
+        "Une photo d’identité pour sa vignette.",
+        "Sa demande de vignette signée."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Sophie asks him to bring 'une preuve d'adresse, par exemple une facture d'électricité'. The bill is only an example of a document showing his address.",
+        "fr": "Sophie lui demande d’apporter « une preuve d’adresse, par exemple une facture d’électricité ». La facture n’est qu’un exemple de document qui montre son adresse."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases isolées sur des sujets familiers et immédiats",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-012",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "admin",
+      "docId": "fco-d09",
+      "doc": "Bonjour monsieur Tremblay, ici Sophie Gagnon, du bureau municipal. Votre vignette de stationnement est prête. Vous pouvez venir la chercher du lundi au vendredi, entre neuf heures et seize heures. N’oubliez pas d’apporter une preuve d’adresse, par exemple une facture d’électricité. Bonne journée.",
+      "q": "Quand peut-il aller chercher sa vignette ?",
+      "options": [
+        "Le lundi seulement, avant neuf heures.",
+        "Le samedi, de neuf heures à seize heures.",
+        "Tous les jours, à partir de seize heures.",
+        "En semaine, de neuf heures à seize heures."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The message says he can come 'du lundi au vendredi, entre neuf heures et seize heures', that is, on weekdays during office hours.",
+        "fr": "Le message dit qu’il peut venir « du lundi au vendredi, entre neuf heures et seize heures », c’est-à-dire en semaine, pendant les heures de bureau."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases isolées sur des sujets familiers et immédiats",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-013",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "housing",
+      "docId": "fco-d10",
+      "doc": "— Bonjour, j’appelle pour l’appartement à louer rue Champlain. Il est encore libre ?\n— Oui. C’est un trois et demie au deuxième étage, avec un balcon.\n— Le chauffage est compris dans le loyer ?\n— Oui, le chauffage et l’eau chaude. Par contre, l’électricité est à vos frais.\n— Est-ce que je peux le visiter ce soir ?\n— Bien sûr, à dix-huit heures.",
+      "q": "Que devra payer le locataire en plus du loyer ?",
+      "options": [
+        "L’électricité.",
+        "L’eau chaude.",
+        "Le chauffage.",
+        "Le chauffage et l’eau chaude."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The owner says heating and hot water are included, then adds 'l'électricité est à vos frais', so only electricity is an extra cost.",
+        "fr": "La propriétaire dit que le chauffage et l’eau chaude sont compris, puis ajoute « l’électricité est à vos frais » : seule l’électricité est en plus."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases isolées sur des sujets familiers et immédiats",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-014",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "health",
+      "docId": "fco-d11",
+      "doc": "— Bonjour, j’ai mal à la gorge depuis deux jours. Vous avez quelque chose ?\n— Vous avez de la fièvre ?\n— Non, pas de fièvre.\n— Alors prenez ces pastilles, une toutes les trois heures, au maximum six par jour. Si ça ne va pas mieux dans trois jours, consultez un médecin.",
+      "q": "Combien de pastilles peut-on prendre au maximum par jour ?",
+      "options": [
+        "Trois pastilles.",
+        "Six pastilles.",
+        "Deux pastilles.",
+        "Neuf pastilles."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The pharmacist says 'une toutes les trois heures, au maximum six par jour'. Three is the number of hours between doses, and two is the number of days of pain.",
+        "fr": "La pharmacienne dit « une toutes les trois heures, au maximum six par jour ». Trois correspond aux heures entre deux prises, et deux aux jours de douleur."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases isolées sur des sujets familiers et immédiats",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-015",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "health",
+      "docId": "fco-d11",
+      "doc": "— Bonjour, j’ai mal à la gorge depuis deux jours. Vous avez quelque chose ?\n— Vous avez de la fièvre ?\n— Non, pas de fièvre.\n— Alors prenez ces pastilles, une toutes les trois heures, au maximum six par jour. Si ça ne va pas mieux dans trois jours, consultez un médecin.",
+      "q": "Quand faut-il consulter un médecin ?",
+      "options": [
+        "Si la fièvre dure plus de deux jours.",
+        "Dès que l’on a pris six pastilles.",
+        "Avant de commencer à prendre les pastilles.",
+        "Si la douleur dure encore après trois jours."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The advice is: 'Si ça ne va pas mieux dans trois jours, consultez un médecin'. The patient has no fever, and the pastilles can be taken right away.",
+        "fr": "Le conseil est : « Si ça ne va pas mieux dans trois jours, consultez un médecin ». La personne n’a pas de fièvre et peut prendre les pastilles tout de suite."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases isolées sur des sujets familiers et immédiats",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-016",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "work",
+      "docId": "fco-d12",
+      "doc": "Bonjour à toute l’équipe. Petit rappel : la réunion de lundi est déplacée à mardi, à la même heure, dix heures, et toujours dans la salle du troisième étage. Apportez vos idées pour la fête de fin d’année. Le repas sera offert par l’entreprise. À mardi !",
+      "q": "Qu’est-ce qui change pour la réunion ?",
+      "options": [
+        "L’heure.",
+        "La salle.",
+        "Le sujet.",
+        "Le jour."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The meeting 'est déplacée à mardi, à la même heure' and 'toujours dans la salle du troisième étage': only the day changes, from Monday to Tuesday.",
+        "fr": "La réunion « est déplacée à mardi, à la même heure » et « toujours dans la salle du troisième étage » : seul le jour change, de lundi à mardi."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases isolées sur des sujets familiers et immédiats",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-017",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "culture",
+      "docId": "fco-d13",
+      "doc": "Ce week-end, le festival de la chanson de Moncton s’installe au parc des Érables. Les spectacles commencent samedi à quatorze heures. L’entrée est gratuite pour les moins de douze ans ; pour les adultes, le billet coûte quinze dollars. En cas de pluie, tous les spectacles ont lieu à l’aréna municipal.",
+      "q": "Que se passe-t-il s’il pleut ?",
+      "options": [
+        "Le festival est remis à dimanche.",
+        "Les spectacles ont lieu à l’aréna.",
+        "Les spectacles commencent plus tard.",
+        "L’entrée devient gratuite pour tous."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The radio says 'En cas de pluie, tous les spectacles ont lieu à l'aréna municipal'. Nothing is said about changing the day, the time or the price.",
+        "fr": "La radio dit « En cas de pluie, tous les spectacles ont lieu à l’aréna municipal ». Rien n’est dit sur un changement de jour, d’heure ou de prix."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases isolées sur des sujets familiers et immédiats",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-018",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "environment",
+      "docId": "fco-d14",
+      "doc": "Avis aux résidents du quartier des Cèdres : à partir du premier mars, la collecte du compost aura lieu le jeudi, et non plus le lundi. Les bacs bruns doivent être au bord de la rue avant sept heures du matin. Attention, les sacs en plastique ne sont pas acceptés.",
+      "q": "À partir de mars, quel jour passe la collecte du compost ?",
+      "options": [
+        "Le premier du mois.",
+        "Le mardi.",
+        "Le lundi.",
+        "Le jeudi."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The notice says that from March 1 the compost collection 'aura lieu le jeudi, et non plus le lundi'. 'Premier mars' is only the start date of the change.",
+        "fr": "L’avis dit qu’à partir du premier mars la collecte « aura lieu le jeudi, et non plus le lundi ». Le « premier mars » est seulement la date du changement."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases isolées sur des sujets familiers et immédiats",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-019",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "daily",
+      "docId": "fco-d15",
+      "doc": "— Bonsoir, une table pour quatre personnes, s’il vous plaît.\n— Vous avez réservé ?\n— Non, malheureusement.\n— Alors il faut attendre une vingtaine de minutes. Sinon, vous pouvez vous installer tout de suite sur la terrasse.\n— Il fait un peu froid ce soir. Nous allons attendre une table à l’intérieur.",
+      "q": "Que décident les clients ?",
+      "options": [
+        "S’installer tout de suite sur la terrasse.",
+        "Aller dans un autre restaurant.",
+        "Attendre une table à l’intérieur.",
+        "Réserver pour un autre soir."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The terrace is free right away, but the customer says it is a bit cold: 'Nous allons attendre une table à l'intérieur'.",
+        "fr": "La terrasse est libre tout de suite, mais le client trouve qu’il fait froid : « Nous allons attendre une table à l’intérieur »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases isolées sur des sujets familiers et immédiats",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-020",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "education",
+      "docId": "fco-d16",
+      "doc": "Bonjour, vous êtes bien au centre de langues des Trois-Rives. Les inscriptions aux cours de français du soir sont ouvertes jusqu’au quinze septembre. Les cours ont lieu le mardi et le jeudi, de dix-neuf heures à vingt et une heures. Pour vous inscrire, faites le un. Pour parler à un conseiller, faites le deux.",
+      "q": "Que faut-il faire pour parler à un conseiller ?",
+      "options": [
+        "Venir le mardi soir.",
+        "Appuyer sur la touche un.",
+        "Rappeler après le quinze septembre.",
+        "Appuyer sur la touche deux."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The phone menu says 'Pour parler à un conseiller, faites le deux'. Key one is for registering, and Tuesday evening is a class time.",
+        "fr": "Le menu téléphonique dit « Pour parler à un conseiller, faites le deux ». La touche un sert à s’inscrire, et le mardi soir est un horaire de cours."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases isolées sur des sujets familiers et immédiats",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-021",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "work",
+      "docId": "fco-d17",
+      "doc": "— Pourquoi voulez-vous travailler chez nous ?\n— Eh bien, j’ai travaillé cinq ans à la réception d’un grand hôtel à Lyon. J’aime beaucoup le contact avec les clients, mais je cherche maintenant un poste avec plus de responsabilités. Votre annonce parle de gérer une petite équipe, et c’est exactement ce que je veux apprendre.\n— Vous êtes disponible les fins de semaine ?\n— Oui, sans problème, sauf le premier dimanche du mois.",
+      "q": "Pourquoi la candidate s’intéresse-t-elle à ce poste ?",
+      "options": [
+        "Elle veut retourner vivre et travailler à Lyon.",
+        "Elle veut travailler moins les fins de semaine.",
+        "Elle veut apprendre à diriger une équipe.",
+        "Elle veut arrêter de travailler avec des clients."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "She explains that the job ad mentions managing a small team, 'et c'est exactement ce que je veux apprendre'. She says she likes contact with clients.",
+        "fr": "Elle explique que l’annonce parle de gérer une petite équipe, « et c’est exactement ce que je veux apprendre ». Elle dit aussi qu’elle aime le contact avec les clients."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels d’un message clair sur un sujet familier",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-022",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "transport",
+      "docId": "fco-d18",
+      "doc": "Voici l’état de la circulation à dix-sept heures. Sur l’autoroute en direction du centre-ville, un accident bloque deux voies à la hauteur de la sortie trente-deux. Comptez une demi-heure de retard. Les automobilistes qui le peuvent ont intérêt à emprunter le boulevard des Prairies. Bonne nouvelle pour les usagers du métro : après la panne de ce matin, le service est revenu à la normale sur la ligne verte.",
+      "q": "Que conseille-t-on aux automobilistes ?",
+      "options": [
+        "De prendre le métro sur la ligne verte.",
+        "De sortir de l’autoroute à la sortie trente-deux.",
+        "De partir une demi-heure plus tôt demain.",
+        "De prendre un autre trajet pour éviter l’accident."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Drivers 'ont intérêt à emprunter le boulevard des Prairies', which means taking another route. Exit thirty-two is where the accident happened.",
+        "fr": "Les automobilistes « ont intérêt à emprunter le boulevard des Prairies », donc à prendre un autre trajet. La sortie trente-deux est le lieu de l’accident."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels d’un message clair sur un sujet familier",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-023",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "transport",
+      "docId": "fco-d18",
+      "doc": "Voici l’état de la circulation à dix-sept heures. Sur l’autoroute en direction du centre-ville, un accident bloque deux voies à la hauteur de la sortie trente-deux. Comptez une demi-heure de retard. Les automobilistes qui le peuvent ont intérêt à emprunter le boulevard des Prairies. Bonne nouvelle pour les usagers du métro : après la panne de ce matin, le service est revenu à la normale sur la ligne verte.",
+      "q": "Qu’apprend-on au sujet du métro ?",
+      "options": [
+        "Il fonctionne de nouveau normalement.",
+        "Il est en panne sur la ligne verte.",
+        "Il est fermé jusqu’à ce soir.",
+        "Il a une demi-heure de retard."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The report says 'après la panne de ce matin, le service est revenu à la normale sur la ligne verte'. The breakdown is over, and the delay concerns the highway.",
+        "fr": "Le bulletin dit « après la panne de ce matin, le service est revenu à la normale sur la ligne verte ». La panne est terminée ; le retard concerne l’autoroute."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels d’un message clair sur un sujet familier",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-024",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "housing",
+      "docId": "fco-d19",
+      "doc": "Bonjour madame Nguyen, ici Marc Bélanger, votre propriétaire. Je vous appelle au sujet des travaux dans la salle de bain. L’entreprise ne peut pas venir lundi comme prévu ; elle propose plutôt jeudi, toute la journée. Je sais que vous travaillez ce jour-là. Si vous êtes d’accord, je peux ouvrir moi-même l’appartement et rester pendant les travaux. Rappelez-moi avant mercredi pour me dire ce que vous préférez.",
+      "q": "Pourquoi M. Bélanger appelle-t-il ?",
+      "options": [
+        "Pour annuler les travaux de la salle de bain.",
+        "Pour demander à Mme Nguyen de rester chez elle.",
+        "Pour proposer une nouvelle date pour les travaux.",
+        "Pour signaler un problème dans la salle de bain."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The company cannot come on Monday 'comme prévu' and 'propose plutôt jeudi'. The landlord calls to arrange this new date and offers to open the apartment himself.",
+        "fr": "L’entreprise ne peut pas venir lundi « comme prévu » et « propose plutôt jeudi ». Le propriétaire appelle pour organiser cette nouvelle date et offre d’ouvrir lui-même."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels d’un message clair sur un sujet familier",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-025",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "health",
+      "docId": "fco-d20",
+      "doc": "Bonsoir et merci d’être venus. Ce soir, je vais vous donner quelques conseils simples pour mieux dormir. D’abord, essayez de vous coucher et de vous lever à la même heure, même le week-end. Ensuite, évitez les écrans pendant l’heure qui précède le coucher. Enfin, si vous ne dormez toujours pas après vingt minutes au lit, levez-vous et faites une activité calme, comme lire, plutôt que de rester à regarder le plafond.",
+      "q": "Que conseille l’infirmière quand on n’arrive pas à s’endormir ?",
+      "options": [
+        "Se coucher plus tôt le lendemain soir.",
+        "Regarder un écran pendant vingt minutes.",
+        "Se lever et faire une activité calme.",
+        "Rester au lit et fermer les yeux."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The nurse says that if you are still awake after twenty minutes, 'levez-vous et faites une activité calme, comme lire', rather than staying in bed.",
+        "fr": "L’infirmière dit que si l’on ne dort toujours pas après vingt minutes, il faut « se lever et faire une activité calme, comme lire », plutôt que rester au lit."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels d’un message clair sur un sujet familier",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-026",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "society",
+      "docId": "fco-d21",
+      "doc": "— Tu fais quoi samedi ?\n— Je fais du bénévolat à la banque alimentaire du quartier. On trie les dons et on prépare des paniers.\n— Ah, je ne savais pas. Tu y vas souvent ?\n— Deux samedis par mois. Au début, c’était pour pratiquer mon français, mais maintenant, j’y vais surtout parce que j’adore l’équipe.\n— Ils cherchent encore des bénévoles ?\n— Toujours ! Viens avec moi, je te présenterai la responsable.",
+      "q": "Pourquoi cette personne continue-t-elle à faire du bénévolat ?",
+      "options": [
+        "Elle est la responsable de l’équipe.",
+        "Elle veut surtout continuer à améliorer son français.",
+        "Elle apprécie les gens avec qui elle travaille.",
+        "Elle a besoin des paniers de nourriture."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Practising French was her first reason ('Au début'), but now she goes 'surtout parce que j'adore l'équipe'. The manager is another person.",
+        "fr": "Pratiquer le français était sa première raison (« Au début »), mais maintenant elle y va « surtout parce que j’adore l’équipe ». La responsable est une autre personne."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels d’un message clair sur un sujet familier",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-027",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "admin",
+      "docId": "fco-d22",
+      "doc": "Bonjour, vous êtes au Carrefour d’accueil des nouveaux arrivants. Nos bureaux sont fermés pour le moment. Nous sommes ouverts du lundi au jeudi de neuf heures à dix-sept heures, et le vendredi jusqu’à midi. Les ateliers sur la recherche d’emploi recommencent le six octobre ; l’inscription se fait uniquement en personne. Si vous avez besoin d’un interprète pour votre rendez-vous, mentionnez-le au moins quarante-huit heures à l’avance. Merci de votre appel.",
+      "q": "Comment peut-on s’inscrire aux ateliers ?",
+      "options": [
+        "En se présentant au bureau.",
+        "En envoyant un courriel au centre.",
+        "En laissant un message téléphonique.",
+        "En appelant avant le six octobre."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The message says registration for the workshops 'se fait uniquement en personne', so you must go to the office. October sixth is the start date.",
+        "fr": "Le message précise que l’inscription aux ateliers « se fait uniquement en personne » : il faut donc se présenter au bureau. Le six octobre est la date de reprise."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels d’un message clair sur un sujet familier",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-028",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "admin",
+      "docId": "fco-d22",
+      "doc": "Bonjour, vous êtes au Carrefour d’accueil des nouveaux arrivants. Nos bureaux sont fermés pour le moment. Nous sommes ouverts du lundi au jeudi de neuf heures à dix-sept heures, et le vendredi jusqu’à midi. Les ateliers sur la recherche d’emploi recommencent le six octobre ; l’inscription se fait uniquement en personne. Si vous avez besoin d’un interprète pour votre rendez-vous, mentionnez-le au moins quarante-huit heures à l’avance. Merci de votre appel.",
+      "q": "Que faut-il faire pour avoir un interprète ?",
+      "options": [
+        "S’inscrire d’abord à un atelier sur l’emploi.",
+        "Le demander deux jours avant le rendez-vous.",
+        "Venir le vendredi avant midi.",
+        "Le demander le jour même du rendez-vous."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "You must mention it 'au moins quarante-huit heures à l'avance', which means at least two days before the appointment, not on the same day.",
+        "fr": "Il faut le mentionner « au moins quarante-huit heures à l’avance », c’est-à-dire au moins deux jours avant le rendez-vous."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels d’un message clair sur un sujet familier",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-029",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "environment",
+      "docId": "fco-d23",
+      "doc": "Voici la météo pour la région de Moncton. Après une matinée nuageuse, le soleil reviendra cet après-midi, avec un maximum de trente et un degrés, mais une sensation de trente-huit à cause de l’humidité. La chaleur devrait durer jusqu’à jeudi. On vous recommande de boire de l’eau régulièrement et d’éviter les efforts physiques entre midi et seize heures. Les piscines municipales restent d’ailleurs ouvertes jusqu’à vingt et une heures.",
+      "q": "Que recommande-t-on aux auditeurs ?",
+      "options": [
+        "Boire de l’eau seulement après seize heures.",
+        "Limiter les efforts physiques en début d’après-midi.",
+        "Sortir surtout entre midi et seize heures.",
+        "Aller à la piscine avant vingt et une heures."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The forecast advises 'd'éviter les efforts physiques entre midi et seize heures' and to drink water regularly. The pool hours are information, not advice.",
+        "fr": "La météo conseille « d’éviter les efforts physiques entre midi et seize heures » et de boire régulièrement. L’horaire des piscines est une information, pas un conseil."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels d’un message clair sur un sujet familier",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-030",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "media",
+      "docId": "fco-d24",
+      "doc": "Chers auditeurs, un petit changement dans notre grille cette semaine. En raison de la retransmission du match de hockey, l’émission « Cuisine du monde » ne sera pas diffusée mercredi soir. Elle est reportée à samedi, à onze heures. Et si vous l’avez manquée, rappelez-vous que toutes nos émissions sont disponibles en baladodiffusion sur notre site, dès le lendemain de leur diffusion.",
+      "q": "Pourquoi l’émission est-elle déplacée ?",
+      "options": [
+        "Elle sera désormais diffusée en balado.",
+        "Un match de hockey sera diffusé à sa place.",
+        "La grille du samedi a été modifiée.",
+        "L’animatrice sera absente tout le mercredi soir."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The host explains the change 'en raison de la retransmission du match de hockey' on Wednesday evening. Podcasts are mentioned only as a way to catch up.",
+        "fr": "L’animatrice explique le changement « en raison de la retransmission du match de hockey » mercredi soir. La baladodiffusion n’est qu’un moyen de rattraper l’émission."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels d’un message clair sur un sujet familier",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-031",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "environment",
+      "docId": "fco-d25",
+      "doc": "— Madame Roy, la ville veut retirer des places de stationnement rue Principale pour créer une piste cyclable. Les commerçants sont inquiets. Vous les comprenez ?\n— Je comprends leur crainte, bien sûr. Mais il faut regarder qui fait vraiment ses achats dans cette rue. Une bonne partie de la clientèle vient à pied, du quartier. Je ne dis pas que la piste réglera tout, mais refuser tout changement par principe, ça me semble une erreur.\n— Que proposez-vous, alors ?\n— Un essai d’un an, avec un bilan public. Si les ventes baissent, on revoit le projet.",
+      "q": "Quelle est la position de Mme Roy ?",
+      "options": [
+        "Elle refuse le projet pour protéger les commerces.",
+        "Elle veut garder toutes les places de stationnement.",
+        "Elle soutient le projet, avec une période d’essai.",
+        "Elle pense que la piste réglera tous les problèmes."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "She says refusing all change 'par principe' is a mistake and proposes 'un essai d'un an, avec un bilan public'. She also says the lane will not solve everything.",
+        "fr": "Elle juge que refuser tout changement « par principe » est une erreur et propose « un essai d’un an, avec un bilan public ». Elle dit aussi que la piste ne réglera pas tout."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre le contenu essentiel et les arguments d’un discours assez complexe",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-032",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "environment",
+      "docId": "fco-d25",
+      "doc": "— Madame Roy, la ville veut retirer des places de stationnement rue Principale pour créer une piste cyclable. Les commerçants sont inquiets. Vous les comprenez ?\n— Je comprends leur crainte, bien sûr. Mais il faut regarder qui fait vraiment ses achats dans cette rue. Une bonne partie de la clientèle vient à pied, du quartier. Je ne dis pas que la piste réglera tout, mais refuser tout changement par principe, ça me semble une erreur.\n— Que proposez-vous, alors ?\n— Un essai d’un an, avec un bilan public. Si les ventes baissent, on revoit le projet.",
+      "q": "Quel argument Mme Roy utilise-t-elle ?",
+      "options": [
+        "La rue manque déjà de places de stationnement.",
+        "Beaucoup de clients viennent déjà à pied.",
+        "Les commerçants ont augmenté leurs ventes.",
+        "Les cyclistes dépensent plus que les automobilistes."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Her argument is about who really shops there: 'Une bonne partie de la clientèle vient à pied, du quartier'. Sales are only mentioned as a future test.",
+        "fr": "Son argument porte sur la clientèle réelle : « Une bonne partie de la clientèle vient à pied, du quartier ». Les ventes ne sont évoquées que comme critère du bilan futur."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre le contenu essentiel et les arguments d’un discours assez complexe",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-033",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "work",
+      "docId": "fco-d26",
+      "doc": "— Tu as vu le courriel de la direction ? Trois jours au bureau obligatoires à partir de janvier.\n— Oui. Honnêtement, ça ne me dérange pas tant que ça. Je trouve qu’on règle les problèmes plus vite quand on est dans la même pièce.\n— Pour toi, c’est facile, tu habites à dix minutes. Moi, j’ai une heure de route.\n— C’est vrai. Tu pourrais demander un horaire décalé, pour éviter la circulation ?\n— J’y ai pensé. Mais ce qui me dérange le plus, c’est qu’on ne nous a même pas demandé notre avis.",
+      "q": "Pour la personne qui habite loin, quel est le problème principal ?",
+      "options": [
+        "La direction refuse d’accorder des horaires décalés.",
+        "La décision a été prise sans consulter les employés.",
+        "On ne règle pas les problèmes plus vite au bureau.",
+        "Elle devra faire une heure de route plusieurs fois par semaine."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "She mentions her one-hour drive, but concludes: 'ce qui me dérange le plus, c'est qu'on ne nous a même pas demandé notre avis'.",
+        "fr": "Elle parle de son heure de route, mais conclut : « ce qui me dérange le plus, c’est qu’on ne nous a même pas demandé notre avis »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre le contenu essentiel et les arguments d’un discours assez complexe",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-034",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "work",
+      "docId": "fco-d26",
+      "doc": "— Tu as vu le courriel de la direction ? Trois jours au bureau obligatoires à partir de janvier.\n— Oui. Honnêtement, ça ne me dérange pas tant que ça. Je trouve qu’on règle les problèmes plus vite quand on est dans la même pièce.\n— Pour toi, c’est facile, tu habites à dix minutes. Moi, j’ai une heure de route.\n— C’est vrai. Tu pourrais demander un horaire décalé, pour éviter la circulation ?\n— J’y ai pensé. Mais ce qui me dérange le plus, c’est qu’on ne nous a même pas demandé notre avis.",
+      "q": "Que pense la personne qui habite à dix minutes du bureau ?",
+      "options": [
+        "La nouvelle règle ne la gêne pas beaucoup.",
+        "La nouvelle règle est injuste pour tout le monde.",
+        "Elle préfère travailler depuis chez elle.",
+        "La direction aurait dû consulter les employés."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "She says 'ça ne me dérange pas tant que ça' and adds that problems are solved faster in the same room. The complaint about consultation comes from her colleague.",
+        "fr": "Elle dit « ça ne me dérange pas tant que ça » et ajoute qu’on règle les problèmes plus vite ensemble. La remarque sur la consultation vient de sa collègue."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre le contenu essentiel et les arguments d’un discours assez complexe",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-035",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "media",
+      "docId": "fco-d27",
+      "doc": "Après quarante ans de parution, La Gazette du Haut-Lac abandonne le papier. Dès le mois prochain, le journal ne sera plus publié qu’en ligne. Pour la rédaction, c’est une question de survie : les coûts d’impression ont doublé, alors que les ventes en kiosque baissent chaque année. Mais tous les lecteurs ne sont pas convaincus. Plusieurs personnes âgées nous ont écrit pour dire qu’elles se sentaient abandonnées. La rédaction promet donc une version imprimable gratuite, disponible chaque vendredi à la bibliothèque municipale.",
+      "q": "Que propose la rédaction aux lecteurs mécontents ?",
+      "options": [
+        "Un atelier pour apprendre à lire en ligne.",
+        "Une livraison à domicile chaque vendredi.",
+        "Une version imprimée gratuite à la bibliothèque.",
+        "Un abonnement papier à prix réduit."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "To answer older readers who feel abandoned, the paper promises 'une version imprimable gratuite, disponible chaque vendredi à la bibliothèque municipale'.",
+        "fr": "Pour répondre aux lecteurs âgés qui se sentent abandonnés, le journal promet « une version imprimable gratuite, disponible chaque vendredi à la bibliothèque municipale »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre le contenu essentiel et les arguments d’un discours assez complexe",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-036",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "education",
+      "docId": "fco-d28",
+      "doc": "Plusieurs parents nous ont demandé pourquoi l’école limite désormais les devoirs à vingt minutes par soir. Je tiens à être clair : il ne s’agit pas de rendre l’école moins exigeante. Nous avons constaté que les longues séances de devoirs créaient surtout des tensions à la maison, sans réel progrès chez les élèves. Ce temps gagné, nous préférons que vous le consacriez à la lecture, ensemble, pour le plaisir. Les enseignants, eux, feront davantage d’exercices en classe, là où ils peuvent aider directement les enfants.",
+      "q": "Selon le directeur, pourquoi limiter les devoirs ?",
+      "options": [
+        "L’école souhaite devenir moins exigeante avec les élèves.",
+        "Les élèves manquaient de temps pour faire du sport.",
+        "Les parents ne savaient pas comment aider leurs enfants.",
+        "Les longs devoirs causaient des tensions inutiles."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "He says long homework sessions 'créaient surtout des tensions à la maison, sans réel progrès chez les élèves', and denies wanting a less demanding school.",
+        "fr": "Il dit que les longues séances « créaient surtout des tensions à la maison, sans réel progrès chez les élèves », et il nie vouloir une école moins exigeante."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre le contenu essentiel et les arguments d’un discours assez complexe",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-037",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "science",
+      "docId": "fco-d29",
+      "doc": "Des biologistes du laboratoire Marée-Vive suivent depuis trois ans les phoques d’un petit archipel. Leur méthode est originale : au lieu de poser des colliers aux animaux, ils utilisent des drones qui photographient la colonie chaque semaine. Selon la responsable du projet, cette approche dérange beaucoup moins les animaux. Elle reconnaît toutefois une limite : par temps de brouillard, fréquent dans la région, les drones ne peuvent pas voler, et certaines semaines restent donc sans données.",
+      "q": "Quel inconvénient de la méthode est mentionné ?",
+      "options": [
+        "Elle ne fonctionne pas quand il y a du brouillard.",
+        "Elle dérange davantage les phoques qu’avant.",
+        "Elle oblige à poser des colliers aux animaux.",
+        "Elle coûte plus cher que l’ancienne méthode."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The project leader 'reconnaît toutefois une limite': in fog the drones cannot fly, so some weeks have no data. Drones replace collars and disturb animals less.",
+        "fr": "La responsable « reconnaît toutefois une limite » : par brouillard, les drones ne volent pas et certaines semaines restent sans données. Les drones remplacent les colliers et dérangent moins."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre le contenu essentiel et les arguments d’un discours assez complexe",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-038",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "culture",
+      "docId": "fco-d30",
+      "doc": "— Alors, cette pièce, tu as aimé ? On en parle partout.\n— Les comédiens étaient excellents, vraiment. Mais l’histoire, je m’attendais à mieux. La première heure est très lente, et la fin arrive d’un coup, sans explication. Et certains dialogues étaient franchement trop longs.\n— Moi, justement, j’ai aimé qu’on ne nous explique pas tout. Ça laisse de la place à l’imagination.\n— Peut-être. Je ne la déconseillerais pas, mais je n’y retournerais pas une deuxième fois.",
+      "q": "Quel est l’avis de la personne qui s’attendait à mieux ?",
+      "options": [
+        "Elle a trouvé la fin trop longue et trop expliquée.",
+        "Elle veut la revoir pour mieux la comprendre.",
+        "Elle déconseille fortement la pièce à ses amis.",
+        "Elle a aimé le jeu des acteurs, moins l’histoire."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "She praises the actors ('Les comédiens étaient excellents') but says 'l'histoire, je m'attendais à mieux'. She would not advise against it, but would not go back.",
+        "fr": "Elle félicite les acteurs (« Les comédiens étaient excellents ») mais dit « l’histoire, je m’attendais à mieux ». Elle ne la déconseillerait pas, mais n’y retournerait pas."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre le contenu essentiel et les arguments d’un discours assez complexe",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-039",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "daily",
+      "docId": "fco-d31",
+      "doc": "— Bonjour, j’ai acheté ce grille-pain chez vous il y a trois semaines, et il ne fonctionne déjà plus.\n— Je suis désolée. Vous avez votre reçu ?\n— Oui, le voici.\n— Normalement, nous reprenons les articles pendant quatorze jours seulement. Mais comme l’appareil est défectueux et encore sous garantie, je peux l’échanger contre le même modèle.\n— Je préférerais être remboursé. Honnêtement, je n’ai plus confiance en ce modèle.\n— Je comprends. Dans ce cas, je vous propose un bon d’achat du même montant, valable un an dans tout le magasin.",
+      "q": "Pourquoi la vendeuse ne propose-t-elle pas de remboursement ?",
+      "options": [
+        "L’appareil n’est plus sous garantie.",
+        "Le grille-pain n’est pas vraiment défectueux.",
+        "Le client n’a pas apporté le reçu de son grille-pain.",
+        "Le délai de retour de quatorze jours est dépassé."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The toaster was bought three weeks ago, and the store normally takes items back 'pendant quatorze jours seulement'. The customer has the receipt and the warranty still applies.",
+        "fr": "Le grille-pain a été acheté il y a trois semaines, et le magasin reprend les articles « pendant quatorze jours seulement ». Le client a son reçu et la garantie s’applique."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre le contenu essentiel et les arguments d’un discours assez complexe",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-040",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "daily",
+      "docId": "fco-d31",
+      "doc": "— Bonjour, j’ai acheté ce grille-pain chez vous il y a trois semaines, et il ne fonctionne déjà plus.\n— Je suis désolée. Vous avez votre reçu ?\n— Oui, le voici.\n— Normalement, nous reprenons les articles pendant quatorze jours seulement. Mais comme l’appareil est défectueux et encore sous garantie, je peux l’échanger contre le même modèle.\n— Je préférerais être remboursé. Honnêtement, je n’ai plus confiance en ce modèle.\n— Je comprends. Dans ce cas, je vous propose un bon d’achat du même montant, valable un an dans tout le magasin.",
+      "q": "Pourquoi le client refuse-t-il l’échange ?",
+      "options": [
+        "Il doute de la fiabilité de ce modèle.",
+        "Il préfère un bon d’achat valable un an.",
+        "Il n’a plus besoin de grille-pain.",
+        "Il préfère un modèle plus récent."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "He refuses the exchange because 'je n'ai plus confiance en ce modèle'. The store credit is offered afterwards by the clerk; he first asked for a refund.",
+        "fr": "Il refuse l’échange parce qu’il n’a « plus confiance en ce modèle ». Le bon d’achat est proposé ensuite par la vendeuse ; lui demandait d’abord un remboursement."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre le contenu essentiel et les arguments d’un discours assez complexe",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-041",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "society",
+      "docId": "fco-d32",
+      "doc": "On m’annonce la fermeture du dépanneur de la rue des Ormes, et je devine déjà les réactions : un commerce de moins, la belle affaire, il y a une épicerie à deux rues. Sauf que ce n’est pas qu’une question d’épicerie. Monsieur Haddad connaissait le prénom des enfants du quartier, gardait les clés des voisins partis en voyage, appelait les secours quand une habituée ne passait pas chercher son journal. Aucune application ne fait ça. On parle beaucoup de vivre-ensemble dans les colloques ; ici, il se pratiquait, sans grands discours, entre le lait et les journaux. Et il disparaît dans l’indifférence générale.",
+      "q": "Quel est le ton de ce chroniqueur ?",
+      "options": [
+        "Enthousiaste et plein d’espoir.",
+        "Moqueur envers M. Haddad.",
+        "Neutre et purement informatif.",
+        "Nostalgique et un peu amer."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "He regrets what the store meant to the neighbourhood and ends bitterly: 'il disparaît dans l'indifférence générale'. He admires Mr. Haddad rather than mocking him.",
+        "fr": "Il regrette ce que le commerce apportait au quartier et termine avec amertume : « il disparaît dans l’indifférence générale ». Il admire M. Haddad au lieu de s’en moquer."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des discours longs et exigeants et saisir les significations implicites",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-042",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "society",
+      "docId": "fco-d32",
+      "doc": "On m’annonce la fermeture du dépanneur de la rue des Ormes, et je devine déjà les réactions : un commerce de moins, la belle affaire, il y a une épicerie à deux rues. Sauf que ce n’est pas qu’une question d’épicerie. Monsieur Haddad connaissait le prénom des enfants du quartier, gardait les clés des voisins partis en voyage, appelait les secours quand une habituée ne passait pas chercher son journal. Aucune application ne fait ça. On parle beaucoup de vivre-ensemble dans les colloques ; ici, il se pratiquait, sans grands discours, entre le lait et les journaux. Et il disparaît dans l’indifférence générale.",
+      "q": "Que veut-il dire par « il se pratiquait, sans grands discours » ?",
+      "options": [
+        "Les clients du dépanneur se parlaient très peu.",
+        "M. Haddad animait des débats dans son commerce.",
+        "Le dépanneur créait de vrais liens, sans bruit.",
+        "On peut vivre ensemble sans aucun commerce."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The 'vivre-ensemble' discussed in conferences was actually lived in the store, through concrete acts like keeping keys or calling for help, without speeches.",
+        "fr": "Le « vivre-ensemble » dont on parle dans les colloques existait concrètement au dépanneur, par des gestes comme garder des clés ou appeler les secours, sans discours."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des discours longs et exigeants et saisir les significations implicites",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-043",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "work",
+      "docId": "fco-d33",
+      "doc": "— Merci d’être passé, Julien. Assieds-toi, ce ne sera pas long. Je voulais revenir sur la présentation au client de mardi.\n— Oui, je trouve que ça s’est plutôt bien passé, non ?\n— Le contenu était solide, personne ne dit le contraire. Disons simplement que le client a dû attendre la vingtième diapositive pour savoir combien coûterait le projet. Et c’est, tu en conviendras, la première chose qu’il voulait savoir.\n— Je voulais d’abord expliquer la démarche.\n— Je comprends l’intention. La prochaine fois, commence par ce qui l’intéresse, et garde la démarche pour les questions.",
+      "q": "Que reproche implicitement la gestionnaire à Julien ?",
+      "options": [
+        "De ne pas avoir expliqué sa démarche.",
+        "D’avoir fait attendre le client à son arrivée.",
+        "D’avoir annoncé le coût beaucoup trop tard.",
+        "D’avoir préparé un contenu trop faible."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "She points out that the client 'a dû attendre la vingtième diapositive pour savoir combien coûterait le projet', which was the first thing he wanted to know.",
+        "fr": "Elle souligne que le client « a dû attendre la vingtième diapositive pour savoir combien coûterait le projet », alors que c’était la première chose qu’il voulait savoir."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des discours longs et exigeants et saisir les significations implicites",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-044",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "work",
+      "docId": "fco-d33",
+      "doc": "— Merci d’être passé, Julien. Assieds-toi, ce ne sera pas long. Je voulais revenir sur la présentation au client de mardi.\n— Oui, je trouve que ça s’est plutôt bien passé, non ?\n— Le contenu était solide, personne ne dit le contraire. Disons simplement que le client a dû attendre la vingtième diapositive pour savoir combien coûterait le projet. Et c’est, tu en conviendras, la première chose qu’il voulait savoir.\n— Je voulais d’abord expliquer la démarche.\n— Je comprends l’intention. La prochaine fois, commence par ce qui l’intéresse, et garde la démarche pour les questions.",
+      "q": "Quelle est la fonction de la phrase « Le contenu était solide, personne ne dit le contraire » ?",
+      "options": [
+        "Rapporter fidèlement l’opinion du client sur le contenu.",
+        "Féliciter Julien pour l’ensemble de sa présentation.",
+        "Rassurer Julien, qui doutait de la qualité de son travail.",
+        "Reconnaître une qualité avant de formuler une critique."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The sentence grants a strength before the criticism introduced by 'Disons simplement que'. Julien did not doubt his work; he thought it went well.",
+        "fr": "La phrase concède une qualité avant la critique introduite par « Disons simplement que ». Julien ne doutait pas de son travail : il trouvait que tout s’était bien passé."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des discours longs et exigeants et saisir les significations implicites",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-045",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "environment",
+      "docId": "fco-d34",
+      "doc": "On présente souvent le recyclage comme le geste écologique par excellence. Je voudrais nuancer cette idée, sans la rejeter. Recycler une bouteille vaut évidemment mieux que la jeter. Mais le recyclage arrive en bout de chaîne : il suppose que l’objet a déjà été fabriqué, transporté, acheté. Avant de se demander dans quel bac mettre un emballage, il serait plus utile de se demander si on en avait besoin. Réduire, puis réutiliser, et seulement ensuite recycler : l’ordre n’est pas un détail. Le risque, sinon, c’est que le bac bleu nous donne bonne conscience et nous dispense de changer nos habitudes d’achat.",
+      "q": "Que craint la conférencière à propos du « bac bleu » ?",
+      "options": [
+        "Qu’il soit trop petit pour tous les emballages.",
+        "Qu’il serve d’excuse pour ne pas consommer autrement.",
+        "Qu’il mélange des matières qui ne se recyclent pas.",
+        "Qu’il pousse les gens à acheter beaucoup moins."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "She fears the blue bin will 'nous donne bonne conscience et nous dispense de changer nos habitudes d'achat': recycling could replace real changes in consumption.",
+        "fr": "Elle craint que le bac bleu « nous donne bonne conscience et nous dispense de changer nos habitudes d’achat » : le tri remplacerait un vrai changement de consommation."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des discours longs et exigeants et saisir les significations implicites",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-046",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "admin",
+      "docId": "fco-d35",
+      "doc": "Bonjour madame Ferreira, ici Hélène Côté, du bureau des admissions du cégep de la Vallée. Je reviens vers vous au sujet de votre dossier. Nous avons bien reçu vos relevés de notes, merci. En revanche, la traduction de votre diplôme n’est pas certifiée, et je ne peux malheureusement pas la transmettre au comité dans cet état. Le comité se réunit le vingt-huit ; au-delà, votre demande serait reportée à la session d’hiver. Je vous laisse mesurer l’urgence. Vous pouvez me joindre directement au poste deux cent quatorze. Je vous souhaite une bonne fin de journée.",
+      "q": "Que sous-entend Mme Côté par « Je vous laisse mesurer l’urgence » ?",
+      "options": [
+        "Le comité a déjà refusé la demande d’admission.",
+        "Il faut renvoyer les relevés de notes au plus vite.",
+        "Il faut envoyer une traduction valide avant le vingt-huit.",
+        "Il vaudrait mieux s’inscrire directement à la session d’hiver."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The translation is not certified and the committee meets on the twenty-eighth; after that the application is postponed. She implies a valid translation must arrive before then.",
+        "fr": "La traduction n’est pas certifiée et le comité se réunit le vingt-huit ; ensuite, la demande serait reportée. Elle sous-entend qu’il faut envoyer une traduction valable avant cette date."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des discours longs et exigeants et saisir les significations implicites",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-047",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "culture",
+      "docId": "fco-d36",
+      "doc": "— Votre roman se passe entièrement dans une laverie automatique. Pourquoi ce choix ?\n— Au départ, c’était une contrainte que je m’étais donnée, presque un jeu. Puis je me suis rendu compte que c’est l’un des rares endroits où des gens qui ne se fréquenteraient jamais restent assis côte à côte pendant quarante minutes, sans rien d’autre à faire qu’attendre. L’étudiante, le retraité, le père divorcé avec ses trois sacs. Le lieu fait le travail à ma place : il force la rencontre.\n— On vous a reproché un certain manque d’action.\n— On me l’a reproché, oui. Mais il se passe énormément de choses, simplement pas là où on les attend.",
+      "q": "Pourquoi l’autrice a-t-elle finalement gardé ce décor ?",
+      "options": [
+        "Son éditeur lui avait imposé cette contrainte.",
+        "Le lieu réunit des personnes qui ne se croiseraient pas.",
+        "C’est un lieu où l’action est très rapide.",
+        "Elle a travaillé dans une laverie pendant ses études."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The constraint was her own game at first; she kept it because people 'qui ne se fréquenteraient jamais' sit side by side there: 'il force la rencontre'.",
+        "fr": "La contrainte était d’abord un jeu personnel ; elle l’a gardée parce que des gens « qui ne se fréquenteraient jamais » s’y côtoient : « il force la rencontre »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des discours longs et exigeants et saisir les significations implicites",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-048",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "health",
+      "docId": "fco-d37",
+      "doc": "Les urgences de l’hôpital régional de Saint-Aubin ont connu un week-end difficile, avec des attentes dépassant parfois douze heures. La direction invite la population à consulter d’abord la ligne d’information santé ou une clinique sans rendez-vous pour les problèmes non urgents. Une demande qui fait grincer des dents dans la région : la clinique sans rendez-vous la plus proche a réduit ses heures au printemps, faute de personnel, et ferme désormais à seize heures. Plusieurs patients interrogés affirment être venus aux urgences précisément parce qu’ils n’avaient nulle part ailleurs où aller.",
+      "q": "Que suggère le reportage au sujet de la demande de la direction ?",
+      "options": [
+        "Elle est difficile à suivre, faute d’autres services ouverts.",
+        "Elle a déjà réduit l’attente dès ce week-end.",
+        "Elle concerne surtout les cas les plus graves et urgents.",
+        "Elle a été plutôt bien accueillie par les patients interrogés."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The nearby clinic now closes at four, and patients say they came 'parce qu'ils n'avaient nulle part ailleurs où aller'. The report implies the advice is hard to follow.",
+        "fr": "La clinique voisine ferme à seize heures et des patients disent être venus « parce qu’ils n’avaient nulle part ailleurs où aller ». Le reportage laisse entendre que le conseil est difficile à suivre."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des discours longs et exigeants et saisir les significations implicites",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-049",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "health",
+      "docId": "fco-d37",
+      "doc": "Les urgences de l’hôpital régional de Saint-Aubin ont connu un week-end difficile, avec des attentes dépassant parfois douze heures. La direction invite la population à consulter d’abord la ligne d’information santé ou une clinique sans rendez-vous pour les problèmes non urgents. Une demande qui fait grincer des dents dans la région : la clinique sans rendez-vous la plus proche a réduit ses heures au printemps, faute de personnel, et ferme désormais à seize heures. Plusieurs patients interrogés affirment être venus aux urgences précisément parce qu’ils n’avaient nulle part ailleurs où aller.",
+      "q": "Que signifie « faire grincer des dents » dans ce reportage ?",
+      "options": [
+        "Susciter de l’enthousiasme.",
+        "Créer de la confusion.",
+        "Causer une douleur physique.",
+        "Provoquer de l’agacement."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The expression introduces local criticism of the hospital's request, explained by the clinic's reduced hours: it means the request irritates people.",
+        "fr": "L’expression introduit les critiques locales contre la demande de l’hôpital, expliquées par les heures réduites de la clinique : elle signifie que la demande agace."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des discours longs et exigeants et saisir les significations implicites",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-050",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "transport",
+      "docId": "fco-d38",
+      "doc": "La Société de transport de la Rive-Est présentait hier sa nouvelle carte du réseau, fruit de deux ans de consultations. Les autobus passeront plus souvent sur les grands axes, toutes les dix minutes aux heures de pointe. En contrepartie, plusieurs lignes de quartier disparaissent, remplacées par un taxi collectif sur réservation. La direction parle d’un réseau plus simple et plus efficace. Au comité des usagers, on salue l’effort sur les grands axes, tout en se demandant comment une personne âgée sans téléphone intelligent réservera son taxi collectif la veille avant vingt heures.",
+      "q": "Quelle réserve exprime le comité des usagers ?",
+      "options": [
+        "Les autobus passeront moins souvent sur les grands axes.",
+        "Le taxi collectif risque d’exclure certains usagers.",
+        "Le taxi collectif coûtera plus cher que l’autobus.",
+        "Les consultations publiques n’ont pas duré assez longtemps."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The committee praises the main routes but wonders how 'une personne âgée sans téléphone intelligent' will book the shared taxi, a polite way of saying some riders may be left out.",
+        "fr": "Le comité salue les grands axes mais se demande comment « une personne âgée sans téléphone intelligent » réservera le taxi collectif : une façon polie de dire que certains seront exclus."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des discours longs et exigeants et saisir les significations implicites",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-051",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "society",
+      "docId": "fco-d39",
+      "doc": "Cette semaine, j’ai décidé de devenir quelqu’un d’organisé. J’ai donc installé une application pour planifier mes tâches, une deuxième pour mesurer le temps passé sur la première, et une troisième qui m’envoie des notifications pour me rappeler de moins regarder mon téléphone. Résultat : j’ai passé lundi à configurer, mardi à synchroniser, et mercredi à lire des articles sur la meilleure façon d’utiliser mes applications. Jeudi, j’ai enfin rédigé ma liste de choses à faire. Premier élément : désinstaller deux applications. Je ne doute pas qu’il existe des gens pour qui ces outils changent la vie. Je constate simplement que, chez moi, ils ont surtout changé la nature de ma procrastination.",
+      "q": "Quel procédé domine dans cette chronique ?",
+      "options": [
+        "La critique sérieuse des entreprises technologiques.",
+        "Le récit d’une réussite personnelle durable.",
+        "La présentation objective de plusieurs applications.",
+        "L’autodérision sur une tentative de s’organiser."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The columnist mocks himself: an app that sends notifications to look less at the phone, three days lost in setup, and a to-do list whose first item is uninstalling apps.",
+        "fr": "Le chroniqueur se moque de lui-même : une application qui envoie des notifications pour moins regarder son téléphone, trois jours de configuration, une liste qui commence par désinstaller."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout, y compris les nuances de sens les plus fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-052",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "society",
+      "docId": "fco-d39",
+      "doc": "Cette semaine, j’ai décidé de devenir quelqu’un d’organisé. J’ai donc installé une application pour planifier mes tâches, une deuxième pour mesurer le temps passé sur la première, et une troisième qui m’envoie des notifications pour me rappeler de moins regarder mon téléphone. Résultat : j’ai passé lundi à configurer, mardi à synchroniser, et mercredi à lire des articles sur la meilleure façon d’utiliser mes applications. Jeudi, j’ai enfin rédigé ma liste de choses à faire. Premier élément : désinstaller deux applications. Je ne doute pas qu’il existe des gens pour qui ces outils changent la vie. Je constate simplement que, chez moi, ils ont surtout changé la nature de ma procrastination.",
+      "q": "Que veut dire la dernière phrase ?",
+      "options": [
+        "Il procrastine davantage depuis qu’il a désinstallé les outils.",
+        "Les outils l’ont aidé à ne plus rien remettre à plus tard.",
+        "Les outils l’ont seulement fait procrastiner autrement.",
+        "Il recommande ces outils à toutes les personnes désorganisées."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "'Ils ont surtout changé la nature de ma procrastination' means he still procrastinates, only now by configuring and reading about apps instead of working.",
+        "fr": "« Ils ont surtout changé la nature de ma procrastination » signifie qu’il remet toujours à plus tard, mais en configurant et en lisant sur ses applications au lieu de travailler."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout, y compris les nuances de sens les plus fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-053",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "culture",
+      "docId": "fco-d40",
+      "doc": "— On entend souvent que le livre est toujours meilleur que son adaptation. Vous partagez cet avis ?\n— C’est une formule commode, mais elle repose sur un malentendu. On compare deux objets qui ne poursuivent pas le même but. Un roman peut passer trois pages dans la tête d’un personnage ; une série doit montrer. Reprocher à une adaptation de ne pas être fidèle, c’est un peu comme reprocher à une traduction de ne pas être écrite dans la langue d’origine.\n— Il y a pourtant des adaptations ratées.\n— Bien sûr, et en grand nombre. Mais elles sont ratées parce qu’elles sont mauvaises en tant que séries, pas parce qu’elles trahissent le livre. La fidélité n’a jamais été un critère de qualité ; tout au plus un argument de vente.",
+      "q": "Quel rôle joue la comparaison avec la traduction ?",
+      "options": [
+        "Prouver que les traductions sont souvent de mauvaise qualité.",
+        "Rappeler que les séries sont souvent traduites en d’autres langues.",
+        "Montrer qu’exiger une fidélité totale n’a pas de sens.",
+        "Expliquer concrètement comment on adapte un roman en série."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "A translation by definition changes the language; blaming it for that is absurd. By analogy, blaming an adaptation for not being faithful misunderstands what it is.",
+        "fr": "Une traduction change par définition de langue ; le lui reprocher serait absurde. Par analogie, reprocher son infidélité à une adaptation, c’est méconnaître sa nature."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout, y compris les nuances de sens les plus fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-054",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "culture",
+      "docId": "fco-d40",
+      "doc": "— On entend souvent que le livre est toujours meilleur que son adaptation. Vous partagez cet avis ?\n— C’est une formule commode, mais elle repose sur un malentendu. On compare deux objets qui ne poursuivent pas le même but. Un roman peut passer trois pages dans la tête d’un personnage ; une série doit montrer. Reprocher à une adaptation de ne pas être fidèle, c’est un peu comme reprocher à une traduction de ne pas être écrite dans la langue d’origine.\n— Il y a pourtant des adaptations ratées.\n— Bien sûr, et en grand nombre. Mais elles sont ratées parce qu’elles sont mauvaises en tant que séries, pas parce qu’elles trahissent le livre. La fidélité n’a jamais été un critère de qualité ; tout au plus un argument de vente.",
+      "q": "Que signifie « tout au plus un argument de vente » ?",
+      "options": [
+        "La fidélité sert au mieux à attirer le public.",
+        "La fidélité coûte très cher aux producteurs.",
+        "La fidélité est exigée par les éditeurs du livre.",
+        "La fidélité est le premier critère de qualité."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "'Tout au plus' limits the value of faithfulness: it is not a quality criterion, at most a marketing point used to attract readers of the book.",
+        "fr": "« Tout au plus » réduit la valeur de la fidélité : ce n’est pas un critère de qualité, au mieux un argument commercial pour attirer les lecteurs du livre."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout, y compris les nuances de sens les plus fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-055",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "work",
+      "docId": "fco-d41",
+      "doc": "On a beaucoup glosé sur ces employés qui se contenteraient désormais du strict minimum. Le terme est accrocheur, mais il me semble surtout révélateur de ceux qui l’emploient, bien plus que de ceux qu’il désigne. Faire le travail pour lequel on est payé, aux heures pour lesquelles on est payé : il fut un temps où l’on appelait cela, tout simplement, un contrat. Que cette attitude soit devenue un phénomène qu’on commente prouve surtout à quel point le dépassement permanent était devenu la norme implicite. Je ne dis pas que l’engagement n’a pas de valeur. Je dis qu’un engagement qu’on exige sans le reconnaître finit, tôt ou tard, par se retirer sur la pointe des pieds.",
+      "q": "Selon l’intervenante, que révèle le fait qu’on commente cette attitude ?",
+      "options": [
+        "Qu’on exigeait sans le dire un effort toujours plus grand.",
+        "Que les contrats de travail sont généralement mal rédigés.",
+        "Que l’engagement au travail a perdu toute sa valeur.",
+        "Que les employés travaillent beaucoup moins qu’autrefois."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "She says the debate 'prouve surtout à quel point le dépassement permanent était devenu la norme implicite': doing more than the contract had become expected.",
+        "fr": "Elle dit que ce débat « prouve surtout à quel point le dépassement permanent était devenu la norme implicite » : en faire plus que le contrat était devenu attendu."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout, y compris les nuances de sens les plus fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-056",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "work",
+      "docId": "fco-d41",
+      "doc": "On a beaucoup glosé sur ces employés qui se contenteraient désormais du strict minimum. Le terme est accrocheur, mais il me semble surtout révélateur de ceux qui l’emploient, bien plus que de ceux qu’il désigne. Faire le travail pour lequel on est payé, aux heures pour lesquelles on est payé : il fut un temps où l’on appelait cela, tout simplement, un contrat. Que cette attitude soit devenue un phénomène qu’on commente prouve surtout à quel point le dépassement permanent était devenu la norme implicite. Je ne dis pas que l’engagement n’a pas de valeur. Je dis qu’un engagement qu’on exige sans le reconnaître finit, tôt ou tard, par se retirer sur la pointe des pieds.",
+      "q": "Que signifie « se retirer sur la pointe des pieds » ?",
+      "options": [
+        "Refuser publiquement de faire son travail.",
+        "Quitter l’entreprise de façon bruyante.",
+        "Revenir peu à peu à un travail normal.",
+        "Disparaître discrètement, sans conflit ouvert."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Walking on tiptoe is silent: unrecognized commitment fades away quietly, without protest, which matches the 'strict minimum' behaviour she describes.",
+        "fr": "Marcher sur la pointe des pieds se fait sans bruit : l’engagement non reconnu s’efface discrètement, sans protestation, ce qui correspond au « strict minimum » décrit."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout, y compris les nuances de sens les plus fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-057",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "science",
+      "docId": "fco-d42",
+      "doc": "Imaginez qu’une enquête montre que les habitants d’un quartier qui possèdent un chien se déclarent en meilleure santé. Faut-il en conclure que le chien rend en bonne santé ? Pas si vite. Plusieurs explications sont possibles. Il se peut que les personnes déjà actives soient plus enclines à adopter un chien, qui exige des promenades quotidiennes. Il se peut aussi qu’un troisième facteur, comme le fait d’avoir une maison avec jardin, explique à la fois l’un et l’autre. L’enquête n’est pas fausse pour autant : elle décrit un lien. Ce sont les titres qui en font une cause. Méfiez-vous des manchettes qui commencent par « La science le prouve », surtout quand elles parlent de votre santé.",
+      "q": "Quelle est l’attitude de l’intervenante envers les médias ?",
+      "options": [
+        "Elle reste neutre et ne juge pas le travail des médias.",
+        "Elle reproche aux titres de transformer un lien en cause.",
+        "Elle accuse les chercheurs de tromper les journalistes.",
+        "Elle félicite les journalistes pour leur grande prudence."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "She defends the survey ('n'est pas fausse pour autant') and blames headlines: 'Ce sont les titres qui en font une cause', warning against 'La science le prouve'.",
+        "fr": "Elle défend l’enquête (« n’est pas fausse pour autant ») et accuse les titres : « Ce sont les titres qui en font une cause », en mettant en garde contre « La science le prouve »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout, y compris les nuances de sens les plus fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-058",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "housing",
+      "docId": "fco-d43",
+      "doc": "Petit lexique à l’usage de ceux qui cherchent un logement. « Charmant » signifie petit. « Plein de cachet » signifie que rien n’a été rénové depuis longtemps. « À deux pas des transports » veut dire que le métro passe, littéralement, sous votre lit. Quant à « idéal pour premier achat », traduisez : vous ne le garderez pas longtemps. Je caricature, évidemment. Les agents font leur métier, qui consiste à mettre en valeur. Mais à force d’adjectifs, l’annonce finit par ressembler à une devinette, et l’acheteur à un détective. On rêverait d’une annonce qui dirait simplement : trois pièces, sombre, bruyant, mais pas cher. Je soupçonne qu’elle se vendrait plus vite que les autres.",
+      "q": "Que reproche l’auteur aux annonces immobilières ?",
+      "options": [
+        "Elles sont rédigées par des agents qui mentent sur tout.",
+        "Elles masquent les défauts sous des mots flatteurs.",
+        "Elles donnent beaucoup trop de détails techniques.",
+        "Elles annoncent des prix nettement trop bas."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "His ironic glossary shows flattering words hiding flaws ('Charmant' means small). He explicitly says agents just do their job, so he does not call them dishonest.",
+        "fr": "Son lexique ironique montre des mots flatteurs qui cachent des défauts (« Charmant » signifie petit). Il précise que les agents font leur métier : il ne les dit pas malhonnêtes."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout, y compris les nuances de sens les plus fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-059",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "education",
+      "docId": "fco-d44",
+      "doc": "Je voudrais m’attarder un instant sur la note, cet objet que nous manipulons tous les jours sans trop y penser. Nous la traitons comme une mesure objective, à la manière d’un thermomètre. Admettons, pour les besoins de la démonstration. Mais on n’a jamais vu un thermomètre faire baisser la fièvre. Un élève qui reçoit douze sur vingt sait où il se situe ; il ne sait pas pour autant ce qu’il doit faire lundi matin. C’est le commentaire, et non le chiffre, qui permet de progresser. Je ne plaide pas pour la suppression des notes : les familles y tiennent, les établissements en ont besoin. Je plaide pour qu’on cesse de leur demander ce qu’elles ne peuvent pas donner.",
+      "q": "Que veut montrer l’image du thermomètre ?",
+      "options": [
+        "Les élèves malades obtiennent de moins bonnes notes.",
+        "Mesurer un niveau ne suffit pas à le faire progresser.",
+        "Il faudrait évaluer le niveau des élèves plus souvent.",
+        "Les notes sont aussi précises qu’un instrument scientifique."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "'On n'a jamais vu un thermomètre faire baisser la fièvre': a grade measures a level but does not help improve it; only the comment does.",
+        "fr": "« On n’a jamais vu un thermomètre faire baisser la fièvre » : une note mesure un niveau mais n’aide pas à progresser ; seul le commentaire le permet."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout, y compris les nuances de sens les plus fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fco-060",
+      "skill": "listening",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "environment",
+      "docId": "fco-d45",
+      "doc": "Mon voisin a acheté une voiture électrique. Je le sais, parce qu’il me l’a dit. Trois fois. Il me l’a dit en rentrant du garage, il me l’a redit en la branchant, et il me l’a répété samedi, en chargeant dans le coffre les sacs de son troisième aller-retour de la journée au centre commercial, à quatre kilomètres. Loin de moi l’idée de lui jeter la pierre : il a fait un meilleur choix que l’ancien, et je n’ai pas de leçon à donner, moi qui prends l’avion deux fois par an. Mais l’épisode m’a fait réfléchir à notre goût pour les gestes visibles, ceux qu’on peut montrer, au détriment des habitudes, qui, elles, ne se voient pas.",
+      "q": "Que signifie « Loin de moi l’idée de lui jeter la pierre » ?",
+      "options": [
+        "Je ne veux pas le blâmer.",
+        "Je ne veux pas l’imiter.",
+        "Je ne veux pas lui parler.",
+        "Je ne veux pas le croire."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The expression means refusing to blame someone; he immediately adds that his neighbour made a better choice and that he has 'pas de leçon à donner'.",
+        "fr": "L’expression signifie qu’on refuse de blâmer quelqu’un ; il ajoute aussitôt que son voisin a fait un meilleur choix et qu’il n’a « pas de leçon à donner »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout, y compris les nuances de sens les plus fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    }
+  ]
+}

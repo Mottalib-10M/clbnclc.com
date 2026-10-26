@@ -1,0 +1,11 @@
+---
+/** Pages that have a French version sit at /fr/<slug>/. */
+import ContentPage from '../../components/ContentPage.astro';
+import { PAGES } from '../../lib/guides';
+import type { PageDef } from '../../lib/guide-types';
+export function getStaticPaths() {
+  return PAGES.filter((p) => p.fr).map((page) => ({ params: { slug: page.fr!.slug }, props: { page } }));
+}
+const { page } = Astro.props as { page: PageDef };
+---
+<ContentPage page={page} lang="fr" />

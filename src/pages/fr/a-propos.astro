@@ -1,0 +1,30 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED, AUTHOR_NAME, CONTACT_EMAIL, AUTHOR_ROLE } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { organizationSchema, breadcrumbSchema, profilePageSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { helpers } from '../../lib/helpers';
+const lang = 'fr';
+const h = helpers(lang);
+const P = h.P;
+---
+<PageLayout title="Radif Partners : qui publie ces outils TEF, TCF et NCLC" description="Qui publie les convertisseurs et l’entraînement TEF Canada, TCF Canada et CELPIP de ce site, d’où vient chaque grille, et ce que le site ne vend jamais." lang={lang} jsonLd={[organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Accueil', path: route('home', lang) }, { name: 'À propos', path: route('about', lang) }])]} breadcrumbs={[{ label: 'À propos' }]}>
+  <header class="mb-6"><p class="kicker">À propos</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Qui se trouve derrière ces outils de tests de langue</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
+    <p>Ce site est publié par Radif Partners, une société qui transforme des règles publiques en outils gratuits. Il s’adresse aux personnes qui doivent prouver leur français ou leur anglais auprès d’Immigration, Réfugiés et Citoyenneté Canada, pour Entrée express, un programme provincial ou la citoyenneté, et à celles qui demandent une carte de séjour ou la nationalité en France.</p>
+    <h2>Ce que l’on peut faire ici</h2>
+    <p>Convertir une attestation TEF Canada, TCF Canada, CELPIP-General, IELTS General Training ou PTE Core en niveaux NCLC et CLB, puis en points de langue d’Entrée express. Voir le niveau exigé par un programme et le score qui l’atteint. S’entraîner en compréhension écrite et orale en français ({h.bankSize.frReading + h.bankSize.frListening} questions du A1 au C2) et en anglais ({h.bankSize.enReading + h.bankSize.enListening} questions du CLB 4 au CLB 10), rédiger et parler en temps limité, passer des sections d’examen blanc au format officiel.</p>
+    <p>Ni compte, ni courriel, ni paiement. Les calculs se font dans votre navigateur ; la progression des quiz reste dans le stockage local de ce navigateur.</p>
+    <h2>Sources</h2>
+    <p>Les grilles viennent des pages d’IRCC et du tableau de correspondance de la CCI Paris Île-de-France ; les formats d’épreuves, des pages de la CCI et du manuel du candidat TCF de France Éducation international ; les règles françaises, des arrêtés du 22 décembre 2025 et de Service-Public.fr. Chaque page renvoie à ce qu’elle utilise, et la <a href={route('method', lang)}>page Méthode</a> détaille le reste. Dernière lecture des grilles : {h.date(P.retrieved_at)}.</p>
+    <h2>Ce que ce site n’est pas</h2>
+    <p>Ni IRCC, ni le gouvernement du Canada, ni l’administration française. Il n’est affilié ni à la CCI Paris Île-de-France, ni à France Éducation international, ni à Paragon Testing ; ce n’est pas un centre d’examen et il n’inscrit personne. Ses questions sont rédigées par nos soins et ne sont pas des questions des tests officiels.</p>
+    <h2>Financement</h2>
+    <p>Rien n’est vendu ici : ni cours, ni accompagnement, ni livre, ni application, aucune commission, aucun lien payé. Aucune école ni aucun centre n’est recommandé.</p>
+    <h2>Signaler une erreur</h2>
+    <p>Écrivez à <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> en citant la grille, le chiffre ou la question. La suite est décrite dans la <a href={route('editorial', lang)}>politique éditoriale</a>.</p>
+    <p class="text-sm text-navy-600">Dernière vérification le <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'fr-CA')}</time>.</p>
+  </div>
+</PageLayout>

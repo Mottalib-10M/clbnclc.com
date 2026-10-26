@@ -1,0 +1,914 @@
+{
+  "questions": [
+    {
+      "id": "eco-001",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB4",
+      "theme": "daily",
+      "docId": "eco-d01",
+      "doc": "— Hello, Pine Street Hardware.\n— Hi, are you open on Sunday?\n— Yes, from ten in the morning to five in the afternoon.\n— Great. Do you sell paint?\n— We do, but we're out of white paint until Tuesday.",
+      "q": "When is the store open on Sunday?",
+      "options": [
+        "From nine to five.",
+        "From ten to five.",
+        "From ten to two.",
+        "It is closed on Sunday."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The clerk says the store is open on Sunday 'from ten in the morning to five in the afternoon'. The caller hears the hours directly.",
+        "fr": "Le vendeur dit que le magasin est ouvert le dimanche « from ten in the morning to five in the afternoon », c’est-à-dire de 10 h à 17 h."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 4 listening: understand short, simple exchanges about familiar everyday needs",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-002",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB4",
+      "theme": "daily",
+      "docId": "eco-d01",
+      "doc": "— Hello, Pine Street Hardware.\n— Hi, are you open on Sunday?\n— Yes, from ten in the morning to five in the afternoon.\n— Great. Do you sell paint?\n— We do, but we're out of white paint until Tuesday.",
+      "q": "What problem does the clerk mention?",
+      "options": [
+        "The store does not sell any paint.",
+        "The store is closed every Tuesday.",
+        "There is no white paint until Tuesday.",
+        "The paint is on sale only on Sunday."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The clerk says 'we're out of white paint until Tuesday'. The store does sell paint, and Tuesday is only when white paint comes back.",
+        "fr": "Le vendeur dit « we’re out of white paint until Tuesday ». Le magasin vend bien de la peinture ; mardi est simplement le jour où le blanc revient."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 4 listening: understand short, simple exchanges about familiar everyday needs",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-003",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB4",
+      "theme": "health",
+      "docId": "eco-d02",
+      "doc": "Hello, this is Karen from Bayview Dental, calling for Tom Lee. We need to move your cleaning appointment from Monday to Wednesday at three o'clock. If that time doesn't work for you, please call us back. Thank you.",
+      "q": "Why is Karen calling?",
+      "options": [
+        "To change the day of an appointment.",
+        "To cancel a cleaning appointment.",
+        "To remind Tom about Monday.",
+        "To ask Tom to pay a bill from Monday."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Karen says 'We need to move your cleaning appointment from Monday to Wednesday', so she is changing the day, not cancelling it.",
+        "fr": "Karen dit « We need to move your cleaning appointment from Monday to Wednesday » : elle change le jour du rendez-vous, elle ne l’annule pas."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 4 listening: understand short, simple exchanges about familiar everyday needs",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-004",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB4",
+      "theme": "health",
+      "docId": "eco-d02",
+      "doc": "Hello, this is Karen from Bayview Dental, calling for Tom Lee. We need to move your cleaning appointment from Monday to Wednesday at three o'clock. If that time doesn't work for you, please call us back. Thank you.",
+      "q": "What time is the new appointment?",
+      "options": [
+        "At two o'clock.",
+        "At ten o'clock.",
+        "At four o'clock.",
+        "At three o'clock."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The new appointment is 'Wednesday at three o'clock'. Tom should call back only if that time does not work for him.",
+        "fr": "Le nouveau rendez-vous est « Wednesday at three o’clock ». Tom doit rappeler seulement si cette heure ne lui convient pas."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 4 listening: understand short, simple exchanges about familiar everyday needs",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-005",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB4",
+      "theme": "transport",
+      "docId": "eco-d03",
+      "doc": "Attention, passengers. The ferry to Gull Island is delayed by twenty minutes because of high winds. The new departure time is eleven forty. Please wait inside the terminal. Thank you.",
+      "q": "Why is the ferry late?",
+      "options": [
+        "Because of an engine problem.",
+        "Because the terminal is closed.",
+        "Because of strong winds.",
+        "Because there are too many passengers."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The announcement says the ferry 'is delayed by twenty minutes because of high winds'. Passengers are asked to wait inside the terminal, so it is open.",
+        "fr": "L’annonce dit que le traversier « is delayed by twenty minutes because of high winds ». On demande d’attendre dans le terminal : il est donc ouvert."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 4 listening: understand short, simple exchanges about familiar everyday needs",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-006",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB5",
+      "theme": "work",
+      "docId": "eco-d04",
+      "doc": "Hi Jordan, it's Ellen. I'm calling about tomorrow. The delivery truck is coming at seven thirty instead of nine, so I need you to start an hour and a half early. You can leave early too, at two thirty instead of four. Please call me back tonight to confirm. Thanks.",
+      "q": "Why does Jordan need to start early tomorrow?",
+      "options": [
+        "The store will open at seven thirty.",
+        "Ellen will be away tomorrow morning.",
+        "The truck is coming earlier.",
+        "Jordan has to leave at two thirty."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Ellen explains: 'The delivery truck is coming at seven thirty instead of nine, so I need you to start an hour and a half early.'",
+        "fr": "Ellen explique : « The delivery truck is coming at seven thirty instead of nine, so I need you to start an hour and a half early »."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 5 listening: understand key details in short routine messages and conversations",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-007",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB5",
+      "theme": "work",
+      "docId": "eco-d04",
+      "doc": "Hi Jordan, it's Ellen. I'm calling about tomorrow. The delivery truck is coming at seven thirty instead of nine, so I need you to start an hour and a half early. You can leave early too, at two thirty instead of four. Please call me back tonight to confirm. Thanks.",
+      "q": "What time will Jordan finish tomorrow?",
+      "options": [
+        "At two thirty.",
+        "At seven thirty.",
+        "At four.",
+        "At nine."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Ellen says 'You can leave early too, at two thirty instead of four.' Four is the usual finishing time and seven thirty is the truck's arrival.",
+        "fr": "Ellen dit « You can leave early too, at two thirty instead of four ». Seize heures est l’heure habituelle, et sept heures trente l’arrivée du camion."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 5 listening: understand key details in short routine messages and conversations",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-008",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB5",
+      "theme": "housing",
+      "docId": "eco-d05",
+      "doc": "— Hi, I'm calling about noise from the apartment above me. It happens every night after midnight.\n— I'm sorry to hear that. Have you spoken to your neighbour?\n— Yes, last week. He said he works late.\n— OK. I'll send him a reminder about quiet hours. If it continues, please write down the dates and times for me.",
+      "q": "What has the caller already done?",
+      "options": [
+        "Written down the dates.",
+        "Sent the neighbour a reminder.",
+        "Talked to the neighbour.",
+        "Moved to another apartment."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "When asked 'Have you spoken to your neighbour?', the caller answers 'Yes, last week.' The manager is the one who will send a reminder.",
+        "fr": "À la question « Have you spoken to your neighbour? », la personne répond « Yes, last week ». C’est le gestionnaire qui enverra un rappel."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 5 listening: understand key details in short routine messages and conversations",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-009",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB5",
+      "theme": "housing",
+      "docId": "eco-d05",
+      "doc": "— Hi, I'm calling about noise from the apartment above me. It happens every night after midnight.\n— I'm sorry to hear that. Have you spoken to your neighbour?\n— Yes, last week. He said he works late.\n— OK. I'll send him a reminder about quiet hours. If it continues, please write down the dates and times for me.",
+      "q": "What should the caller do if the noise continues?",
+      "options": [
+        "Call the police after midnight.",
+        "Keep a record of when it happens.",
+        "Speak to the neighbour again.",
+        "Send a note about quiet hours."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The manager says 'If it continues, please write down the dates and times for me', which means keeping a record of the noise.",
+        "fr": "Le gestionnaire dit « If it continues, please write down the dates and times for me », c’est-à-dire noter quand le bruit se produit."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 5 listening: understand key details in short routine messages and conversations",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-010",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB5",
+      "theme": "education",
+      "docId": "eco-d06",
+      "doc": "Good morning, students. This is a reminder that the school library will be closed all day Thursday for a staff meeting. Books that are due on Thursday can be returned on Friday without a late fee. The computer lab will stay open as usual.",
+      "q": "What can students do with books due on Thursday?",
+      "options": [
+        "Leave them in the computer lab.",
+        "Return them Friday with no fee.",
+        "Return them by Wednesday.",
+        "Pay a small fee on Friday."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The announcement says 'Books that are due on Thursday can be returned on Friday without a late fee.' The computer lab is mentioned only because it stays open.",
+        "fr": "L’annonce dit « Books that are due on Thursday can be returned on Friday without a late fee ». Le laboratoire est cité seulement parce qu’il reste ouvert."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 5 listening: understand key details in short routine messages and conversations",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-011",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB6",
+      "theme": "admin",
+      "docId": "eco-d07",
+      "doc": "— City services, how can I help you?\n— Hi, my recycling bin was damaged by the collection truck this morning. The lid is broken.\n— I'm sorry about that. I can order you a new one. It will be delivered within ten business days.\n— Ten days? What do I do with my recycling until then?\n— You can put it out in clear plastic bags beside the old bin. The driver will take them.\n— OK, that works. Thank you.",
+      "q": "What happened to the caller's bin?",
+      "options": [
+        "It was not emptied this morning.",
+        "The truck broke its lid.",
+        "The driver took it away.",
+        "It was stolen this morning."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The caller says the bin 'was damaged by the collection truck this morning. The lid is broken.' Nothing is said about theft or a missed pickup.",
+        "fr": "La personne dit que le bac « was damaged by the collection truck this morning. The lid is broken ». Il n’est question ni de vol ni de collecte oubliée."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 6 listening: follow main ideas and details in everyday conversations and announcements",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-012",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB6",
+      "theme": "admin",
+      "docId": "eco-d07",
+      "doc": "— City services, how can I help you?\n— Hi, my recycling bin was damaged by the collection truck this morning. The lid is broken.\n— I'm sorry about that. I can order you a new one. It will be delivered within ten business days.\n— Ten days? What do I do with my recycling until then?\n— You can put it out in clear plastic bags beside the old bin. The driver will take them.\n— OK, that works. Thank you.",
+      "q": "What should the caller do until the new bin arrives?",
+      "options": [
+        "Keep all recycling inside for ten days.",
+        "Put recycling in clear bags by the bin.",
+        "Take recycling to a city depot.",
+        "Use a neighbour's bin for now."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The agent says 'You can put it out in clear plastic bags beside the old bin. The driver will take them.'",
+        "fr": "L’agent dit « You can put it out in clear plastic bags beside the old bin. The driver will take them » : il faut utiliser des sacs transparents à côté du bac."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 6 listening: follow main ideas and details in everyday conversations and announcements",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-013",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB6",
+      "theme": "society",
+      "docId": "eco-d08",
+      "doc": "Hello everyone, and thanks for coming to the Westside neighbourhood meeting. Before we start, a quick update on the community fridge. Since it opened in May, it has been used every single day, which is wonderful. But we've had a problem. Some people are leaving food that is past its date, and we've had to throw a lot away. So, from now on, please only donate food that is still fresh and clearly labelled. Volunteers will check the fridge twice a day.",
+      "q": "What problem does the speaker mention?",
+      "options": [
+        "Some donated food is too old.",
+        "The fridge has stopped working.",
+        "Very few people use the fridge.",
+        "There are not enough volunteers."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The speaker says 'Some people are leaving food that is past its date, and we've had to throw a lot away.' The fridge is used every day.",
+        "fr": "L’orateur dit « Some people are leaving food that is past its date, and we’ve had to throw a lot away ». Le frigo, lui, est utilisé tous les jours."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 6 listening: follow main ideas and details in everyday conversations and announcements",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-014",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB6",
+      "theme": "society",
+      "docId": "eco-d08",
+      "doc": "Hello everyone, and thanks for coming to the Westside neighbourhood meeting. Before we start, a quick update on the community fridge. Since it opened in May, it has been used every single day, which is wonderful. But we've had a problem. Some people are leaving food that is past its date, and we've had to throw a lot away. So, from now on, please only donate food that is still fresh and clearly labelled. Volunteers will check the fridge twice a day.",
+      "q": "How does the speaker feel about the fridge in general?",
+      "options": [
+        "Pleased, since it is used daily.",
+        "Disappointed that few people donate.",
+        "Worried it will have to close.",
+        "Unsure whether it is really useful."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The speaker says it 'has been used every single day, which is wonderful'. The problem with old food is presented as something to fix, not a reason to close.",
+        "fr": "L’orateur dit qu’il « has been used every single day, which is wonderful ». Le problème des aliments périmés est à corriger, pas une raison de fermer."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 6 listening: follow main ideas and details in everyday conversations and announcements",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-015",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB6",
+      "theme": "health",
+      "docId": "eco-d09",
+      "doc": "— Hi, I'm picking up a prescription for my son, Leo Martin.\n— Let me check. Yes, it's ready. Has he taken this medication before?\n— No, it's the first time.\n— Then the pharmacist will speak with you for a minute. It should be taken with food, twice a day, and he should finish the whole bottle, even if he feels better.\n— Got it. Thanks.",
+      "q": "What is one instruction about the medicine?",
+      "options": [
+        "Stop it once the child feels better.",
+        "Take it only once a day with food.",
+        "Take it before meals rather than with food.",
+        "Finish it even if the child feels better."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The instructions are 'with food, twice a day, and he should finish the whole bottle, even if he feels better'.",
+        "fr": "Les consignes sont : « with food, twice a day, and he should finish the whole bottle, even if he feels better » ; il faut donc finir le flacon."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 6 listening: follow main ideas and details in everyday conversations and announcements",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-016",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB7",
+      "theme": "work",
+      "docId": "eco-d10",
+      "doc": "— So, the main issue is that customers are waiting too long on the phone. Some wait over fifteen minutes.\n— Could we hire another person for the morning shift? That's when most calls come in.\n— That's not in the budget this year, unfortunately.\n— Then what about a callback option? Customers leave their number and we call them back when someone is free.\n— I like that. It doesn't cost much, and people hate waiting on hold. Let's try it for a month and see.",
+      "q": "Why is hiring another person rejected?",
+      "options": [
+        "Customers prefer to be called back.",
+        "Most calls come in the afternoon.",
+        "There is no money for it this year.",
+        "The morning shift is already full."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The manager answers the hiring idea with 'That's not in the budget this year, unfortunately.' Most calls actually come in the morning.",
+        "fr": "La responsable répond à l’idée d’embaucher : « That’s not in the budget this year, unfortunately ». La plupart des appels arrivent d’ailleurs le matin."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 7 listening: understand decisions, reasons and opinions in moderately complex discussions",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-017",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB7",
+      "theme": "work",
+      "docId": "eco-d10",
+      "doc": "— So, the main issue is that customers are waiting too long on the phone. Some wait over fifteen minutes.\n— Could we hire another person for the morning shift? That's when most calls come in.\n— That's not in the budget this year, unfortunately.\n— Then what about a callback option? Customers leave their number and we call them back when someone is free.\n— I like that. It doesn't cost much, and people hate waiting on hold. Let's try it for a month and see.",
+      "q": "What do they decide to do?",
+      "options": [
+        "Hire one more person for the morning shift.",
+        "Ask customers to call later.",
+        "Limit calls to fifteen minutes.",
+        "Test a callback option for a month."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "After the callback idea, the manager says 'I like that' and 'Let's try it for a month and see', so they will test it.",
+        "fr": "Après l’idée du rappel, la responsable dit « I like that » et « Let’s try it for a month and see » : ils vont donc l’essayer un mois."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 7 listening: understand decisions, reasons and opinions in moderately complex discussions",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-018",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB7",
+      "theme": "environment",
+      "docId": "eco-d11",
+      "doc": "In local news, the town of Birchfield will plant five hundred new trees this fall along its main streets. The town says the trees will provide shade during hot summers and make walking more pleasant. Residents can also request a free tree for their front yard, but only if they agree to water it every week for the first two years. Requests open next Monday on the town website, and the number of trees is limited.",
+      "q": "What must residents agree to in order to get a free tree?",
+      "options": [
+        "Planting it along a main street.",
+        "Watering it weekly for two years.",
+        "Paying for the tree after the first two years.",
+        "Picking it up next Monday."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Residents can get a tree 'only if they agree to water it every week for the first two years'. Monday is only when requests open.",
+        "fr": "Les résidents peuvent obtenir un arbre « only if they agree to water it every week for the first two years ». Lundi est seulement l’ouverture des demandes."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 7 listening: understand decisions, reasons and opinions in moderately complex discussions",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-019",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB7",
+      "theme": "environment",
+      "docId": "eco-d11",
+      "doc": "In local news, the town of Birchfield will plant five hundred new trees this fall along its main streets. The town says the trees will provide shade during hot summers and make walking more pleasant. Residents can also request a free tree for their front yard, but only if they agree to water it every week for the first two years. Requests open next Monday on the town website, and the number of trees is limited.",
+      "q": "According to the town, what will the new trees do?",
+      "options": [
+        "Reduce traffic on the main streets.",
+        "Lower residents' summer water bills.",
+        "Make streets shadier and nicer to walk.",
+        "Bring new businesses to downtown."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The town says 'the trees will provide shade during hot summers and make walking more pleasant'. Traffic, bills and businesses are not mentioned.",
+        "fr": "La ville dit que « the trees will provide shade during hot summers and make walking more pleasant ». Circulation, factures et commerces ne sont pas mentionnés."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 7 listening: understand decisions, reasons and opinions in moderately complex discussions",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-020",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB7",
+      "theme": "media",
+      "docId": "eco-d12",
+      "doc": "Good afternoon, and welcome to City Talk. Today's show is a little different. Instead of interviewing experts, we're opening the phone lines to you, our listeners. Our question is simple: what is one small thing that would make your neighbourhood better? It could be a bench, a crosswalk, or a later bus. No idea is too small. Our lines are open now.",
+      "q": "What is different about today's show?",
+      "options": [
+        "The host will visit several neighbourhoods.",
+        "Experts will answer listeners' questions.",
+        "The show will be shorter than usual.",
+        "Listeners, not experts, will share ideas."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The host says 'Instead of interviewing experts, we're opening the phone lines to you, our listeners', and asks for their ideas.",
+        "fr": "L’animateur dit « Instead of interviewing experts, we’re opening the phone lines to you, our listeners », et invite le public à proposer ses idées."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 7 listening: understand decisions, reasons and opinions in moderately complex discussions",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-021",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB8",
+      "theme": "society",
+      "docId": "eco-d13",
+      "doc": "— Did you hear the school board wants students to do sixty hours of volunteer work before they graduate?\n— I did. I think it's a great idea. Kids learn so much from helping out in the community.\n— Maybe, but if it's required, is it still volunteering? Some students already work part-time to help their families. Where will they find sixty extra hours?\n— That's fair. Maybe paid jobs could count for part of it?\n— That would help. I'm not against the idea. I just don't want it to become one more thing that only some students can easily do.",
+      "q": "What is the main concern raised about the plan?",
+      "options": [
+        "Students learn nothing from volunteer work.",
+        "Paid jobs should never count as volunteering.",
+        "Sixty hours is too little to make a difference.",
+        "It may be unfair to students who work."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The speaker worries about students who 'already work part-time to help their families' and does not want it to be something 'only some students can easily do'.",
+        "fr": "La personne s’inquiète pour les élèves qui « already work part-time to help their families » et ne veut pas d’une exigence que « only some students can easily do »."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 8 listening: identify opinions, attitudes and implied concerns in extended discussions",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-022",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB8",
+      "theme": "society",
+      "docId": "eco-d13",
+      "doc": "— Did you hear the school board wants students to do sixty hours of volunteer work before they graduate?\n— I did. I think it's a great idea. Kids learn so much from helping out in the community.\n— Maybe, but if it's required, is it still volunteering? Some students already work part-time to help their families. Where will they find sixty extra hours?\n— That's fair. Maybe paid jobs could count for part of it?\n— That would help. I'm not against the idea. I just don't want it to become one more thing that only some students can easily do.",
+      "q": "How does the plan's supporter react to this concern?",
+      "options": [
+        "By accepting it and suggesting a compromise.",
+        "By agreeing that the plan should be dropped.",
+        "By rejecting it and defending the plan.",
+        "By changing the subject to something else."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The supporter says 'That's fair' and suggests that 'paid jobs could count for part of it', a compromise that keeps the plan.",
+        "fr": "La personne favorable répond « That’s fair » et propose que « paid jobs could count for part of it » : un compromis qui garde le projet."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 8 listening: identify opinions, attitudes and implied concerns in extended discussions",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-023",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB8",
+      "theme": "housing",
+      "docId": "eco-d14",
+      "doc": "— Today we're speaking with Nadia Brooks, who lives in a housing co-operative in Halifax. Nadia, what's different about co-op living?\n— Well, we don't have a landlord in the usual sense. The members run the building together. We vote on the budget, and everyone volunteers a few hours a month, maybe on the gardening committee or helping with repairs.\n— Isn't that a lot of work?\n— It can be. Meetings sometimes go on forever! But I know all my neighbours, and when my husband was sick last winter, people brought us meals for weeks. You don't get that in a regular apartment.",
+      "q": "According to Nadia, how is her building managed?",
+      "options": [
+        "Each member manages their own unit alone.",
+        "A landlord manages it with help from members.",
+        "Members run it together and vote on decisions.",
+        "Outside experts make the main decisions."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Nadia says 'we don't have a landlord in the usual sense. The members run the building together. We vote on the budget.'",
+        "fr": "Nadia dit « we don’t have a landlord in the usual sense. The members run the building together. We vote on the budget »."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 8 listening: identify opinions, attitudes and implied concerns in extended discussions",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-024",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB8",
+      "theme": "housing",
+      "docId": "eco-d14",
+      "doc": "— Today we're speaking with Nadia Brooks, who lives in a housing co-operative in Halifax. Nadia, what's different about co-op living?\n— Well, we don't have a landlord in the usual sense. The members run the building together. We vote on the budget, and everyone volunteers a few hours a month, maybe on the gardening committee or helping with repairs.\n— Isn't that a lot of work?\n— It can be. Meetings sometimes go on forever! But I know all my neighbours, and when my husband was sick last winter, people brought us meals for weeks. You don't get that in a regular apartment.",
+      "q": "What does Nadia imply about regular apartments?",
+      "options": [
+        "Neighbours there are less supportive.",
+        "They require more volunteer work.",
+        "Their meetings are better organized.",
+        "They are usually cheaper than co-op housing."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "After describing neighbours bringing meals for weeks, she adds 'You don't get that in a regular apartment', implying less mutual support there.",
+        "fr": "Après avoir raconté que ses voisins ont apporté des repas pendant des semaines, elle ajoute « You don’t get that in a regular apartment »."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 8 listening: identify opinions, attitudes and implied concerns in extended discussions",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-025",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB8",
+      "theme": "culture",
+      "docId": "eco-d15",
+      "doc": "If you're looking for something to do this weekend, the Lantern Festival at Riverside Park is back for its fifth year. I went on opening night, and honestly, the lanterns are as beautiful as ever. The food stalls, though, were a different story. Lines were long, several vendors ran out of food by eight o'clock, and prices seemed higher than last year. My advice? Go for the lights, eat before you arrive, and try to visit on a weeknight, when it's less crowded.",
+      "q": "What does the reviewer recommend?",
+      "options": [
+        "Skip the festival because of the prices.",
+        "Go on opening night for the best food.",
+        "Enjoy the lanterns, but eat dinner first.",
+        "Arrive before eight to see the lanterns."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The reviewer's advice is 'Go for the lights, eat before you arrive', because the food stalls had long lines and ran out of food.",
+        "fr": "Le conseil est « Go for the lights, eat before you arrive », car les kiosques de nourriture avaient de longues files et manquaient de nourriture."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 8 listening: identify opinions, attitudes and implied concerns in extended discussions",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-026",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB9",
+      "theme": "science",
+      "docId": "eco-d16",
+      "doc": "— Doctor Ellis, your team asked residents to record the sounds outside their windows. Why?\n— We wanted to build a map of noise across the city, but not with the usual sensors. Sensors tell you how loud a place is. They don't tell you how it feels. So, with each recording, we asked people one question: does this sound bother you?\n— And what did you find?\n— Something we didn't expect. Volume alone was a poor predictor. A busy playground was often louder than a highway, yet people rarely complained about it. What bothered them most were sounds they couldn't control or predict, like a car alarm at night.\n— So noise is partly about attitude?\n— I'd put it differently. It's about meaning. The same level of sound can feel like life, or like an intrusion.",
+      "q": "Why did the team ask residents a question with each recording?",
+      "options": [
+        "To collect complaints about noisy neighbours.",
+        "To find which neighbourhoods had the most traffic.",
+        "To check that the city's sensors worked correctly.",
+        "To learn how sounds feel, not just their volume."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Ellis explains that sensors 'tell you how loud a place is. They don't tell you how it feels', so they asked 'does this sound bother you?'",
+        "fr": "Ellis explique que les capteurs « tell you how loud a place is. They don’t tell you how it feels » ; d’où la question « does this sound bother you? »."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 9 listening: infer meaning, purpose and speaker intent in complex spoken texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-027",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB9",
+      "theme": "science",
+      "docId": "eco-d16",
+      "doc": "— Doctor Ellis, your team asked residents to record the sounds outside their windows. Why?\n— We wanted to build a map of noise across the city, but not with the usual sensors. Sensors tell you how loud a place is. They don't tell you how it feels. So, with each recording, we asked people one question: does this sound bother you?\n— And what did you find?\n— Something we didn't expect. Volume alone was a poor predictor. A busy playground was often louder than a highway, yet people rarely complained about it. What bothered them most were sounds they couldn't control or predict, like a car alarm at night.\n— So noise is partly about attitude?\n— I'd put it differently. It's about meaning. The same level of sound can feel like life, or like an intrusion.",
+      "q": "What is Ellis doing when she says 'I'd put it differently'?",
+      "options": [
+        "Refining the interviewer's summary of her findings.",
+        "Moving the discussion to a different project.",
+        "Rejecting the results of her own research.",
+        "Confirming that the summary was exactly right."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "She does not reject 'attitude' entirely but replaces it with a more precise word: 'It's about meaning.' She is correcting the interviewer's wording.",
+        "fr": "Elle ne rejette pas complètement l’idée d’« attitude », mais propose un mot plus juste : « It’s about meaning ». Elle nuance la formulation du journaliste."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 9 listening: infer meaning, purpose and speaker intent in complex spoken texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-028",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB9",
+      "theme": "work",
+      "docId": "eco-d17",
+      "doc": "— So, now that we've all tried the new scheduling software for two weeks, what do we think?\n— Well, it certainly has a lot of features.\n— That sounds like a polite way of saying you don't like it.\n— It's not that I don't like it. It's that I spent forty minutes on Monday trying to move one shift. With the old spreadsheet, that took thirty seconds.\n— To be fair, the training session was very short. Maybe we just need more practice.\n— Maybe. But if we need a week of training to do what we used to do in a minute, I'm not sure what we've gained.\n— Let's ask the supplier for a proper training session, and decide at the end of the month.",
+      "q": "What does the employee really think of the software?",
+      "options": [
+        "It works better than the old spreadsheet.",
+        "It has too few features to be useful.",
+        "It only needs one short training session.",
+        "It makes simple tasks take much longer."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Behind the polite 'it certainly has a lot of features', the employee explains that moving one shift took 'forty minutes' instead of 'thirty seconds'.",
+        "fr": "Derrière la formule polie « it certainly has a lot of features », l’employé explique que déplacer un quart a pris « forty minutes » au lieu de « thirty seconds »."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 9 listening: infer meaning, purpose and speaker intent in complex spoken texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-029",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB9",
+      "theme": "work",
+      "docId": "eco-d17",
+      "doc": "— So, now that we've all tried the new scheduling software for two weeks, what do we think?\n— Well, it certainly has a lot of features.\n— That sounds like a polite way of saying you don't like it.\n— It's not that I don't like it. It's that I spent forty minutes on Monday trying to move one shift. With the old spreadsheet, that took thirty seconds.\n— To be fair, the training session was very short. Maybe we just need more practice.\n— Maybe. But if we need a week of training to do what we used to do in a minute, I'm not sure what we've gained.\n— Let's ask the supplier for a proper training session, and decide at the end of the month.",
+      "q": "What does the group decide?",
+      "options": [
+        "To get proper training before deciding.",
+        "To ask the supplier for their money back.",
+        "To return to the spreadsheet right away.",
+        "To keep the software with no more training."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The final speaker says 'Let's ask the supplier for a proper training session, and decide at the end of the month.'",
+        "fr": "La dernière réplique dit « Let’s ask the supplier for a proper training session, and decide at the end of the month » : formation d’abord, décision ensuite."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 9 listening: infer meaning, purpose and speaker intent in complex spoken texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-030",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB9",
+      "theme": "transport",
+      "docId": "eco-d18",
+      "doc": "Starting next month, a new commuter train will link the towns of Milbrook and Carver Falls to the city centre, with four trips each morning and four each evening. Regional officials describe it as a major step for the area. Not everyone shares their enthusiasm. The first morning train leaves Milbrook at six fifty, which many shift workers say is too late, and there is no service at all on weekends. The trial will last eighteen months, after which the region will decide whether to keep the line. Ridership, officials say, will be the deciding factor, which has led some residents to point out that a timetable few people can use is unlikely to attract many riders.",
+      "q": "What are some residents suggesting about the trial?",
+      "options": [
+        "A poor timetable may keep riders away for good.",
+        "The towns do not need a train to the city.",
+        "The trains will be too crowded on weekday mornings.",
+        "Eighteen months is too short for a fair trial."
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Since ridership decides the line's future, residents point out that 'a timetable few people can use is unlikely to attract many riders', so the trial may fail.",
+        "fr": "Comme la fréquentation décidera de l’avenir de la ligne, des résidents notent qu’« a timetable few people can use is unlikely to attract many riders »."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 9 listening: infer meaning, purpose and speaker intent in complex spoken texts",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-031",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB10",
+      "theme": "education",
+      "docId": "eco-d19",
+      "doc": "Let me start with a confession. For years, I corrected every mistake my students made, immediately and out loud. I thought I was helping. In a sense, I was: they made fewer errors in class. But I began to notice something troubling. My most careful students, the ones who hated being corrected, had simply stopped speaking. They had learned the lesson I was really teaching, which was not 'say it correctly' but 'say as little as possible.' Now, I'm not suggesting that we ignore errors. Accuracy matters, and adults in particular often ask to be corrected. What I am suggesting is that timing matters as much as content. A correction offered in the middle of someone's sentence interrupts a thought. The same correction, offered a few minutes later, can actually be heard.",
+      "q": "What lesson did the speaker's careful students actually learn?",
+      "options": [
+        "That their teacher's corrections were wrong.",
+        "That saying little was the safest choice.",
+        "That adults should ask to be corrected.",
+        "That accuracy mattered more than anything."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The speaker says they learned 'not say it correctly but say as little as possible': constant correction taught them to stay silent.",
+        "fr": "L’enseignant dit qu’ils ont appris « not say it correctly but say as little as possible » : les corrections constantes leur ont appris à se taire."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 10 listening: interpret irony, nuance and argument structure in demanding speech",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-032",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB10",
+      "theme": "education",
+      "docId": "eco-d19",
+      "doc": "Let me start with a confession. For years, I corrected every mistake my students made, immediately and out loud. I thought I was helping. In a sense, I was: they made fewer errors in class. But I began to notice something troubling. My most careful students, the ones who hated being corrected, had simply stopped speaking. They had learned the lesson I was really teaching, which was not 'say it correctly' but 'say as little as possible.' Now, I'm not suggesting that we ignore errors. Accuracy matters, and adults in particular often ask to be corrected. What I am suggesting is that timing matters as much as content. A correction offered in the middle of someone's sentence interrupts a thought. The same correction, offered a few minutes later, can actually be heard.",
+      "q": "What is the speaker's main argument?",
+      "options": [
+        "Careful students make the most progress.",
+        "Teachers should stop correcting students' mistakes.",
+        "Adults learn best when corrected often.",
+        "Corrections work better when they are well timed."
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The speaker says 'I'm not suggesting that we ignore errors' but that 'timing matters as much as content', since a later correction 'can actually be heard'.",
+        "fr": "L’orateur précise « I’m not suggesting that we ignore errors », mais affirme que « timing matters as much as content » : une correction différée peut être entendue."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 10 listening: interpret irony, nuance and argument structure in demanding speech",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-033",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB10",
+      "theme": "culture",
+      "docId": "eco-d20",
+      "doc": "— Have you seen the new sculpture in front of city hall?\n— The giant silver egg? Hard to miss.\n— I take it you're not a fan.\n— Oh, I'm sure it's very meaningful. The plaque says it represents the birth of community. I just wish the community had been consulted before it was born.\n— But public art is supposed to provoke a reaction, isn't it? People are talking about it. That's something.\n— People talk about potholes too. I'm not against public art. I'm against spending a year's arts budget on one object nobody asked for, when that money could have paid for murals in every neighbourhood.\n— Fair point. Though I suspect that in twenty years, people will love it.",
+      "q": "What does the critic mean by wishing the community had been consulted 'before it was born'?",
+      "options": [
+        "The plaque gives incorrect information.",
+        "Residents were not asked their opinion first.",
+        "Residents should have paid for the sculpture.",
+        "The sculpture was built before city hall."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The critic plays on the plaque's words 'the birth of community': the joke means residents were never consulted before the sculpture was installed.",
+        "fr": "La personne critique joue sur les mots de la plaque, « the birth of community » : la plaisanterie signifie que les habitants n’ont pas été consultés."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 10 listening: interpret irony, nuance and argument structure in demanding speech",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-034",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB10",
+      "theme": "culture",
+      "docId": "eco-d20",
+      "doc": "— Have you seen the new sculpture in front of city hall?\n— The giant silver egg? Hard to miss.\n— I take it you're not a fan.\n— Oh, I'm sure it's very meaningful. The plaque says it represents the birth of community. I just wish the community had been consulted before it was born.\n— But public art is supposed to provoke a reaction, isn't it? People are talking about it. That's something.\n— People talk about potholes too. I'm not against public art. I'm against spending a year's arts budget on one object nobody asked for, when that money could have paid for murals in every neighbourhood.\n— Fair point. Though I suspect that in twenty years, people will love it.",
+      "q": "Why does the critic mention potholes?",
+      "options": [
+        "To suggest that city workers damaged the sculpture.",
+        "To show that being talked about does not prove value.",
+        "To argue that roads should be fixed before buying art.",
+        "To compare the cost of roads with the cost of art."
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Answering 'People are talking about it', the critic says 'People talk about potholes too': attention alone does not make something good.",
+        "fr": "En réponse à « People are talking about it », la personne dit « People talk about potholes too » : qu’on en parle ne prouve pas que ce soit bien."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 10 listening: interpret irony, nuance and argument structure in demanding speech",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    },
+    {
+      "id": "eco-035",
+      "skill": "listening",
+      "lang": "en",
+      "level": "CLB10",
+      "theme": "environment",
+      "docId": "eco-d21",
+      "doc": "I went shopping for dish soap last weekend and found, on a single shelf, products described as natural, green, eco-conscious and, my personal favourite, planet-friendly. Reassuring. The planet, I'm told, has many friends in the cleaning aisle. What I couldn't find on most of these bottles was any information that would let me check the claim: what the soap was made of, where, or what happens to the bottle afterward. I'm not saying these companies are lying. Some of them may be doing excellent work. The problem is that, from the shopper's side, the honest product and the clever one look exactly the same. And when every label is green, the colour stops meaning anything.",
+      "q": "What is the speaker's main point?",
+      "options": [
+        "Shoppers should buy only natural dish soap.",
+        "Stores do not stock enough eco-friendly soap.",
+        "Vague green labels hide which efforts are real.",
+        "Most cleaning companies are simply lying to shoppers."
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The speaker says 'I'm not saying these companies are lying' but that 'the honest product and the clever one look exactly the same' without checkable information.",
+        "fr": "L’orateur dit « I’m not saying these companies are lying », mais que « the honest product and the clever one look exactly the same » faute d’information vérifiable."
+      },
+      "ref": {
+        "doc": "Canadian Language Benchmarks (CCLB)",
+        "section": "CLB 10 listening: interpret irony, nuance and argument structure in demanding speech",
+        "url": "https://www.language.ca/resourcesexpertise/on-clb/"
+      }
+    }
+  ]
+}

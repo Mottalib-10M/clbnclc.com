@@ -1,0 +1,1876 @@
+{
+  "questions": [
+    {
+      "id": "fce-001",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "daily",
+      "docId": "fce-d01",
+      "doc": "Boulangerie Le Pain doré\nOuvert du mardi au samedi, de 7 h à 19 h.\nLe dimanche, de 8 h à 13 h.\nFermé le lundi.\nNouveau : pain aux noix, le vendredi seulement.\nCroissant : 1,50 $. Baguette : 3 $.",
+      "q": "Quel jour la boulangerie est-elle fermée ?",
+      "options": [
+        "Le dimanche",
+        "Le mardi",
+        "Le lundi",
+        "Le vendredi"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The notice says ‘Fermé le lundi’ (closed on Monday). On Sunday the bakery is open in the morning, from 8 a.m. to 1 p.m., and it is open from Tuesday to Saturday.",
+        "fr": "L’affiche indique « Fermé le lundi ». Le dimanche, la boulangerie est ouverte le matin, de 8 h à 13 h, et elle est ouverte du mardi au samedi."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des mots familiers et des phrases très simples",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-002",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "daily",
+      "docId": "fce-d01",
+      "doc": "Boulangerie Le Pain doré\nOuvert du mardi au samedi, de 7 h à 19 h.\nLe dimanche, de 8 h à 13 h.\nFermé le lundi.\nNouveau : pain aux noix, le vendredi seulement.\nCroissant : 1,50 $. Baguette : 3 $.",
+      "q": "Quand peut-on acheter du pain aux noix ?",
+      "options": [
+        "Le vendredi",
+        "Le samedi",
+        "Le dimanche matin",
+        "Tous les jours"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The notice says the walnut bread is new and sold ‘le vendredi seulement’ (on Friday only), so it is not available every day or at the weekend.",
+        "fr": "L’affiche précise que le pain aux noix est vendu « le vendredi seulement ». On ne le trouve donc ni tous les jours ni pendant la fin de semaine."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des mots familiers et des phrases très simples",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-003",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "transport",
+      "docId": "fce-d02",
+      "doc": "Avis aux voyageurs\nLigne 12 – Autobus de la rue Principale\nDu 3 au 7 mars, l’arrêt « Bibliothèque » est fermé.\nVeuillez prendre l’autobus à l’arrêt « Place du Marché », à 200 mètres.\nMerci de votre compréhension.",
+      "q": "Où faut-il prendre l’autobus du 3 au 7 mars ?",
+      "options": [
+        "À l’arrêt Bibliothèque",
+        "Au 12, rue Principale",
+        "À la gare, à 200 mètres",
+        "À l’arrêt Place du Marché"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The ‘Bibliothèque’ stop is closed from March 3 to 7, and the notice asks passengers to take the bus at the ‘Place du Marché’ stop, 200 metres away.",
+        "fr": "L’arrêt « Bibliothèque » est fermé du 3 au 7 mars ; l’avis demande de prendre l’autobus à l’arrêt « Place du Marché », à 200 mètres."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des mots familiers et des phrases très simples",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-004",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "housing",
+      "docId": "fce-d03",
+      "doc": "À louer : chambre meublée dans un grand appartement, à Sherbrooke.\nPrès de l’université. Cuisine et salle de bain partagées avec deux étudiantes.\nLoyer : 450 $ par mois, électricité comprise.\nLibre le 1er septembre. Pas d’animaux.\nAppelez Julie au 819 555-0142 après 17 h.",
+      "q": "Combien coûte la chambre ?",
+      "options": [
+        "450 $ par mois, sans l’électricité",
+        "450 $ par mois, électricité comprise",
+        "405 $ par mois, électricité comprise",
+        "540 $ par mois, électricité comprise"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The ad says ‘Loyer : 450 $ par mois, électricité comprise’: the rent is 450 dollars a month and electricity is included in that price.",
+        "fr": "L’annonce indique « Loyer : 450 $ par mois, électricité comprise » : le loyer est de 450 $ et l’électricité est incluse dans ce prix."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des mots familiers et des phrases très simples",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-005",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "housing",
+      "docId": "fce-d03",
+      "doc": "À louer : chambre meublée dans un grand appartement, à Sherbrooke.\nPrès de l’université. Cuisine et salle de bain partagées avec deux étudiantes.\nLoyer : 450 $ par mois, électricité comprise.\nLibre le 1er septembre. Pas d’animaux.\nAppelez Julie au 819 555-0142 après 17 h.",
+      "q": "Quand peut-on téléphoner à Julie ?",
+      "options": [
+        "Avant 17 h",
+        "Après 17 h",
+        "Le 1er septembre seulement",
+        "Le matin, à l’université"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The last line of the ad says ‘Appelez Julie… après 17 h’: you can call Julie after 5 p.m. September 1 is the date the room becomes free.",
+        "fr": "La dernière ligne dit « Appelez Julie… après 17 h ». Le 1er septembre est la date où la chambre est libre, pas le moment pour appeler."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des mots familiers et des phrases très simples",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-006",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "health",
+      "docId": "fce-d04",
+      "doc": "Clinique des Quatre-Saisons\nBonjour M. Diallo,\nVotre rendez-vous avec la docteure Leblanc est le jeudi 14 novembre à 10 h 30.\nArrivez 15 minutes avant.\nApportez votre carte d’assurance maladie.\nPour annuler, appelez-nous 24 heures avant.",
+      "q": "À quelle heure M. Diallo doit-il arriver à la clinique ?",
+      "options": [
+        "À 10 h 30",
+        "À 10 h",
+        "À 10 h 45",
+        "À 10 h 15"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The appointment is at 10:30 and the message says ‘Arrivez 15 minutes avant’ (arrive 15 minutes early), so Mr. Diallo must arrive at 10:15.",
+        "fr": "Le rendez-vous est à 10 h 30 et le message dit « Arrivez 15 minutes avant » : M. Diallo doit donc arriver à 10 h 15."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des mots familiers et des phrases très simples",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-007",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "education",
+      "docId": "fce-d05",
+      "doc": "Piscine municipale de Rimouski\nCours de natation pour enfants de 6 à 10 ans\nLe samedi matin, de 9 h à 10 h.\nDébut : 18 janvier. Dix cours.\nPrix : 80 $.\nInscription à l’accueil de la piscine à partir du 6 janvier.",
+      "q": "Pour qui sont ces cours ?",
+      "options": [
+        "Pour les enfants de 6 à 10 ans",
+        "Pour les adultes débutants",
+        "Pour les enfants de moins de 6 ans",
+        "Pour toute la famille"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The title says ‘Cours de natation pour enfants de 6 à 10 ans’: the lessons are for children aged 6 to 10, not for adults or younger children.",
+        "fr": "Le titre dit « Cours de natation pour enfants de 6 à 10 ans » : les cours sont réservés aux enfants de 6 à 10 ans, pas aux adultes."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des mots familiers et des phrases très simples",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-008",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "education",
+      "docId": "fce-d05",
+      "doc": "Piscine municipale de Rimouski\nCours de natation pour enfants de 6 à 10 ans\nLe samedi matin, de 9 h à 10 h.\nDébut : 18 janvier. Dix cours.\nPrix : 80 $.\nInscription à l’accueil de la piscine à partir du 6 janvier.",
+      "q": "Combien de cours y a-t-il ?",
+      "options": [
+        "Six",
+        "Neuf",
+        "Dix",
+        "Dix-huit"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The poster says ‘Début : 18 janvier. Dix cours.’ There are ten lessons. The numbers 6, 9 and 18 refer to the age, the time and the start date.",
+        "fr": "L’affiche indique « Début : 18 janvier. Dix cours. » Il y a dix cours. Les nombres 6, 9 et 18 concernent l’âge, l’heure et la date de début."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des mots familiers et des phrases très simples",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-009",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "culture",
+      "docId": "fce-d06",
+      "doc": "Concert gratuit au parc des Bouleaux\nVendredi 12 juillet, à 20 h\nLe groupe Les Voisins joue de la musique acadienne.\nApportez votre chaise !\nEn cas de pluie, le concert a lieu dans la salle communautaire, 40, rue des Lilas.",
+      "q": "Que se passe-t-il s’il pleut ?",
+      "options": [
+        "Le concert est annulé",
+        "Le concert commence plus tard",
+        "Il faut apporter une chaise",
+        "Le concert a lieu dans une salle"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The poster says ‘En cas de pluie, le concert a lieu dans la salle communautaire’: if it rains, the concert moves indoors. It is not cancelled.",
+        "fr": "L’affiche dit « En cas de pluie, le concert a lieu dans la salle communautaire » : s’il pleut, le concert se déroule à l’intérieur, il n’est pas annulé."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des mots familiers et des phrases très simples",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-010",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "work",
+      "docId": "fce-d07",
+      "doc": "Note au personnel\nÀ partir du lundi 2 juin, la cafétéria ouvre à 11 h 30 au lieu de 12 h.\nLe café est toujours gratuit le matin.\nAttention : cette semaine, le stationnement du sous-sol est fermé pour nettoyage. Utilisez le stationnement de la rue Laval.\nLa direction",
+      "q": "Qu’est-ce qui change le 2 juin ?",
+      "options": [
+        "Le prix du café du matin",
+        "L’heure d’ouverture de la cafétéria",
+        "Le nombre de places à la cafétéria le midi",
+        "L’entrée du bâtiment"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The note says that from June 2 the cafeteria ‘ouvre à 11 h 30 au lieu de 12 h’: its opening time changes. The morning coffee is still free.",
+        "fr": "La note dit qu’à partir du 2 juin la cafétéria « ouvre à 11 h 30 au lieu de 12 h ». Le café du matin, lui, est toujours gratuit."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des mots familiers et des phrases très simples",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-011",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "work",
+      "docId": "fce-d07",
+      "doc": "Note au personnel\nÀ partir du lundi 2 juin, la cafétéria ouvre à 11 h 30 au lieu de 12 h.\nLe café est toujours gratuit le matin.\nAttention : cette semaine, le stationnement du sous-sol est fermé pour nettoyage. Utilisez le stationnement de la rue Laval.\nLa direction",
+      "q": "Où faut-il garer sa voiture cette semaine ?",
+      "options": [
+        "Au sous-sol",
+        "Devant la cafétéria",
+        "Dans la rue Laval",
+        "Au stationnement de la direction"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The underground parking is closed for cleaning this week, and the note says ‘Utilisez le stationnement de la rue Laval’ (use the Laval Street parking).",
+        "fr": "Le stationnement du sous-sol est fermé pour nettoyage cette semaine ; la note demande : « Utilisez le stationnement de la rue Laval »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des mots familiers et des phrases très simples",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-012",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A1",
+      "theme": "admin",
+      "docId": "fce-d08",
+      "doc": "Mairie de Saint-Aubin – AVIS\nLa mairie est fermée le mercredi 1er mai.\nLe jeudi 2 mai, elle ouvre à 10 h au lieu de 9 h.\nPour les cartes d’identité, prenez rendez-vous par téléphone : 02 55 00 14 22.",
+      "q": "À quelle heure la mairie ouvre-t-elle le 2 mai ?",
+      "options": [
+        "À 10 h",
+        "À 9 h",
+        "À 14 h",
+        "Elle reste fermée"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The notice says that on Thursday May 2 the town hall ‘ouvre à 10 h au lieu de 9 h’ (opens at 10 instead of 9). It is closed on May 1, not May 2.",
+        "fr": "L’avis indique que le jeudi 2 mai la mairie « ouvre à 10 h au lieu de 9 h ». C’est le 1er mai qu’elle est fermée, pas le 2."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A1 : comprendre des mots familiers et des phrases très simples",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-013",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "daily",
+      "docId": "fce-d09",
+      "doc": "Objet : Votre colis\nBonjour Monsieur Tremblay,\nJe suis votre voisine du 3e étage. Ce matin, le livreur est passé pendant votre absence et j’ai pris votre colis pour vous. Il est assez lourd ! Je suis chez moi ce soir après 18 h, mais demain je travaille toute la journée. Vous pouvez aussi passer samedi matin. Sonnez à l’appartement 32.\nBonne journée,\nCamille Roy",
+      "q": "Pourquoi Camille écrit-elle à M. Tremblay ?",
+      "options": [
+        "Elle a reçu un colis pour lui",
+        "Elle a perdu un colis lourd",
+        "Elle veut changer d’appartement",
+        "Elle cherche un livreur"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Camille explains that the delivery person came while Mr. Tremblay was out and ‘j’ai pris votre colis pour vous’: she is keeping his parcel for him.",
+        "fr": "Camille explique que le livreur est passé pendant l’absence de M. Tremblay et écrit : « j’ai pris votre colis pour vous ». Elle le garde pour lui."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases et expressions fréquentes de la vie courante",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-014",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "daily",
+      "docId": "fce-d09",
+      "doc": "Objet : Votre colis\nBonjour Monsieur Tremblay,\nJe suis votre voisine du 3e étage. Ce matin, le livreur est passé pendant votre absence et j’ai pris votre colis pour vous. Il est assez lourd ! Je suis chez moi ce soir après 18 h, mais demain je travaille toute la journée. Vous pouvez aussi passer samedi matin. Sonnez à l’appartement 32.\nBonne journée,\nCamille Roy",
+      "q": "Quand Camille sera-t-elle absente ?",
+      "options": [
+        "Ce soir après 18 h",
+        "Samedi matin",
+        "Demain, toute la journée",
+        "Ce matin, au passage du livreur"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Camille writes ‘demain je travaille toute la journée’: she will be away tomorrow. She is home tonight after 6 p.m. and on Saturday morning.",
+        "fr": "Camille écrit « demain je travaille toute la journée ». Elle est chez elle ce soir après 18 h et samedi matin, et elle était là ce matin."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases et expressions fréquentes de la vie courante",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-015",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "transport",
+      "docId": "fce-d10",
+      "doc": "Travaux sur le tramway\nDu 10 au 21 juin, le tramway ne circule pas entre les stations Gare-Centrale et Parc-des-Saules. Des autobus remplacent le tramway entre ces deux stations, toutes les 10 minutes, de 5 h à minuit. Le trajet est plus long : prévoyez 15 minutes de plus. Les billets de tramway sont acceptés dans les autobus de remplacement. Merci de votre patience.\nTransports de la Rive",
+      "q": "Que doivent faire les voyageurs entre ces deux stations ?",
+      "options": [
+        "Acheter un billet d’autobus spécial",
+        "Prendre un autobus avec leur billet habituel",
+        "Attendre le tramway qui passe toutes les 10 minutes",
+        "Prendre le tramway avant 5 h"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Buses replace the tram between the two stations, and the notice says ‘Les billets de tramway sont acceptés dans les autobus de remplacement’, so no special ticket is needed.",
+        "fr": "Des autobus remplacent le tramway, et l’avis précise : « Les billets de tramway sont acceptés dans les autobus de remplacement ». Aucun billet spécial n’est nécessaire."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases et expressions fréquentes de la vie courante",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-016",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "health",
+      "docId": "fce-d11",
+      "doc": "Sirop contre la toux – Mode d’emploi\nAdultes et enfants de plus de 12 ans : 10 ml trois fois par jour, après les repas.\nEnfants de 6 à 12 ans : 5 ml trois fois par jour.\nNe pas donner aux enfants de moins de 6 ans.\nNe pas prendre plus de 7 jours. Si la toux continue, consultez un médecin.\nConserver à température ambiante. Après ouverture, utiliser dans les 3 mois.",
+      "q": "Quelle dose faut-il donner à un enfant de 8 ans ?",
+      "options": [
+        "10 ml trois fois par jour",
+        "5 ml une fois par jour",
+        "Aucune, il est trop jeune",
+        "5 ml trois fois par jour"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "An 8-year-old belongs to the group ‘Enfants de 6 à 12 ans’, whose dose is ‘5 ml trois fois par jour’. Only children under 6 must not take the syrup.",
+        "fr": "Un enfant de 8 ans fait partie du groupe « Enfants de 6 à 12 ans », dont la dose est « 5 ml trois fois par jour ». Seuls les moins de 6 ans ne doivent pas en prendre."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases et expressions fréquentes de la vie courante",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-017",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "health",
+      "docId": "fce-d11",
+      "doc": "Sirop contre la toux – Mode d’emploi\nAdultes et enfants de plus de 12 ans : 10 ml trois fois par jour, après les repas.\nEnfants de 6 à 12 ans : 5 ml trois fois par jour.\nNe pas donner aux enfants de moins de 6 ans.\nNe pas prendre plus de 7 jours. Si la toux continue, consultez un médecin.\nConserver à température ambiante. Après ouverture, utiliser dans les 3 mois.",
+      "q": "Que faut-il faire si on tousse encore après une semaine ?",
+      "options": [
+        "Prendre une dose plus forte",
+        "Acheter un nouveau flacon",
+        "Consulter un médecin",
+        "Continuer pendant 3 mois"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The instructions say not to take the syrup for more than 7 days and ‘Si la toux continue, consultez un médecin’. The 3 months refer to keeping an opened bottle.",
+        "fr": "Le mode d’emploi dit de ne pas dépasser 7 jours et « Si la toux continue, consultez un médecin ». Les 3 mois concernent la conservation du flacon ouvert."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases et expressions fréquentes de la vie courante",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-018",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "environment",
+      "docId": "fce-d12",
+      "doc": "Municipalité de Val-des-Cèdres – Collecte des déchets\nÀ partir du 1er avril, la collecte change :\n– ordures : le lundi, toutes les deux semaines ;\n– recyclage (bac bleu) : le jeudi, chaque semaine ;\n– compost (bac brun) : le jeudi aussi, d’avril à novembre.\nSortez vos bacs la veille après 19 h ou le jour même avant 7 h. Les sacs posés à côté des bacs ne sont pas ramassés.",
+      "q": "Quand peut-on sortir le bac bleu ?",
+      "options": [
+        "Le mercredi soir après 19 h",
+        "Le lundi avant 7 h",
+        "Le jeudi après 19 h",
+        "Le dimanche soir"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The blue bin is collected on Thursday, and bins go out ‘la veille après 19 h’ (the evening before, after 7 p.m.), so Wednesday evening after 7 p.m. is correct.",
+        "fr": "Le bac bleu est ramassé le jeudi, et il faut le sortir « la veille après 19 h » ou le jour même avant 7 h : le mercredi soir après 19 h convient."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases et expressions fréquentes de la vie courante",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-019",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "work",
+      "docId": "fce-d13",
+      "doc": "Offre d’emploi – Commis d’épicerie à temps partiel\nL’épicerie Chez Mireille, à Moncton, cherche un ou une commis pour placer les produits et aider les clients. Horaire : 20 heures par semaine, surtout le soir et la fin de semaine. Expérience non nécessaire : formation sur place. Vous devez parler français et anglais. Salaire : 17 $ l’heure. Déposez votre CV à la caisse du magasin avant le 30 septembre.",
+      "q": "Quelle condition faut-il remplir pour ce poste ?",
+      "options": [
+        "Avoir de l’expérience en épicerie",
+        "Être libre le matin en semaine",
+        "Avoir déjà suivi une formation",
+        "Parler français et anglais"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The ad says ‘Vous devez parler français et anglais’. Experience is not necessary (‘Expérience non nécessaire’), training is given on site, and the hours are mostly evenings and weekends.",
+        "fr": "L’annonce dit « Vous devez parler français et anglais ». L’expérience n’est pas nécessaire, la formation se fait sur place, et l’horaire est surtout le soir et la fin de semaine."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases et expressions fréquentes de la vie courante",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-020",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "work",
+      "docId": "fce-d13",
+      "doc": "Offre d’emploi – Commis d’épicerie à temps partiel\nL’épicerie Chez Mireille, à Moncton, cherche un ou une commis pour placer les produits et aider les clients. Horaire : 20 heures par semaine, surtout le soir et la fin de semaine. Expérience non nécessaire : formation sur place. Vous devez parler français et anglais. Salaire : 17 $ l’heure. Déposez votre CV à la caisse du magasin avant le 30 septembre.",
+      "q": "Comment faut-il poser sa candidature ?",
+      "options": [
+        "Envoyer un courriel à Mireille",
+        "Apporter son CV au magasin",
+        "Téléphoner avant le 30 septembre",
+        "Remplir un formulaire en ligne"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The last sentence says ‘Déposez votre CV à la caisse du magasin avant le 30 septembre’: candidates must bring their CV to the store’s checkout.",
+        "fr": "La dernière phrase dit « Déposez votre CV à la caisse du magasin avant le 30 septembre » : il faut apporter son CV directement au magasin."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases et expressions fréquentes de la vie courante",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-021",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "education",
+      "docId": "fce-d14",
+      "doc": "Chers parents,\nLe vendredi 17 mai, les élèves de 4e année vont visiter la ferme Beaulieu. Le départ en autobus est à 8 h 30 devant l’école ; le retour est prévu vers 15 h. Votre enfant doit apporter un lunch froid, une bouteille d’eau et des bottes de pluie. La sortie coûte 12 $. Merci de signer le formulaire et de le rapporter avec l’argent avant le 10 mai.\nMme Ouellet, enseignante",
+      "q": "Que doivent faire les parents avant le 10 mai ?",
+      "options": [
+        "Acheter des bottes de pluie neuves",
+        "Rendre le formulaire signé et payer",
+        "Téléphoner à Mme Ouellet pour confirmer la présence",
+        "Préparer un repas chaud"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The teacher asks parents to ‘signer le formulaire et de le rapporter avec l’argent avant le 10 mai’: return the signed form with the 12 dollars before May 10.",
+        "fr": "L’enseignante demande de « signer le formulaire et de le rapporter avec l’argent avant le 10 mai » : il faut rendre le formulaire signé avec les 12 $."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases et expressions fréquentes de la vie courante",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-022",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "society",
+      "docId": "fce-d15",
+      "doc": "La Ruche du quartier cherche des bénévoles !\nNotre association aide les nouveaux arrivants à Québec : accueil, ateliers de conversation, aide pour remplir les formulaires. Nous cherchons des personnes disponibles deux heures par semaine, le soir ou le samedi. Pas besoin d’expérience, mais il faut aimer le contact avec les gens. Une rencontre d’information a lieu le mardi 8 octobre à 19 h, au 12, rue des Ormes. Café et biscuits offerts !",
+      "q": "Que fait cette association ?",
+      "options": [
+        "Elle donne des cours de cuisine",
+        "Elle cherche des employés à temps plein",
+        "Elle vend du café et des biscuits",
+        "Elle aide les personnes qui arrivent à Québec"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The text says ‘Notre association aide les nouveaux arrivants à Québec’: it welcomes newcomers, runs conversation workshops and helps with forms. Coffee and cookies are only offered at the meeting.",
+        "fr": "Le texte dit « Notre association aide les nouveaux arrivants à Québec » : accueil, ateliers, formulaires. Le café et les biscuits sont seulement offerts à la rencontre."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases et expressions fréquentes de la vie courante",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-023",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "society",
+      "docId": "fce-d15",
+      "doc": "La Ruche du quartier cherche des bénévoles !\nNotre association aide les nouveaux arrivants à Québec : accueil, ateliers de conversation, aide pour remplir les formulaires. Nous cherchons des personnes disponibles deux heures par semaine, le soir ou le samedi. Pas besoin d’expérience, mais il faut aimer le contact avec les gens. Une rencontre d’information a lieu le mardi 8 octobre à 19 h, au 12, rue des Ormes. Café et biscuits offerts !",
+      "q": "Qu’est-ce qu’on demande aux bénévoles ?",
+      "options": [
+        "Être disponibles deux heures par semaine",
+        "Avoir déjà fait du bénévolat",
+        "Être libres tous les soirs",
+        "Parler plusieurs langues, dont le français"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The association is looking for people ‘disponibles deux heures par semaine, le soir ou le samedi’. It also says ‘Pas besoin d’expérience’, so prior volunteering is not required.",
+        "fr": "L’association cherche des personnes « disponibles deux heures par semaine, le soir ou le samedi ». Elle précise aussi « Pas besoin d’expérience » : le bénévolat antérieur n’est donc pas exigé."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases et expressions fréquentes de la vie courante",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-024",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "A2",
+      "theme": "housing",
+      "docId": "fce-d16",
+      "doc": "Règlement de l’immeuble – Rappels\n1. La buanderie est ouverte de 8 h à 22 h. Merci de retirer vos vêtements dès la fin du cycle.\n2. Les vélos sont interdits dans les couloirs : utilisez le local du sous-sol.\n3. Le bruit est interdit entre 22 h et 7 h.\n4. Les poubelles vont dans le conteneur derrière l’immeuble, jamais sur les balcons.\nPour tout problème, contactez le concierge, M. Paquette, au poste 101.",
+      "q": "Où les locataires doivent-ils ranger leur vélo ?",
+      "options": [
+        "Dans le couloir de leur étage",
+        "Sur leur balcon",
+        "Dans le local du sous-sol",
+        "Derrière l’immeuble"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Rule 2 says bikes are forbidden in the hallways: ‘utilisez le local du sous-sol’ (use the basement room). The area behind the building is for the garbage container.",
+        "fr": "La règle 2 interdit les vélos dans les couloirs : « utilisez le local du sous-sol ». Derrière l’immeuble se trouve le conteneur à poubelles."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau A2 : comprendre des phrases et expressions fréquentes de la vie courante",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-025",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "work",
+      "docId": "fce-d17",
+      "doc": "Objet : Nouveaux horaires à partir du 1er février\nBonjour à toutes et à tous,\nComme vous le savez, notre centre d’appels reçoit beaucoup plus d’appels en fin de journée. Pour mieux répondre aux clients, nous allons modifier les horaires de l’équipe. À partir du 1er février, le service sera ouvert de 9 h à 20 h au lieu de 8 h à 18 h. Chaque employé travaillera toujours 35 heures par semaine, mais certains quarts commenceront à 12 h. Vous pourrez indiquer vos préférences dans le tableau partagé jusqu’au 15 janvier ; nous ferons notre possible pour les respecter, en priorité pour les parents de jeunes enfants. Une réunion d’information aura lieu le 10 janvier à 14 h.\nNadia Khalil, directrice des opérations",
+      "q": "Pourquoi l’entreprise change-t-elle les horaires ?",
+      "options": [
+        "Les employés veulent travailler moins d’heures",
+        "Les parents de jeunes enfants ont demandé ces changements",
+        "La réunion du 10 janvier l’a décidé",
+        "Les clients appellent davantage en fin de journée"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The manager explains that the call centre ‘reçoit beaucoup plus d’appels en fin de journée’ and wants to serve clients better. Weekly hours stay at 35, so employees do not work less.",
+        "fr": "La directrice explique que le centre « reçoit beaucoup plus d’appels en fin de journée » et veut mieux répondre aux clients. Les employés gardent 35 heures par semaine."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels de textes clairs sur des sujets familiers",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-026",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "work",
+      "docId": "fce-d17",
+      "doc": "Objet : Nouveaux horaires à partir du 1er février\nBonjour à toutes et à tous,\nComme vous le savez, notre centre d’appels reçoit beaucoup plus d’appels en fin de journée. Pour mieux répondre aux clients, nous allons modifier les horaires de l’équipe. À partir du 1er février, le service sera ouvert de 9 h à 20 h au lieu de 8 h à 18 h. Chaque employé travaillera toujours 35 heures par semaine, mais certains quarts commenceront à 12 h. Vous pourrez indiquer vos préférences dans le tableau partagé jusqu’au 15 janvier ; nous ferons notre possible pour les respecter, en priorité pour les parents de jeunes enfants. Une réunion d’information aura lieu le 10 janvier à 14 h.\nNadia Khalil, directrice des opérations",
+      "q": "Que peuvent faire les employés jusqu’au 15 janvier ?",
+      "options": [
+        "Refuser les quarts de l’après-midi",
+        "Indiquer les horaires qu’ils préfèrent",
+        "Choisir de travailler 30 heures",
+        "S’inscrire à la réunion d’information"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The email says ‘Vous pourrez indiquer vos préférences dans le tableau partagé jusqu’au 15 janvier’. Preferences will be respected if possible, which is not the same as refusing shifts.",
+        "fr": "Le courriel dit « Vous pourrez indiquer vos préférences dans le tableau partagé jusqu’au 15 janvier ». Elles seront respectées si possible, ce qui ne permet pas de refuser un quart."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels de textes clairs sur des sujets familiers",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-027",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "media",
+      "docId": "fce-d18",
+      "doc": "Un marché de nuit pour animer le centre-ville\nDepuis le début de juillet, la place centrale de Saint-Rémi-des-Monts se remplit chaque jeudi soir. Une trentaine de producteurs de la région y vendent fruits, fromages, pains et plats préparés, de 17 h à 22 h. L’idée vient d’un groupe de commerçants qui trouvaient le centre-ville trop vide après la fermeture des bureaux. « Avant, à 18 h, il n’y avait plus personne. Maintenant, les familles viennent souper ici et restent pour la musique », explique Lucie Gagnon, propriétaire d’une librairie voisine. Les restaurants de la rue, d’abord inquiets, disent aujourd’hui avoir plus de clients le jeudi. Le marché se poursuivra jusqu’à la fin de septembre.",
+      "q": "Selon l’article, quel est le principal effet du marché ?",
+      "options": [
+        "Les restaurants voisins ont perdu des clients",
+        "Les bureaux ferment plus tard le jeudi",
+        "Le centre-ville est plus animé le soir",
+        "La librairie vend des produits régionaux"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Lucie Gagnon says that before, nobody was there at 6 p.m., and ‘Maintenant, les familles viennent souper ici’. The restaurants, first worried, now report more customers on Thursdays.",
+        "fr": "Lucie Gagnon dit qu’avant il n’y avait personne à 18 h et que « Maintenant, les familles viennent souper ici ». Les restaurants, d’abord inquiets, ont plus de clients le jeudi."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels de textes clairs sur des sujets familiers",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-028",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "environment",
+      "docId": "fce-d19",
+      "doc": "À Moncton, un stationnement devient jardin\nIl y a deux ans, le terrain derrière l’école des Trois-Rivières n’était qu’un stationnement peu utilisé. Aujourd’hui, on y trouve quarante bacs de légumes cultivés par les habitants du quartier. Le projet a été lancé par des parents, avec l’accord de l’école, qui prête le terrain gratuitement. Chaque famille paie 20 $ par saison pour un bac et s’engage à participer à deux corvées collectives. Les récoltes restent aux jardiniers, mais une partie est donnée à la banque alimentaire du quartier. « Les enfants apprennent d’où viennent les légumes, et des voisins qui ne se parlaient jamais se rencontrent enfin », se réjouit Marc Arsenault, l’un des fondateurs. La liste d’attente compte déjà vingt familles.",
+      "q": "Qui a lancé le projet de jardin ?",
+      "options": [
+        "Des parents du quartier",
+        "La direction de l’école",
+        "La banque alimentaire",
+        "Les enfants de l’école"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The article says ‘Le projet a été lancé par des parents, avec l’accord de l’école’. The school only lends the land; the food bank receives part of the harvest.",
+        "fr": "L’article dit « Le projet a été lancé par des parents, avec l’accord de l’école ». L’école prête seulement le terrain ; la banque alimentaire reçoit une partie des récoltes."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels de textes clairs sur des sujets familiers",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-029",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "environment",
+      "docId": "fce-d19",
+      "doc": "À Moncton, un stationnement devient jardin\nIl y a deux ans, le terrain derrière l’école des Trois-Rivières n’était qu’un stationnement peu utilisé. Aujourd’hui, on y trouve quarante bacs de légumes cultivés par les habitants du quartier. Le projet a été lancé par des parents, avec l’accord de l’école, qui prête le terrain gratuitement. Chaque famille paie 20 $ par saison pour un bac et s’engage à participer à deux corvées collectives. Les récoltes restent aux jardiniers, mais une partie est donnée à la banque alimentaire du quartier. « Les enfants apprennent d’où viennent les légumes, et des voisins qui ne se parlaient jamais se rencontrent enfin », se réjouit Marc Arsenault, l’un des fondateurs. La liste d’attente compte déjà vingt familles.",
+      "q": "Selon Marc Arsenault, quel est l’un des avantages du projet ?",
+      "options": [
+        "Il crée des liens entre voisins",
+        "Il rapporte de l’argent à l’école",
+        "Il remplace la banque alimentaire",
+        "Il libère des places de stationnement"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Marc Arsenault says that ‘des voisins qui ne se parlaient jamais se rencontrent enfin’: the garden brings neighbours together. The school lends the land for free, so it earns nothing.",
+        "fr": "Marc Arsenault dit que « des voisins qui ne se parlaient jamais se rencontrent enfin ». L’école prête le terrain gratuitement : le projet ne lui rapporte rien."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels de textes clairs sur des sujets familiers",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-030",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "admin",
+      "docId": "fce-d20",
+      "doc": "AVIS – Vignettes de stationnement 2027\nVille de Belle-Rive\nLes résidents des zones 3 et 4 doivent renouveler leur vignette avant le 31 décembre. La nouvelle vignette est valable du 1er janvier au 31 décembre 2027. Pour la demander, présentez-vous au comptoir de l’hôtel de ville avec une preuve de résidence de moins de trois mois (facture ou bail) et le certificat d’immatriculation du véhicule. Il est aussi possible de faire la demande en ligne : la vignette arrive alors par la poste dans un délai de dix jours ouvrables. Attention : à partir du 15 janvier, les véhicules sans vignette valide recevront une contravention.",
+      "q": "Que faut-il présenter au comptoir de l’hôtel de ville ?",
+      "options": [
+        "Une facture de plus de trois mois et un bail",
+        "L’ancienne vignette et une pièce d’identité",
+        "Une preuve d’adresse récente et le document du véhicule",
+        "Une contravention et le certificat du véhicule"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The notice asks for ‘une preuve de résidence de moins de trois mois (facture ou bail) et le certificat d’immatriculation du véhicule’: a recent proof of address and the vehicle registration.",
+        "fr": "L’avis demande « une preuve de résidence de moins de trois mois (facture ou bail) et le certificat d’immatriculation du véhicule » : une preuve d’adresse récente et le document du véhicule."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels de textes clairs sur des sujets familiers",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-031",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "culture",
+      "docId": "fce-d21",
+      "doc": "Festival du conte de Rivière-aux-Brumes : la parole à l’honneur\nPour sa dixième édition, le festival propose une formule différente. Fini les grandes salles : les conteurs se produiront dans des cuisines, des salons et des granges prêtés par les habitants. « Nous voulions revenir à l’esprit des veillées d’autrefois, quand on se réunissait chez les uns et les autres pour écouter des histoires », explique l’organisatrice, Josée Bouchard. Les places sont donc limitées à vingt-cinq personnes par spectacle, et il est conseillé de réserver. Les billets coûtent 15 $, mais les spectacles du dimanche après-midi, destinés aux familles, sont gratuits. Une navette relie les différents lieux depuis la place du village.",
+      "q": "Qu’est-ce qui change cette année ?",
+      "options": [
+        "Le festival se tient pour la première fois",
+        "Les spectacles ont lieu chez des habitants",
+        "Tous les spectacles deviennent gratuits",
+        "Les conteurs jouent dans de grandes salles"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The article says ‘Fini les grandes salles’: storytellers will perform in kitchens, living rooms and barns lent by residents. It is the tenth edition, and only Sunday family shows are free.",
+        "fr": "L’article dit « Fini les grandes salles » : les conteurs joueront dans des cuisines, des salons et des granges prêtés par les habitants. C’est la dixième édition."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels de textes clairs sur des sujets familiers",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-032",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "culture",
+      "docId": "fce-d21",
+      "doc": "Festival du conte de Rivière-aux-Brumes : la parole à l’honneur\nPour sa dixième édition, le festival propose une formule différente. Fini les grandes salles : les conteurs se produiront dans des cuisines, des salons et des granges prêtés par les habitants. « Nous voulions revenir à l’esprit des veillées d’autrefois, quand on se réunissait chez les uns et les autres pour écouter des histoires », explique l’organisatrice, Josée Bouchard. Les places sont donc limitées à vingt-cinq personnes par spectacle, et il est conseillé de réserver. Les billets coûtent 15 $, mais les spectacles du dimanche après-midi, destinés aux familles, sont gratuits. Une navette relie les différents lieux depuis la place du village.",
+      "q": "Pourquoi est-il conseillé de réserver ?",
+      "options": [
+        "La navette entre les lieux est payante",
+        "Les spectacles du dimanche sont gratuits",
+        "Les billets vendus sur place coûtent beaucoup plus cher",
+        "Chaque spectacle accueille peu de spectateurs"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The text says ‘Les places sont donc limitées à vingt-cinq personnes par spectacle, et il est conseillé de réserver’: booking is advised because each show has few seats.",
+        "fr": "Le texte dit « Les places sont donc limitées à vingt-cinq personnes par spectacle, et il est conseillé de réserver » : chaque spectacle a peu de places."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels de textes clairs sur des sujets familiers",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-033",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "science",
+      "docId": "fce-d22",
+      "doc": "Les ados dorment-ils vraiment trop peu ?\nUne équipe de l’Institut de recherche Lavallée a suivi pendant un an 300 élèves de deux écoles secondaires. Les élèves portaient un bracelet qui mesurait leur sommeil. Résultat : ceux qui utilisaient leur téléphone dans l’heure avant le coucher s’endormaient en moyenne quarante minutes plus tard que les autres. Mais les chercheurs ont remarqué autre chose : dans l’école où les cours commençaient à 9 h au lieu de 8 h, les élèves dormaient davantage et se disaient moins fatigués en classe. Pour la responsable de l’étude, il ne suffit donc pas de demander aux jeunes de ranger leur téléphone : l’organisation de la journée scolaire compte aussi.",
+      "q": "Quelle est la conclusion de la responsable de l’étude ?",
+      "options": [
+        "Le téléphone est la seule cause du manque de sommeil",
+        "Les bracelets aident les élèves à mieux dormir",
+        "L’heure de début des cours influence aussi le sommeil",
+        "Les élèves devraient se coucher quarante minutes plus tôt"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The researcher concludes that ‘il ne suffit donc pas de demander aux jeunes de ranger leur téléphone : l’organisation de la journée scolaire compte aussi’, based on the school starting at 9 a.m.",
+        "fr": "La responsable conclut qu’« il ne suffit donc pas de demander aux jeunes de ranger leur téléphone : l’organisation de la journée scolaire compte aussi », d’après l’école qui commence à 9 h."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels de textes clairs sur des sujets familiers",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-034",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "health",
+      "docId": "fce-d23",
+      "doc": "« J’ai remplacé ma voiture par mes jambes »\nIl y a un an, Sophie, 52 ans, comptable à Lyon, a décidé d’aller au travail à pied. Quarante minutes à l’aller, autant au retour. « Au début, je trouvais ça long et j’arrivais fatiguée. Après trois semaines, c’est devenu mon moment préféré de la journée : je réfléchis, j’écoute de la musique, je regarde la ville. » Son médecin a remarqué que sa tension avait baissé, et elle dort mieux. Elle reconnaît cependant quelques difficultés : les jours de forte pluie, elle prend le bus, et elle a dû acheter de bonnes chaussures. « Je ne dis pas que tout le monde peut le faire. Moi, j’ai la chance d’habiter à trois kilomètres du bureau. »",
+      "q": "Comment Sophie a-t-elle vécu les premières semaines ?",
+      "options": [
+        "Elle trouvait le trajet long et fatigant",
+        "Elle préférait déjà ce moment de la journée",
+        "Elle regrettait d’avoir laissé sa voiture",
+        "Elle ne marchait que pour aller au bureau"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Sophie says ‘Au début, je trouvais ça long et j’arrivais fatiguée’. Only after three weeks did walking become her favourite moment of the day.",
+        "fr": "Sophie dit « Au début, je trouvais ça long et j’arrivais fatiguée ». Ce n’est qu’après trois semaines que la marche est devenue son moment préféré."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels de textes clairs sur des sujets familiers",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-035",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "health",
+      "docId": "fce-d23",
+      "doc": "« J’ai remplacé ma voiture par mes jambes »\nIl y a un an, Sophie, 52 ans, comptable à Lyon, a décidé d’aller au travail à pied. Quarante minutes à l’aller, autant au retour. « Au début, je trouvais ça long et j’arrivais fatiguée. Après trois semaines, c’est devenu mon moment préféré de la journée : je réfléchis, j’écoute de la musique, je regarde la ville. » Son médecin a remarqué que sa tension avait baissé, et elle dort mieux. Elle reconnaît cependant quelques difficultés : les jours de forte pluie, elle prend le bus, et elle a dû acheter de bonnes chaussures. « Je ne dis pas que tout le monde peut le faire. Moi, j’ai la chance d’habiter à trois kilomètres du bureau. »",
+      "q": "Que veut dire Sophie dans sa dernière phrase ?",
+      "options": [
+        "Tout le monde devrait aller travailler à pied",
+        "Elle va bientôt déménager près du bureau",
+        "La marche devient dangereuse sous la pluie",
+        "Sa situation personnelle facilite ce choix"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Sophie says not everyone can do it and ‘j’ai la chance d’habiter à trois kilomètres du bureau’: living close to work makes her choice easier. She is not telling everyone to walk.",
+        "fr": "Sophie dit que tout le monde ne peut pas le faire et qu’elle a « la chance d’habiter à trois kilomètres du bureau » : sa situation rend ce choix plus facile."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels de textes clairs sur des sujets familiers",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-036",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B1",
+      "theme": "transport",
+      "docId": "fce-d24",
+      "doc": "Covoiturage : une application pour les travailleurs du parc industriel\nChaque matin, près de 2 000 personnes se rendent au parc industriel de Sainte-Agathe-des-Prés. Pour réduire les embouteillages à l’entrée du parc, l’association des entreprises a lancé une application qui met en relation les employés habitant dans les mêmes secteurs. Le conducteur reçoit une petite compensation pour l’essence, payée par les passagers selon la distance. Les entreprises participantes offrent en plus des places de stationnement réservées, près des portes, aux voitures qui transportent au moins trois personnes. Après six mois, le bilan est encourageant mais modeste : environ 150 employés utilisent le service régulièrement. Les responsables espèrent en attirer davantage cet hiver, quand l’état des routes rend le trajet plus difficile.",
+      "q": "Quel avantage les entreprises offrent-elles aux covoitureurs ?",
+      "options": [
+        "Une compensation pour le prix de l’essence",
+        "Des places de stationnement mieux situées",
+        "Un horaire de travail plus souple",
+        "Un abonnement gratuit à l’application"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The companies offer ‘des places de stationnement réservées, près des portes’ to cars carrying at least three people. The fuel compensation is paid by the passengers, not by the companies.",
+        "fr": "Les entreprises offrent « des places de stationnement réservées, près des portes » aux voitures d’au moins trois personnes. La compensation pour l’essence est payée par les passagers."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B1 : comprendre les points essentiels de textes clairs sur des sujets familiers",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-037",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "society",
+      "docId": "fce-d25",
+      "doc": "Le télétravail sauvera-t-il nos villages ?\nDepuis quelques années, on entend souvent que le travail à distance va redonner vie aux petites municipalités. Des familles quittent la ville, achètent une maison avec un grand terrain et travaillent depuis leur salon. Je ne nie pas le phénomène : dans mon propre village, trois maisons longtemps vides ont trouvé preneur. Mais il faut se méfier des conclusions trop rapides. Ces nouveaux habitants font souvent leurs courses en ligne, inscrivent leurs enfants à des activités en ville et passent leurs soirées devant leur ordinateur. Leur arrivée fait monter le prix des maisons, sans forcément faire vivre l’épicerie ou le café du coin. Un village, ce n’est pas seulement des toits occupés ; c’est une vie commune. Le télétravail peut y contribuer, à condition que les nouveaux venus aient envie de participer à cette vie, et que les municipalités leur en donnent l’occasion.",
+      "q": "Quelle est la position de l’auteur ?",
+      "options": [
+        "Le télétravail ne change rien à la population des villages",
+        "Le télétravail aide les villages sous certaines conditions",
+        "Le télétravail est la meilleure solution pour les villages",
+        "Les nouveaux habitants devraient retourner en ville"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The author admits the trend exists but warns against hasty conclusions, ending with ‘Le télétravail peut y contribuer, à condition que…’: remote work helps villages only under certain conditions.",
+        "fr": "L’auteur reconnaît le phénomène mais se méfie des conclusions rapides et termine par « Le télétravail peut y contribuer, à condition que… » : l’effet dépend de conditions."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre les idées et arguments de textes complexes et engagés",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-038",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "society",
+      "docId": "fce-d25",
+      "doc": "Le télétravail sauvera-t-il nos villages ?\nDepuis quelques années, on entend souvent que le travail à distance va redonner vie aux petites municipalités. Des familles quittent la ville, achètent une maison avec un grand terrain et travaillent depuis leur salon. Je ne nie pas le phénomène : dans mon propre village, trois maisons longtemps vides ont trouvé preneur. Mais il faut se méfier des conclusions trop rapides. Ces nouveaux habitants font souvent leurs courses en ligne, inscrivent leurs enfants à des activités en ville et passent leurs soirées devant leur ordinateur. Leur arrivée fait monter le prix des maisons, sans forcément faire vivre l’épicerie ou le café du coin. Un village, ce n’est pas seulement des toits occupés ; c’est une vie commune. Le télétravail peut y contribuer, à condition que les nouveaux venus aient envie de participer à cette vie, et que les municipalités leur en donnent l’occasion.",
+      "q": "Pourquoi l’auteur mentionne-t-il son propre village ?",
+      "options": [
+        "Pour montrer que son village rejette les nouveaux venus",
+        "Pour prouver que les commerces y ont fermé",
+        "Pour expliquer qu’il travaille lui-même à distance",
+        "Pour reconnaître que le phénomène est réel"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The example follows ‘Je ne nie pas le phénomène’ (I do not deny the phenomenon): three long-empty houses found buyers. It is a concession before his reservations, introduced by ‘Mais’.",
+        "fr": "L’exemple suit « Je ne nie pas le phénomène » : trois maisons vides ont trouvé preneur. C’est une concession, avant les réserves introduites par « Mais »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre les idées et arguments de textes complexes et engagés",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-039",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "education",
+      "docId": "fce-d26",
+      "doc": "Faut-il supprimer les devoirs à la maison ?\nChaque automne, le débat revient. Pour certains parents, les devoirs transforment les soirées en champ de bataille et creusent les inégalités : l’enfant dont les parents ont le temps et les connaissances pour l’aider part avec une longueur d’avance. L’argument est sérieux. Pourtant, la suppression pure et simple me semble une fausse bonne idée. Une courte lecture, quelques exercices pour revoir ce qui a été vu en classe : voilà qui permet à l’enfant de vérifier seul ce qu’il a compris et d’apprendre à organiser son temps. Le problème n’est pas l’existence des devoirs, mais leur quantité et leur nature. Un devoir que l’élève ne peut pas faire sans aide n’est plus un devoir : c’est une leçon déguisée, confiée aux parents. Mieux vaudrait des devoirs courts, que l’enfant peut faire seul, et des périodes d’aide à l’école pour ceux qui en ont besoin.\nÉric Fortin, enseignant au primaire",
+      "q": "Que propose l’auteur ?",
+      "options": [
+        "Garder des devoirs courts que l’enfant peut faire seul",
+        "Supprimer les devoirs pour réduire les inégalités",
+        "Donner plus de devoirs aux élèves en difficulté",
+        "Demander aux parents d’expliquer les leçons"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The teacher calls removing homework ‘une fausse bonne idée’ and concludes ‘Mieux vaudrait des devoirs courts, que l’enfant peut faire seul’, with help at school for those who need it.",
+        "fr": "L’enseignant juge la suppression « une fausse bonne idée » et conclut : « Mieux vaudrait des devoirs courts, que l’enfant peut faire seul », avec de l’aide à l’école."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre les idées et arguments de textes complexes et engagés",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-040",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "housing",
+      "docId": "fce-d27",
+      "doc": "Courrier des lecteurs\nJ’ai lu avec intérêt votre article sur la colocation entre étudiants et personnes âgées. Je vis cette expérience depuis deux ans : à 78 ans, j’héberge une étudiante en soins infirmiers, Inès, qui paie un loyer très modeste en échange d’une présence le soir et de quelques courses. Votre article présentait la formule comme une solution miracle à la crise du logement et à la solitude. Je serais plus prudente. Cela fonctionne chez moi parce que nous avons pris le temps de nous connaître avant de signer, et parce que nous avons écrit noir sur blanc ce que chacune attendait de l’autre. J’ai des amies pour qui l’expérience a mal tourné : une étudiante qui ne rentrait jamais, une propriétaire qui la traitait comme une employée. Ce n’est pas la formule qui fait le succès, ce sont les règles et le respect mutuel.\nGeneviève Lacombe, Laval",
+      "q": "Que reproche Mme Lacombe à l’article ?",
+      "options": [
+        "D’avoir critiqué la colocation entre générations",
+        "D’avoir oublié de parler du prix des loyers",
+        "D’avoir présenté la formule de façon trop optimiste",
+        "D’avoir donné une mauvaise image des étudiantes"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "She writes that the article presented the arrangement ‘comme une solution miracle’ and adds ‘Je serais plus prudente’: she finds the article too optimistic, not too critical.",
+        "fr": "Elle écrit que l’article présentait la formule « comme une solution miracle » et ajoute « Je serais plus prudente » : elle trouve l’article trop optimiste."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre les idées et arguments de textes complexes et engagés",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-041",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "housing",
+      "docId": "fce-d27",
+      "doc": "Courrier des lecteurs\nJ’ai lu avec intérêt votre article sur la colocation entre étudiants et personnes âgées. Je vis cette expérience depuis deux ans : à 78 ans, j’héberge une étudiante en soins infirmiers, Inès, qui paie un loyer très modeste en échange d’une présence le soir et de quelques courses. Votre article présentait la formule comme une solution miracle à la crise du logement et à la solitude. Je serais plus prudente. Cela fonctionne chez moi parce que nous avons pris le temps de nous connaître avant de signer, et parce que nous avons écrit noir sur blanc ce que chacune attendait de l’autre. J’ai des amies pour qui l’expérience a mal tourné : une étudiante qui ne rentrait jamais, une propriétaire qui la traitait comme une employée. Ce n’est pas la formule qui fait le succès, ce sont les règles et le respect mutuel.\nGeneviève Lacombe, Laval",
+      "q": "Selon elle, de quoi dépend la réussite d’une telle colocation ?",
+      "options": [
+        "Du montant du loyer payé par l’étudiante",
+        "Des études que suit l’étudiante",
+        "De l’âge de la personne qui héberge",
+        "D’un accord clair et du respect mutuel"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "She concludes ‘Ce n’est pas la formule qui fait le succès, ce sont les règles et le respect mutuel’, after explaining that they wrote down what each expected.",
+        "fr": "Elle conclut : « Ce n’est pas la formule qui fait le succès, ce sont les règles et le respect mutuel », après avoir dit qu’elles avaient tout écrit noir sur blanc."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre les idées et arguments de textes complexes et engagés",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-042",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "media",
+      "docId": "fce-d28",
+      "doc": "Dernier numéro pour L’Écho du Lac\nAprès soixante-deux ans de parution, L’Écho du Lac publiera son dernier numéro vendredi. Le petit hebdomadaire, distribué gratuitement dans une douzaine de municipalités, ne parvenait plus à couvrir ses coûts : ses revenus publicitaires ont fondu depuis que les commerçants de la région annoncent surtout sur les réseaux sociaux. Pour son rédacteur en chef, Paul Simard, la perte dépasse le sort d’un seul journal. « Qui ira désormais assister aux séances du conseil municipal ? Qui racontera la fermeture d’une usine ou la victoire de l’équipe de hockey locale ? Les réseaux sociaux diffusent des opinions, pas des comptes rendus vérifiés. » Des lecteurs ont proposé de lancer une campagne de financement. M. Simard salue l’initiative, mais doute qu’elle suffise : « Un don ponctuel ne paie pas un journaliste toute l’année. »",
+      "q": "Que pense Paul Simard de la campagne de financement ?",
+      "options": [
+        "Il la refuse, car il préfère les réseaux sociaux",
+        "Il l’apprécie, mais la juge insuffisante à long terme",
+        "Il pense qu’elle permettra de sauver le journal",
+        "Il la trouve inutile, car le journal est gratuit"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Mr. Simard ‘salue l’initiative, mais doute qu’elle suffise’, explaining that ‘Un don ponctuel ne paie pas un journaliste toute l’année’: he welcomes it but doubts it can last.",
+        "fr": "M. Simard « salue l’initiative, mais doute qu’elle suffise » et explique qu’« un don ponctuel ne paie pas un journaliste toute l’année »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre les idées et arguments de textes complexes et engagés",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-043",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "environment",
+      "docId": "fce-d29",
+      "doc": "Le vélo d’hiver n’est pas un sport extrême\nDès que je dis que je me rends au bureau à vélo en janvier, à Québec, on me regarde comme si j’annonçais une traversée de l’Antarctique. Pourtant, avec des pneus à crampons, de bons gants et des vêtements superposés, le froid devient vite secondaire. Le vrai obstacle n’est pas la météo, c’est l’entretien des pistes. Quand la piste est déneigée en même temps que la rue, rouler est simple. Quand elle sert de dépôt pour la neige des trottoirs, même le cycliste le plus motivé finit par renoncer. Je ne demande pas que chacun troque sa voiture contre un vélo de novembre à mars. Je constate seulement que beaucoup de gens essaieraient si on leur offrait des conditions acceptables. On ne mesure pas la demande en comptant les cyclistes sur des pistes impraticables.",
+      "q": "Selon l’auteur, qu’est-ce qui décourage le plus les cyclistes en hiver ?",
+      "options": [
+        "Le froid intense du mois de janvier",
+        "Le prix des pneus à crampons",
+        "Le mauvais déneigement des pistes",
+        "Le manque de vêtements adaptés"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The author states ‘Le vrai obstacle n’est pas la météo, c’est l’entretien des pistes’: when paths are used to store sidewalk snow, even motivated cyclists give up. Cold is ‘secondaire’.",
+        "fr": "L’auteur affirme : « Le vrai obstacle n’est pas la météo, c’est l’entretien des pistes ». Quand la piste reçoit la neige des trottoirs, même les plus motivés renoncent."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre les idées et arguments de textes complexes et engagés",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-044",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "environment",
+      "docId": "fce-d29",
+      "doc": "Le vélo d’hiver n’est pas un sport extrême\nDès que je dis que je me rends au bureau à vélo en janvier, à Québec, on me regarde comme si j’annonçais une traversée de l’Antarctique. Pourtant, avec des pneus à crampons, de bons gants et des vêtements superposés, le froid devient vite secondaire. Le vrai obstacle n’est pas la météo, c’est l’entretien des pistes. Quand la piste est déneigée en même temps que la rue, rouler est simple. Quand elle sert de dépôt pour la neige des trottoirs, même le cycliste le plus motivé finit par renoncer. Je ne demande pas que chacun troque sa voiture contre un vélo de novembre à mars. Je constate seulement que beaucoup de gens essaieraient si on leur offrait des conditions acceptables. On ne mesure pas la demande en comptant les cyclistes sur des pistes impraticables.",
+      "q": "Que signifie la dernière phrase du texte ?",
+      "options": [
+        "L’état des pistes explique le peu de cyclistes",
+        "Il faudrait compter les cyclistes plus souvent",
+        "Les pistes sont inutiles, car personne ne les utilise",
+        "Les cyclistes d’hiver sont plus nombreux qu’on le croit"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The author means that counting few cyclists on unusable paths proves nothing: people would ride ‘si on leur offrait des conditions acceptables’. Low numbers reflect the paths, not a lack of interest.",
+        "fr": "L’auteur veut dire que peu de cyclistes sur des pistes impraticables ne prouve rien : les gens essaieraient « si on leur offrait des conditions acceptables »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre les idées et arguments de textes complexes et engagés",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-045",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "science",
+      "docId": "fce-d30",
+      "doc": "Des ruches sur les toits : une bonne idée pour la nature ?\nInstaller des ruches sur les toits est devenu à la mode dans plusieurs grandes villes. Les entreprises aiment afficher leur pot de miel « fait maison ». Une équipe de biologistes de l’Université de Port-Laurier invite pourtant à nuancer l’enthousiasme. En comparant pendant trois étés plusieurs quartiers d’une même ville, elle a observé que là où les ruches étaient très nombreuses, les abeilles sauvages et les bourdons visitaient moins de fleurs. Les abeilles domestiques, très efficaces, semblent occuper une grande partie des ressources disponibles. Les chercheurs ne recommandent pas d’interdire les ruches, mais de mieux les répartir et, surtout, de planter davantage de fleurs locales. Selon eux, protéger les pollinisateurs passe d’abord par la nourriture qu’on leur offre, pas par le nombre de ruches installées.",
+      "q": "Que recommandent les chercheurs ?",
+      "options": [
+        "Planter des fleurs locales et mieux répartir les ruches",
+        "Interdire les ruches dans les quartiers très peuplés",
+        "Remplacer les abeilles domestiques par des bourdons",
+        "Installer davantage de ruches pour les abeilles sauvages"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The text says the researchers ‘ne recommandent pas d’interdire les ruches, mais de mieux les répartir et, surtout, de planter davantage de fleurs locales’. More hives would worsen competition.",
+        "fr": "Le texte dit que les chercheurs « ne recommandent pas d’interdire les ruches, mais de mieux les répartir et, surtout, de planter davantage de fleurs locales »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre les idées et arguments de textes complexes et engagés",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-046",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "work",
+      "docId": "fce-d31",
+      "doc": "La semaine de quatre jours, vue de l’intérieur\nQuand notre petite entreprise de graphisme de Sherbrooke est passée à la semaine de quatre jours, il y a un an, j’étais sceptique. Je craignais que nous accumulions du retard et que les clients s’impatientent. Je ne me trompais qu’en partie. Les journées sont plus denses, les réunions plus courtes, et presque personne n’a envie de revenir en arrière : trois jours de repos, c’est un luxe qu’on défend. Mais tout n’est pas rose. Comme nous fermons le vendredi, certains clients pressés se sont tournés vers des concurrents, et deux collègues avouent répondre à leurs courriels ce jour-là « pour ne pas se laisser déborder ». Autrement dit, la quatrième journée de repos n’existe pas toujours vraiment. Je reste favorable à l’expérience, mais je me méfie de ceux qui la présentent comme une solution sans coût.",
+      "q": "Comment l’auteur juge-t-il l’expérience après un an ?",
+      "options": [
+        "Décevante, car l’entreprise a perdu ses clients",
+        "Parfaite, puisque personne ne veut revenir en arrière",
+        "Positive dans l’ensemble, mais pas sans défauts",
+        "Inutile, car les journées sont devenues trop longues"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The author says ‘Je reste favorable à l’expérience’ but lists problems (‘tout n’est pas rose’: lost clients, emails on Fridays) and distrusts those who call it ‘une solution sans coût’.",
+        "fr": "L’auteur écrit « Je reste favorable à l’expérience », mais note que « tout n’est pas rose » (clients perdus, courriels le vendredi) et refuse d’y voir « une solution sans coût »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre les idées et arguments de textes complexes et engagés",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-047",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "work",
+      "docId": "fce-d31",
+      "doc": "La semaine de quatre jours, vue de l’intérieur\nQuand notre petite entreprise de graphisme de Sherbrooke est passée à la semaine de quatre jours, il y a un an, j’étais sceptique. Je craignais que nous accumulions du retard et que les clients s’impatientent. Je ne me trompais qu’en partie. Les journées sont plus denses, les réunions plus courtes, et presque personne n’a envie de revenir en arrière : trois jours de repos, c’est un luxe qu’on défend. Mais tout n’est pas rose. Comme nous fermons le vendredi, certains clients pressés se sont tournés vers des concurrents, et deux collègues avouent répondre à leurs courriels ce jour-là « pour ne pas se laisser déborder ». Autrement dit, la quatrième journée de repos n’existe pas toujours vraiment. Je reste favorable à l’expérience, mais je me méfie de ceux qui la présentent comme une solution sans coût.",
+      "q": "Que veut montrer l’exemple des deux collègues ?",
+      "options": [
+        "Certains employés préfèrent travailler cinq jours",
+        "Le jour de repos en plus n’est pas toujours réel",
+        "Les clients exigent des réponses le vendredi",
+        "Les réunions du vendredi ont été supprimées"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The two colleagues answer emails on Friday ‘pour ne pas se laisser déborder’, and the author concludes ‘la quatrième journée de repos n’existe pas toujours vraiment’.",
+        "fr": "Les deux collègues répondent à leurs courriels le vendredi « pour ne pas se laisser déborder », d’où la conclusion : « la quatrième journée de repos n’existe pas toujours vraiment »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre les idées et arguments de textes complexes et engagés",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-048",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "B2",
+      "theme": "culture",
+      "docId": "fce-d32",
+      "doc": "Critique – Les Saisons de Marguerite, d’Hélène Duval\nLe deuxième roman d’Hélène Duval raconte quarante ans de la vie d’une agricultrice acadienne, de son mariage à la vente de la ferme familiale. Le sujet n’a rien d’original, et les cent premières pages, qui décrivent longuement les travaux des champs, risquent de décourager plus d’un lecteur. Mais il faut persévérer. À partir du moment où Marguerite commence à tenir un journal, le roman change de rythme : la voix devient vive, drôle, parfois cruelle, et l’on découvre une femme bien plus complexe que l’image de la paysanne patiente. On regrettera une fin un peu précipitée, qui règle en dix pages des conflits installés pendant trois cents. Malgré ces défauts, c’est un livre qu’on referme à regret, et dont la voix accompagne longtemps le lecteur.",
+      "q": "Quel est l’avis général du critique ?",
+      "options": [
+        "Le roman est original mais trop drôle pour son sujet",
+        "Le roman est ennuyeux du début à la fin",
+        "Le roman est surtout réussi dans ses premières pages",
+        "Le roman vaut la lecture, malgré ses défauts"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The critic notes a slow start (‘les cent premières pages… risquent de décourager’) and a rushed ending, but says ‘il faut persévérer’ and ‘c’est un livre qu’on referme à regret’.",
+        "fr": "Le critique relève un début lent (« les cent premières pages… risquent de décourager ») et une fin précipitée, mais dit « il faut persévérer » et « c’est un livre qu’on referme à regret »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau B2 : comprendre les idées et arguments de textes complexes et engagés",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-049",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "society",
+      "docId": "fce-d33",
+      "doc": "On dit volontiers que la politesse se perd. Le constat revient à chaque génération, ce qui devrait suffire à nous rendre prudents : si elle se perdait vraiment depuis si longtemps, il n’en resterait plus rien. Ce qui change, en réalité, ce sont ses formes. Mes grands-parents vouvoyaient leurs voisins ; mes enfants tutoient leurs professeurs, mais n’oublieraient jamais de prévenir quand ils sont en retard à un rendez-vous. Ils trouvent impoli qu’on appelle sans avoir d’abord écrit, et grossier qu’on laisse un message vocal de trois minutes. On peut sourire de ces nouvelles règles ; elles n’en sont pas moins des règles, c’est-à-dire des façons de tenir compte d’autrui. La politesse n’est pas un code figé que les jeunes ignoreraient ; c’est un accord, sans cesse renégocié, sur ce qui gêne les autres. Le vrai risque n’est pas qu’elle disparaisse, mais que chaque génération ne reconnaisse plus celle de l’autre et la prenne pour de la grossièreté.",
+      "q": "Quelle est la fonction de la deuxième phrase (« Le constat revient à chaque génération… ») ?",
+      "options": [
+        "Montrer que la politesse disparaît plus vite qu’avant",
+        "Expliquer pourquoi les jeunes sont moins polis",
+        "Mettre en doute l’idée que la politesse disparaît",
+        "Rappeler les règles de politesse d’autrefois"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The sentence argues that if politeness had really been disappearing for generations, ‘il n’en resterait plus rien’: it casts doubt on the common claim stated in the first sentence.",
+        "fr": "La phrase objecte que si la politesse se perdait vraiment depuis si longtemps, « il n’en resterait plus rien » : elle met en doute le constat courant de la première phrase."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des textes longs et exigeants et en saisir l’implicite",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-050",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "society",
+      "docId": "fce-d33",
+      "doc": "On dit volontiers que la politesse se perd. Le constat revient à chaque génération, ce qui devrait suffire à nous rendre prudents : si elle se perdait vraiment depuis si longtemps, il n’en resterait plus rien. Ce qui change, en réalité, ce sont ses formes. Mes grands-parents vouvoyaient leurs voisins ; mes enfants tutoient leurs professeurs, mais n’oublieraient jamais de prévenir quand ils sont en retard à un rendez-vous. Ils trouvent impoli qu’on appelle sans avoir d’abord écrit, et grossier qu’on laisse un message vocal de trois minutes. On peut sourire de ces nouvelles règles ; elles n’en sont pas moins des règles, c’est-à-dire des façons de tenir compte d’autrui. La politesse n’est pas un code figé que les jeunes ignoreraient ; c’est un accord, sans cesse renégocié, sur ce qui gêne les autres. Le vrai risque n’est pas qu’elle disparaisse, mais que chaque génération ne reconnaisse plus celle de l’autre et la prenne pour de la grossièreté.",
+      "q": "Selon l’auteur, quel est le véritable danger ?",
+      "options": [
+        "Que chaque génération prenne l’autre pour impolie",
+        "Que les jeunes cessent de vouvoyer leurs aînés",
+        "Que les messages vocaux remplacent les appels",
+        "Que la politesse devienne un code figé et obligatoire"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The last sentence says the real risk is ‘que chaque génération ne reconnaisse plus celle de l’autre et la prenne pour de la grossièreté’: each generation misreading the other’s politeness.",
+        "fr": "La dernière phrase situe le vrai risque : « que chaque génération ne reconnaisse plus celle de l’autre et la prenne pour de la grossièreté »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des textes longs et exigeants et en saisir l’implicite",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-051",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "media",
+      "docId": "fce-d34",
+      "doc": "J’ai désactivé mes notifications. Toutes. L’expérience, que je recommandais autour de moi avec la ferveur des nouveaux convertis, a duré onze jours. Le premier matin, j’ai éprouvé une sorte d’ivresse : personne ne me réclamait rien, le monde attendait poliment que je vienne le consulter. J’ai lu un chapitre entier sans lever les yeux, ce qui ne m’était pas arrivé depuis des mois. Le troisième jour, j’ai découvert que j’avais manqué l’anniversaire d’une amie, le changement de salle d’une réunion et l’annulation de mon cours de yoga, où je me suis présenté devant une porte close. Au septième jour, je consultais mes applications toutes les vingt minutes, « juste pour vérifier », ce qui, convenons-en, revenait exactement à recevoir des notifications, l’efficacité en moins. J’ai fini par tout rétablir, à l’exception des alertes des jeux et des boutiques. Morale provisoire : ce n’est pas le signal qui nous asservit, c’est notre incapacité à décider de ce qui mérite de nous interrompre.",
+      "q": "Quel est le ton dominant de ce texte ?",
+      "options": [
+        "Indigné : l’auteur dénonce les fabricants de téléphones",
+        "Nostalgique : l’auteur regrette l’époque sans écrans",
+        "Neutre : l’auteur rapporte une expérience scientifique",
+        "Autodérisoire : l’auteur se moque de ses propres excès"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The author mocks himself: ‘la ferveur des nouveaux convertis’, checking apps every twenty minutes ‘juste pour vérifier’, which amounted to notifications ‘l’efficacité en moins’. He blames his own habits, not manufacturers.",
+        "fr": "L’auteur se moque de lui-même : « la ferveur des nouveaux convertis », les vérifications « juste pour vérifier » qui revenaient aux notifications « l’efficacité en moins ». Il accuse ses habitudes, pas les fabricants."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des textes longs et exigeants et en saisir l’implicite",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-052",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "science",
+      "docId": "fce-d35",
+      "doc": "Se tromper pour mieux retenir\nUne étude menée au laboratoire de psychologie cognitive de l’Université de Saint-Clair remet en question une habitude d’étude très répandue : relire ses notes. Les chercheurs ont réparti 120 étudiants en deux groupes chargés d’apprendre un texte de biologie. Le premier le relisait trois fois ; le second le lisait une fois, puis devait répondre de mémoire à des questions, souvent sans succès au début. Une semaine plus tard, le second groupe se souvenait nettement mieux du contenu, alors même que ses membres avaient le sentiment d’avoir moins bien appris. Pour l’auteure principale, Claire Morin, ce décalage explique la popularité de la relecture : elle donne une impression de maîtrise, parce que le texte devient familier. « Reconnaître n’est pas se rappeler », résume-t-elle. Elle met toutefois en garde contre une lecture trop rapide de ses résultats : l’effort de rappel n’est utile que si l’étudiant vérifie ensuite ses réponses, faute de quoi il risque de mémoriser ses erreurs.",
+      "q": "Que signifie « Reconnaître n’est pas se rappeler » dans ce contexte ?",
+      "options": [
+        "On ne peut se rappeler qu’un texte déjà reconnu",
+        "Trouver un texte familier ne prouve pas qu’on sait le restituer",
+        "Les étudiants confondent souvent deux textes proches",
+        "Relire trois fois un texte suffit pour le retenir"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The phrase explains why rereading feels effective: it ‘donne une impression de maîtrise, parce que le texte devient familier’, yet the rereading group remembered less. Familiarity is not recall.",
+        "fr": "La formule explique l’illusion de la relecture : elle « donne une impression de maîtrise, parce que le texte devient familier », alors que ce groupe retenait moins. Familiarité n’est pas mémoire."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des textes longs et exigeants et en saisir l’implicite",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-053",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "science",
+      "docId": "fce-d35",
+      "doc": "Se tromper pour mieux retenir\nUne étude menée au laboratoire de psychologie cognitive de l’Université de Saint-Clair remet en question une habitude d’étude très répandue : relire ses notes. Les chercheurs ont réparti 120 étudiants en deux groupes chargés d’apprendre un texte de biologie. Le premier le relisait trois fois ; le second le lisait une fois, puis devait répondre de mémoire à des questions, souvent sans succès au début. Une semaine plus tard, le second groupe se souvenait nettement mieux du contenu, alors même que ses membres avaient le sentiment d’avoir moins bien appris. Pour l’auteure principale, Claire Morin, ce décalage explique la popularité de la relecture : elle donne une impression de maîtrise, parce que le texte devient familier. « Reconnaître n’est pas se rappeler », résume-t-elle. Elle met toutefois en garde contre une lecture trop rapide de ses résultats : l’effort de rappel n’est utile que si l’étudiant vérifie ensuite ses réponses, faute de quoi il risque de mémoriser ses erreurs.",
+      "q": "Quelle réserve Claire Morin formule-t-elle ?",
+      "options": [
+        "L’étude ne vaut que pour les textes de biologie",
+        "S’interroger sans se corriger peut fixer des erreurs",
+        "Le second groupe avait mieux appris dès le premier jour",
+        "La relecture reste la méthode la plus efficace"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "She warns that recall effort ‘n’est utile que si l’étudiant vérifie ensuite ses réponses, faute de quoi il risque de mémoriser ses erreurs’: testing yourself without checking can backfire.",
+        "fr": "Elle prévient que l’effort de rappel « n’est utile que si l’étudiant vérifie ensuite ses réponses, faute de quoi il risque de mémoriser ses erreurs »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des textes longs et exigeants et en saisir l’implicite",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-054",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "culture",
+      "docId": "fce-d36",
+      "doc": "Il faut reconnaître à la nouvelle production du Théâtre des Battures un mérite : on ne s’y ennuie pas une seconde à regarder le décor. Escaliers mobiles, pluie véritable, façades qui pivotent au gré des scènes, tout a été pensé pour éblouir, et tout éblouit. Les comédiens, eux, semblent parfois se demander où se placer pour ne pas être écrasés par cette mécanique. La pièce, pourtant, n’est pas sans intérêt : ce huis clos familial, où trois sœurs se disputent l’héritage d’une maison, contient des répliques d’une belle cruauté. Encore faudrait-il pouvoir les entendre, entre deux grondements de machinerie. Le public de la première a d’ailleurs applaudi le plus fort au moment où la maison entière s’est soulevée dans les airs, laissant les trois sœurs au sol, un peu perdues. On ressort de la salle impressionné, comme après la visite d’une usine moderne. Ému, beaucoup moins. Le metteur en scène a sans doute voulu servir le texte ; il a surtout servi son budget.",
+      "q": "Que laisse entendre le critique ?",
+      "options": [
+        "Le texte de la pièce est faible et sans intérêt",
+        "Les comédiens manquent d’expérience sur scène",
+        "Le décor est bien trop pauvre pour un texte aussi riche et cruel",
+        "La mise en scène spectaculaire étouffe la pièce elle-même"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The critic praises the set only to say it overwhelms everything: actors risk being ‘écrasés par cette mécanique’, the lines are hard to hear, and the director ‘a surtout servi son budget’. The text itself ‘n’est pas sans intérêt’.",
+        "fr": "Le critique ne loue le décor que pour dire qu’il écrase tout : comédiens « écrasés par cette mécanique », répliques inaudibles, metteur en scène qui « a surtout servi son budget ». Le texte « n’est pas sans intérêt »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des textes longs et exigeants et en saisir l’implicite",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-055",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "education",
+      "docId": "fce-d37",
+      "doc": "Lettre ouverte d’une professeure qui prend sa retraite\nPendant trente ans, j’ai enseigné la littérature au cégep. On me demande souvent si les étudiants ont changé. On attend de moi, je le sens, une réponse désabusée : ils liraient moins, se concentreraient moins, écriraient plus mal. Je refuse de jouer ce rôle. Mes étudiants d’aujourd’hui lisent autrement, souvent sur écran, par fragments, et il est vrai que le roman de six cents pages les intimide davantage que leurs aînés. Mais ils posent des questions que mes premières cohortes n’auraient jamais osé poser : qui a le droit d’écrire, qui a été oublié des programmes. Ils lisent moins longtemps, peut-être, mais avec une méfiance que je n’ai jamais su enseigner. Ce qui a changé, surtout, c’est le temps dont ils disposent : la plupart travaillent vingt heures par semaine pour payer leur loyer. Avant de déplorer qu’ils ne lisent plus les grands classiques, on pourrait se demander à quel moment ils les liraient.",
+      "q": "Pourquoi l’auteure écrit-elle « Je refuse de jouer ce rôle » ?",
+      "options": [
+        "Elle ne veut pas tenir le discours pessimiste attendu",
+        "Elle ne veut plus enseigner la littérature",
+        "Elle refuse de répondre aux questions des étudiants",
+        "Elle n’aime pas qu’on évoque sa retraite"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The ‘rôle’ refers to the previous sentence: people expect ‘une réponse désabusée’ (students read less, write worse). She refuses to give that gloomy answer and offers a more balanced view.",
+        "fr": "Le « rôle » renvoie à la phrase précédente : on attend d’elle « une réponse désabusée » (ils liraient moins, écriraient plus mal). Elle refuse ce discours et propose une vision nuancée."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des textes longs et exigeants et en saisir l’implicite",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-056",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "education",
+      "docId": "fce-d37",
+      "doc": "Lettre ouverte d’une professeure qui prend sa retraite\nPendant trente ans, j’ai enseigné la littérature au cégep. On me demande souvent si les étudiants ont changé. On attend de moi, je le sens, une réponse désabusée : ils liraient moins, se concentreraient moins, écriraient plus mal. Je refuse de jouer ce rôle. Mes étudiants d’aujourd’hui lisent autrement, souvent sur écran, par fragments, et il est vrai que le roman de six cents pages les intimide davantage que leurs aînés. Mais ils posent des questions que mes premières cohortes n’auraient jamais osé poser : qui a le droit d’écrire, qui a été oublié des programmes. Ils lisent moins longtemps, peut-être, mais avec une méfiance que je n’ai jamais su enseigner. Ce qui a changé, surtout, c’est le temps dont ils disposent : la plupart travaillent vingt heures par semaine pour payer leur loyer. Avant de déplorer qu’ils ne lisent plus les grands classiques, on pourrait se demander à quel moment ils les liraient.",
+      "q": "Que suggère la dernière phrase ?",
+      "options": [
+        "Les étudiants ne s’intéressent pas aux classiques",
+        "Les classiques devraient sortir des programmes",
+        "Le manque de temps freine leur lecture",
+        "Les étudiants lisent les classiques au travail"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "Just before, she notes most students work twenty hours a week. Asking ‘à quel moment ils les liraient’ implies that lack of time, not lack of interest, explains why they read fewer classics.",
+        "fr": "Juste avant, elle rappelle que la plupart travaillent vingt heures par semaine. Demander « à quel moment ils les liraient » suggère que c’est le temps qui manque, pas l’intérêt."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des textes longs et exigeants et en saisir l’implicite",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-057",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "health",
+      "docId": "fce-d38",
+      "doc": "Je connais désormais par cœur l’affiche de la salle d’attente de ma clinique. Elle explique, illustrations à l’appui, comment bien se laver les mains, et précise en lettres capitales que « le temps d’attente peut varier ». Cette phrase m’a longtemps paru d’une honnêteté désarmante. Ce matin, après deux heures assis sous elle, je lui ai trouvé une autre qualité : celle de ne rien promettre. Autour de moi, une mère berçait un bébé fiévreux, un homme âgé relisait pour la dixième fois le même magazine, une adolescente révisait un examen. Personne ne se plaignait. C’est peut-être ce qui m’a le plus frappé : nous avions tous intégré l’attente comme une composante normale du soin, au même titre que le stéthoscope. Quand la secrétaire a enfin appelé mon nom, je l’ai remerciée avec une gratitude excessive, comme si elle m’avait accordé une faveur, et non le rendez-vous que j’avais pris trois semaines plus tôt.",
+      "q": "Qu’est-ce que l’auteur critique implicitement ?",
+      "options": [
+        "Le manque d’hygiène de la salle d’attente",
+        "L’impolitesse de la secrétaire à son égard",
+        "Les plaintes incessantes des autres patients",
+        "La résignation générale face à l’attente"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "The author is struck that ‘Personne ne se plaignait’ and that everyone saw waiting as ‘une composante normale du soin’; even he thanks the secretary as if for a favour. Nobody complained, so the last option is false.",
+        "fr": "L’auteur est frappé que « Personne ne se plaignait » et que l’attente soit vue comme « une composante normale du soin » ; lui-même remercie la secrétaire comme pour une faveur."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des textes longs et exigeants et en saisir l’implicite",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-058",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "admin",
+      "docId": "fce-d39",
+      "doc": "Simplifier, oui, mais pour qui ?\nLa Ville de Port-Rivière se félicite d’avoir « simplifié » ses démarches : la plupart des demandes, du permis de rénovation à l’inscription aux camps de jour, se font désormais exclusivement en ligne. Pour les services municipaux, le gain est réel : moins de dossiers incomplets, moins de files au comptoir, des délais raccourcis. Mais la simplicité est une notion relative. Pour un résident à l’aise avec l’informatique, remplir un formulaire en dix minutes depuis son canapé est un progrès indéniable. Pour celui qui n’a pas d’ordinateur, qui maîtrise mal le français ou qui se perd dans les mots de passe, la fermeture du comptoir a transformé une formalité en épreuve. Certains se tournent vers leurs enfants, d’autres vers les organismes communautaires, déjà débordés. Personne ne réclame un retour au tout-papier. On peut néanmoins se demander si une réforme qui allège le travail de l’administration en reportant une partie de la charge sur les plus vulnérables mérite vraiment le nom de simplification.",
+      "q": "Quelle est l’idée principale de l’article ?",
+      "options": [
+        "Les démarches en ligne n’ont rien apporté à la Ville",
+        "Une réforme dite simple complique la vie de certains résidents",
+        "Il faut revenir au papier pour toutes les démarches",
+        "Les organismes communautaires refusent d’aider"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "The author grants real gains for the city but argues that for people without computers ‘la fermeture du comptoir a transformé une formalité en épreuve’. He explicitly says nobody wants ‘un retour au tout-papier’.",
+        "fr": "L’auteur reconnaît des gains pour la Ville, mais pour certains « la fermeture du comptoir a transformé une formalité en épreuve ». Il précise que personne ne réclame « un retour au tout-papier »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des textes longs et exigeants et en saisir l’implicite",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-059",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "admin",
+      "docId": "fce-d39",
+      "doc": "Simplifier, oui, mais pour qui ?\nLa Ville de Port-Rivière se félicite d’avoir « simplifié » ses démarches : la plupart des demandes, du permis de rénovation à l’inscription aux camps de jour, se font désormais exclusivement en ligne. Pour les services municipaux, le gain est réel : moins de dossiers incomplets, moins de files au comptoir, des délais raccourcis. Mais la simplicité est une notion relative. Pour un résident à l’aise avec l’informatique, remplir un formulaire en dix minutes depuis son canapé est un progrès indéniable. Pour celui qui n’a pas d’ordinateur, qui maîtrise mal le français ou qui se perd dans les mots de passe, la fermeture du comptoir a transformé une formalité en épreuve. Certains se tournent vers leurs enfants, d’autres vers les organismes communautaires, déjà débordés. Personne ne réclame un retour au tout-papier. On peut néanmoins se demander si une réforme qui allège le travail de l’administration en reportant une partie de la charge sur les plus vulnérables mérite vraiment le nom de simplification.",
+      "q": "Pourquoi le mot « simplifié » est-il entre guillemets au début ?",
+      "options": [
+        "Il s’agit du nom officiel de la réforme",
+        "L’auteur accuse la Ville de mentir sur les délais",
+        "L’auteur reprend le terme de la Ville avec réserve",
+        "Le mot est difficile à comprendre pour les lecteurs"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The quotation marks report the city’s own word while distancing the author from it; the final sentence questions whether the reform ‘mérite vraiment le nom de simplification’. He even admits delays were shortened.",
+        "fr": "Les guillemets reprennent le mot de la Ville en marquant une distance ; la dernière phrase demande si la réforme « mérite vraiment le nom de simplification ». L’auteur admet d’ailleurs des délais raccourcis."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des textes longs et exigeants et en saisir l’implicite",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-060",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C1",
+      "theme": "daily",
+      "docId": "fce-d40",
+      "doc": "Je suis de ceux qui font des listes. Listes de courses, listes de choses à faire, listes de livres à lire et même, je l’avoue, listes de listes à dresser. Longtemps, j’y ai vu le signe d’un esprit organisé. Mes collègues admiraient mes carnets colorés, et j’en tirais une fierté discrète. Puis j’ai remarqué que la satisfaction de rayer une ligne me procurait plus de plaisir que l’action elle-même : il m’est arrivé d’ajouter à ma liste une tâche déjà accomplie, rien que pour la barrer. Ma liste du jour ne m’aidait plus à faire les choses ; elle me permettait de me sentir quelqu’un qui les fait. Je n’y ai pas renoncé pour autant. J’ai simplement adopté une règle : pas plus de trois lignes par jour. Le reste attendra, et j’ai découvert, non sans un léger vertige, qu’une bonne partie de ce reste pouvait attendre indéfiniment sans que le monde s’effondre.",
+      "q": "Que comprend-on de la dernière phrase ?",
+      "options": [
+        "Beaucoup de tâches notées n’étaient pas vraiment nécessaires",
+        "L’auteur craint que tout s’effondre sans ses listes",
+        "L’auteur accomplit désormais plus de trois tâches",
+        "L’auteur a définitivement abandonné ses listes"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Many postponed tasks ‘pouvait attendre indéfiniment sans que le monde s’effondre’: they were never really needed. The author still keeps lists (‘Je n’y ai pas renoncé’), limited to three lines.",
+        "fr": "Une bonne partie des tâches reportées « pouvait attendre indéfiniment sans que le monde s’effondre » : elles n’étaient pas nécessaires. L’auteur garde ses listes (« Je n’y ai pas renoncé »)."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C1 : comprendre des textes longs et exigeants et en saisir l’implicite",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-061",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "society",
+      "docId": "fce-d41",
+      "doc": "Chronique – L’assemblée annuelle\nIl existe peu de lieux où la démocratie se donne à voir avec autant de ferveur que l’assemblée annuelle d’une copropriété. Celle de mon immeuble s’est tenue mardi, dans la salle commune, sous un néon dont la réparation figure à l’ordre du jour depuis trois ans. Nous étions venus trancher une question capitale : fallait-il repeindre la porte d’entrée en vert sapin ou en vert forêt ? Après une heure quarante de débats, au cours desquels un voisin a rappelé à deux reprises qu’il avait été ingénieur, une coalition fragile s’est formée autour du vert sapin, avant de se défaire sur la question des poignées. La toiture, qui fuit au-dessus du cinquième, a été examinée au pas de course en fin de séance, alors que la moitié des participants avaient déjà enfilé leur manteau. On a convenu de « reporter la décision à une prochaine assemblée, afin de disposer d’éléments complémentaires ». Je ne doute pas que ces éléments arriveront à temps, c’est-à-dire, au rythme où vont les choses, par le plafond du cinquième. Je rentre chez moi rassuré : la porte, au moins, sera assortie aux seaux que nos voisins du dessus ont disposés dans leur salon.",
+      "q": "Que dénonce implicitement le chroniqueur ?",
+      "options": [
+        "L’assemblée s’attarde sur des détails et néglige l’urgent",
+        "Les copropriétaires refusent de payer le néon",
+        "Le voisin ingénieur impose ses choix aux autres",
+        "L’assemblée s’est trompée sur la couleur de la porte"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "Irony contrasts ‘une question capitale’ (two shades of green, an hour forty) with the leaking roof ‘examinée au pas de course’ and postponed. The target is misplaced priorities, not the colour chosen.",
+        "fr": "L’ironie oppose « une question capitale » (deux nuances de vert, une heure quarante) à la toiture qui fuit, « examinée au pas de course » puis reportée. C’est l’ordre des priorités qui est visé."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout écrit, y compris les nuances fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-062",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "society",
+      "docId": "fce-d41",
+      "doc": "Chronique – L’assemblée annuelle\nIl existe peu de lieux où la démocratie se donne à voir avec autant de ferveur que l’assemblée annuelle d’une copropriété. Celle de mon immeuble s’est tenue mardi, dans la salle commune, sous un néon dont la réparation figure à l’ordre du jour depuis trois ans. Nous étions venus trancher une question capitale : fallait-il repeindre la porte d’entrée en vert sapin ou en vert forêt ? Après une heure quarante de débats, au cours desquels un voisin a rappelé à deux reprises qu’il avait été ingénieur, une coalition fragile s’est formée autour du vert sapin, avant de se défaire sur la question des poignées. La toiture, qui fuit au-dessus du cinquième, a été examinée au pas de course en fin de séance, alors que la moitié des participants avaient déjà enfilé leur manteau. On a convenu de « reporter la décision à une prochaine assemblée, afin de disposer d’éléments complémentaires ». Je ne doute pas que ces éléments arriveront à temps, c’est-à-dire, au rythme où vont les choses, par le plafond du cinquième. Je rentre chez moi rassuré : la porte, au moins, sera assortie aux seaux que nos voisins du dessus ont disposés dans leur salon.",
+      "q": "Quel sens faut-il donner à « ces éléments arriveront… par le plafond du cinquième » ?",
+      "options": [
+        "Les documents seront remis au voisin du cinquième",
+        "Les voisins du cinquième fourniront les devis",
+        "Faute de décision, la fuite finira par s’aggraver",
+        "Un expert inspectera bientôt la toiture"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The ‘éléments complémentaires’ the assembly waits for will be water coming through the fifth-floor ceiling: by postponing, the leak will worsen. The buckets in the neighbours’ living room confirm it.",
+        "fr": "Les « éléments complémentaires » attendus seront l’eau qui traversera le plafond du cinquième : à force de reporter, la fuite s’aggravera. Les seaux chez les voisins le confirment."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout écrit, y compris les nuances fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-063",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "culture",
+      "docId": "fce-d42",
+      "doc": "On répète depuis des siècles que traduire, c’est trahir. La formule a le charme des jeux de mots qui sonnent juste, et l’inconvénient de ceux qui dispensent de penser. Car enfin, si toute traduction trahit, à quoi faudrait-il la comparer pour mesurer sa trahison ? À l’original, dira-t-on. Mais l’original lui-même n’est pas reçu de la même manière par un lecteur d’aujourd’hui et par un lecteur de son époque : les mots ont bougé, les allusions se sont éteintes, l’humour a vieilli. Le lecteur natif, lui aussi, lit une version qu’il traduit sans le savoir dans sa propre langue intérieure. Je ne prétends pas que toutes les traductions se valent : il en est de paresseuses, de prétentieuses, d’infidèles par ignorance. Je soutiens seulement que la fidélité ne se mesure pas mot à mot, mais à l’effet produit. Une traduction qui rend un texte comique aussi drôle dans la langue d’arrivée que dans la langue de départ, quitte à changer toutes ses plaisanteries, lui est plus fidèle qu’une version exacte qui ne fait rire personne. Le traducteur n’est pas un faussaire ; c’est un interprète, au sens où l’est un musicien devant une partition.",
+      "q": "Comment l’auteur construit-il son argumentation ?",
+      "options": [
+        "Il défend une formule connue, puis l’illustre par l’exemple de la musique",
+        "Il réfute une formule, concède une limite et redéfinit la fidélité",
+        "Il classe plusieurs traductions d’un même texte comique",
+        "Il raconte sa carrière puis prône la traduction mot à mot"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "He first attacks the saying ‘traduire, c’est trahir’, then concedes ‘Je ne prétends pas que toutes les traductions se valent’, and finally argues that fidelity is measured ‘à l’effet produit’, not word for word.",
+        "fr": "Il conteste d’abord « traduire, c’est trahir », concède ensuite « Je ne prétends pas que toutes les traductions se valent », puis définit la fidélité par « l’effet produit », non mot à mot."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout écrit, y compris les nuances fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-064",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "environment",
+      "docId": "fce-d43",
+      "doc": "Billet – La planète vous remercie\nJ’ai reçu cette semaine, comme des milliers d’autres clients, un courriel enthousiaste de la chaîne de cafés où je prends mon allongé du matin. On m’y annonce, en caractères verts, que l’entreprise « réinvente son rapport à la planète » : désormais, les gobelets contiendront 15 % de matières recyclées, et chaque client qui apporte sa tasse recevra… un autocollant. Dix autocollants donnent droit à un café gratuit, servi, précisons-le, dans un gobelet jetable. J’avoue avoir été ému. Il faut du courage, à une époque où l’on pourrait se contenter de vaisselle lavable, pour s’attaquer avec une telle détermination aux 85 % restants. Le courriel se termine par la photographie d’une forêt et la phrase « Ensemble, faisons la différence ». Je ne doute pas que la différence soit faite : entre ce que coûte un autocollant et ce que rapporte une réputation de vertu, l’écart doit être considérable. On aurait tort, cela dit, de jeter le bébé avec l’eau du bain. Si les clients finissent par apporter leur tasse, même pour de mauvaises raisons, le geste restera. C’est souvent ainsi que les habitudes changent : par la petite porte, et sous un faux prétexte.",
+      "q": "Quel procédé domine dans la première partie du billet ?",
+      "options": [
+        "L’exagération : l’auteur invente des chiffres choquants",
+        "La comparaison : l’auteur oppose plusieurs chaînes",
+        "Le témoignage : l’auteur relate un moment émouvant",
+        "L’ironie : l’auteur feint l’admiration pour critiquer"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "Phrases like ‘J’avoue avoir été ému’ and ‘Il faut du courage… pour s’attaquer… aux 85 % restants’ praise the company in words while mocking how little it does: classic irony.",
+        "fr": "Des phrases comme « J’avoue avoir été ému » ou « Il faut du courage… pour s’attaquer… aux 85 % restants » louent l’entreprise en apparence pour souligner la maigreur de l’effort : c’est de l’ironie."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout écrit, y compris les nuances fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-065",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "environment",
+      "docId": "fce-d43",
+      "doc": "Billet – La planète vous remercie\nJ’ai reçu cette semaine, comme des milliers d’autres clients, un courriel enthousiaste de la chaîne de cafés où je prends mon allongé du matin. On m’y annonce, en caractères verts, que l’entreprise « réinvente son rapport à la planète » : désormais, les gobelets contiendront 15 % de matières recyclées, et chaque client qui apporte sa tasse recevra… un autocollant. Dix autocollants donnent droit à un café gratuit, servi, précisons-le, dans un gobelet jetable. J’avoue avoir été ému. Il faut du courage, à une époque où l’on pourrait se contenter de vaisselle lavable, pour s’attaquer avec une telle détermination aux 85 % restants. Le courriel se termine par la photographie d’une forêt et la phrase « Ensemble, faisons la différence ». Je ne doute pas que la différence soit faite : entre ce que coûte un autocollant et ce que rapporte une réputation de vertu, l’écart doit être considérable. On aurait tort, cela dit, de jeter le bébé avec l’eau du bain. Si les clients finissent par apporter leur tasse, même pour de mauvaises raisons, le geste restera. C’est souvent ainsi que les habitudes changent : par la petite porte, et sous un faux prétexte.",
+      "q": "Que signifie ici « jeter le bébé avec l’eau du bain » ?",
+      "options": [
+        "Jeter les gobelets avant de les avoir lavés",
+        "Accuser les clients des fautes de l’entreprise",
+        "Rejeter le bon en même temps que le critiquable",
+        "Cesser de critiquer une entreprise puissante"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The idiom means discarding something valuable along with what is bad. The author keeps the useful part: if customers start bringing their own cup, ‘le geste restera’, even for bad reasons.",
+        "fr": "L’expression signifie rejeter ce qui a de la valeur avec ce qui est mauvais. L’auteur sauve l’utile : si les clients apportent leur tasse, « le geste restera », même pour de mauvaises raisons."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout écrit, y compris les nuances fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-066",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "work",
+      "docId": "fce-d44",
+      "doc": "Notre entreprise a changé de valeurs. Je l’ai appris en arrivant lundi : les murs de l’aire ouverte, naguère ornés d’une reproduction de paysage, affichent désormais en lettres géantes les mots « Audace », « Bienveillance » et « Transparence ». Une note de la direction précisait que ces valeurs avaient été définies au terme d’une large consultation, menée auprès du comité de direction et d’un cabinet de conseil. L’audace s’est manifestée dès mardi, avec l’annonce d’un gel des salaires présenté comme « une occasion de recentrer notre engagement sur le sens ». La bienveillance a suivi mercredi : chaque employé a reçu une plante verte, à arroser sur son temps de pause. Un atelier facultatif, organisé le jeudi à l’heure du dîner, nous a par ailleurs appris à « accueillir nos émotions », y compris celles que suscitait le gel des salaires. Quant à la transparence, elle s’incarne surtout dans les nouvelles cloisons de verre des salles de réunion, à travers lesquelles nous pouvons désormais observer, sans les entendre, les décisions qui nous concernent. Je ne voudrais pas paraître cynique. Les plantes sont jolies, et certaines ont même survécu à la première semaine.",
+      "q": "Que suggère l’auteur à propos de la « transparence » ?",
+      "options": [
+        "Les décisions se prennent toujours sans les employés",
+        "Les salles vitrées sont trop bruyantes",
+        "La direction partage enfin ses informations",
+        "Les cloisons ont coûté plus cher que les plantes"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The only ‘transparency’ is literal: glass walls through which employees see decisions ‘sans les entendre’. Like the ‘large consultation’ limited to managers and consultants, it shows staff remain excluded.",
+        "fr": "La seule « transparence » est littérale : des cloisons de verre à travers lesquelles on voit les décisions « sans les entendre ». Comme la « large consultation » réservée à la direction, cela montre que les employés restent exclus."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout écrit, y compris les nuances fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-067",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "media",
+      "docId": "fce-d45",
+      "doc": "On parle beaucoup d’une « économie de l’attention », comme si notre capacité à nous concentrer était une ressource que des entreprises se disputeraient à la manière d’un gisement. L’image est commode ; elle est aussi, à mon sens, trompeuse sur un point essentiel. Un gisement s’épuise passivement, il ne choisit rien. Or l’attention n’est pas seulement extraite de nous : elle est aussi quelque chose que nous accordons, et qui façonne en retour celui qui l’accorde. Ce à quoi je prête attention aujourd’hui détermine ce que je serai capable de remarquer demain. L’œil qui s’habitue aux contenus de quinze secondes ne devient pas seulement impatient ; il cesse de voir ce qui demande du temps pour apparaître : la lente transformation d’un quartier, l’évolution d’un argument, le changement d’humeur d’un ami. C’est pourquoi les appels à « reprendre le contrôle » de nos écrans me laissent sceptique. Ils supposent un moi intact, simplement distrait, qu’il suffirait de ramener à l’essentiel. Mais si l’attention façonne le sujet, il n’existe pas de position de surplomb d’où décider sereinement. On ne se désintoxique pas de ses habitudes perceptives comme on range un tiroir ; on les rééduque, lentement, en s’exposant de nouveau à ce qui ne se donne pas tout de suite.",
+      "q": "Pourquoi l’auteur juge-t-il l’image du « gisement » trompeuse ?",
+      "options": [
+        "Elle exagère le pouvoir des entreprises sur nous",
+        "Elle oublie que l’attention s’épuise bien plus vite qu’un gisement",
+        "Elle laisse croire qu’on peut maîtriser nos écrans",
+        "Elle rend l’attention passive, alors qu’elle nous façonne"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "A deposit ‘s’épuise passivement, il ne choisit rien’, whereas attention is something ‘que nous accordons, et qui façonne en retour celui qui l’accorde’. The metaphor misses this two-way shaping.",
+        "fr": "Un gisement « s’épuise passivement, il ne choisit rien », alors que l’attention est « quelque chose que nous accordons, et qui façonne en retour celui qui l’accorde ». L’image ignore cet effet en retour."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout écrit, y compris les nuances fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-068",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "media",
+      "docId": "fce-d45",
+      "doc": "On parle beaucoup d’une « économie de l’attention », comme si notre capacité à nous concentrer était une ressource que des entreprises se disputeraient à la manière d’un gisement. L’image est commode ; elle est aussi, à mon sens, trompeuse sur un point essentiel. Un gisement s’épuise passivement, il ne choisit rien. Or l’attention n’est pas seulement extraite de nous : elle est aussi quelque chose que nous accordons, et qui façonne en retour celui qui l’accorde. Ce à quoi je prête attention aujourd’hui détermine ce que je serai capable de remarquer demain. L’œil qui s’habitue aux contenus de quinze secondes ne devient pas seulement impatient ; il cesse de voir ce qui demande du temps pour apparaître : la lente transformation d’un quartier, l’évolution d’un argument, le changement d’humeur d’un ami. C’est pourquoi les appels à « reprendre le contrôle » de nos écrans me laissent sceptique. Ils supposent un moi intact, simplement distrait, qu’il suffirait de ramener à l’essentiel. Mais si l’attention façonne le sujet, il n’existe pas de position de surplomb d’où décider sereinement. On ne se désintoxique pas de ses habitudes perceptives comme on range un tiroir ; on les rééduque, lentement, en s’exposant de nouveau à ce qui ne se donne pas tout de suite.",
+      "q": "Pourquoi l’auteur doute-t-il des appels à « reprendre le contrôle » ?",
+      "options": [
+        "Ils accusent à tort les entreprises de nous distraire",
+        "Ils supposent un moi intact que nos habitudes ont déjà modifié",
+        "Ils exigent un effort que peu de gens acceptent",
+        "Ils ignorent que les écrans proposent aussi des contenus longs"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "Such calls ‘supposent un moi intact, simplement distrait’, but if attention shapes the self, ‘il n’existe pas de position de surplomb’: our habits have already changed the one who would take control.",
+        "fr": "Ces appels « supposent un moi intact, simplement distrait » ; or si l’attention façonne le sujet, « il n’existe pas de position de surplomb » : nos habitudes ont déjà transformé celui qui voudrait décider."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout écrit, y compris les nuances fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-069",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "science",
+      "docId": "fce-d46",
+      "doc": "Il est devenu courant de reprocher aux scientifiques de « changer d’avis ». Hier telle recommandation, aujourd’hui son contraire : comment leur faire confiance ? La question est légitime, mais elle repose sur un malentendu tenace quant à la nature même de leur travail. Une connaissance scientifique n’est pas une vérité gravée dans le marbre ; c’est l’état le plus solide, à un moment donné, d’un savoir révisable. Un chercheur qui ne changerait jamais d’avis devant des données nouvelles ne serait pas un roc de fiabilité : il serait un mauvais chercheur. Cela dit, les scientifiques ne sont pas tout à fait innocents dans ce malentendu. À force de présenter leurs conclusions provisoires avec l’assurance d’un verdict, pour se faire entendre dans un débat public pressé, certains ont contribué à nourrir l’attente de certitudes définitives. Le jour où ces certitudes vacillent, la déception est à la mesure de la promesse. Il ne s’agit pas de noyer chaque énoncé sous les précautions, ce qui le rendrait inaudible, mais d’apprendre au public à entendre une phrase que la science prononce trop rarement à voix haute : « Voici ce que nous savons, et voici avec quel degré de confiance. »",
+      "q": "Quelle nuance le passage introduit par « Cela dit » apporte-t-il ?",
+      "options": [
+        "Les scientifiques ont tort de changer d’avis aussi souvent",
+        "Les scientifiques ont eux-mêmes nourri l’attente de certitudes",
+        "Le public a raison de ne plus faire confiance à la science",
+        "Les chercheurs devraient multiplier les précautions"
+      ],
+      "answer": 1,
+      "explain": {
+        "en": "After defending revision, the author concedes scientists are ‘pas tout à fait innocents’: by presenting provisional findings ‘avec l’assurance d’un verdict’, some fed the expectation of certainty. He rejects drowning statements in caveats.",
+        "fr": "Après avoir défendu la révision, l’auteur concède que les scientifiques ne sont « pas tout à fait innocents » : en présentant des conclusions provisoires « avec l’assurance d’un verdict », certains ont nourri l’attente de certitudes."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout écrit, y compris les nuances fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-070",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "daily",
+      "docId": "fce-d47",
+      "doc": "Éloge du détour\nMa grand-mère disait qu’il ne faut jamais prendre le chemin le plus court quand on n’est pas pressé. J’ai longtemps tenu ce conseil pour une coquetterie de retraitée qui avait, elle, tout son temps. Il m’a fallu une entorse à la cheville et six semaines sans voiture pour en saisir la portée. Contraint de marcher lentement, j’ai découvert, à trois rues de chez moi, une cordonnerie tenue par un homme qui répare aussi les parapluies, un jardin caché derrière une grille que je croyais celle d’un entrepôt, et une voisine que je saluais depuis dix ans sans connaître son prénom. Rien de tout cela n’était caché ; je passais simplement trop vite pour le voir. On vante volontiers la lenteur comme un luxe, ou comme une sagesse réservée à ceux qui ont le loisir de flâner. J’y vois plutôt une manière de rendre au quotidien son épaisseur. L’efficacité nous fait gagner des minutes ; elle nous fait aussi perdre des rencontres dont nous ne saurons jamais qu’elles nous ont manqué, puisque, par définition, elles n’ont pas eu lieu. Depuis que ma cheville est guérie, je m’oblige, une fois par semaine, à rentrer par le chemin le plus long. Ma grand-mère, j’en suis sûr, trouverait cela un peu forcé. Elle aurait sans doute raison.",
+      "q": "Que révèle l’expression « une coquetterie de retraitée » sur l’attitude initiale de l’auteur ?",
+      "options": [
+        "Il admirait l’élégance de sa grand-mère retraitée",
+        "Il pensait que sa grand-mère manquait de temps libre",
+        "Il jugeait ce conseil utile seulement aux personnes blessées",
+        "Il tenait ce conseil pour une fantaisie sans portée réelle"
+      ],
+      "answer": 3,
+      "explain": {
+        "en": "A ‘coquetterie’ is a harmless affectation: the author dismissed the advice as something only a retiree ‘qui avait, elle, tout son temps’ could afford. Only later did he ‘en saisir la portée’.",
+        "fr": "Une « coquetterie » est une fantaisie sans conséquence : l’auteur voyait là un luxe de retraitée « qui avait, elle, tout son temps ». Ce n’est que plus tard qu’il en a saisi « la portée »."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout écrit, y compris les nuances fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-071",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "daily",
+      "docId": "fce-d47",
+      "doc": "Éloge du détour\nMa grand-mère disait qu’il ne faut jamais prendre le chemin le plus court quand on n’est pas pressé. J’ai longtemps tenu ce conseil pour une coquetterie de retraitée qui avait, elle, tout son temps. Il m’a fallu une entorse à la cheville et six semaines sans voiture pour en saisir la portée. Contraint de marcher lentement, j’ai découvert, à trois rues de chez moi, une cordonnerie tenue par un homme qui répare aussi les parapluies, un jardin caché derrière une grille que je croyais celle d’un entrepôt, et une voisine que je saluais depuis dix ans sans connaître son prénom. Rien de tout cela n’était caché ; je passais simplement trop vite pour le voir. On vante volontiers la lenteur comme un luxe, ou comme une sagesse réservée à ceux qui ont le loisir de flâner. J’y vois plutôt une manière de rendre au quotidien son épaisseur. L’efficacité nous fait gagner des minutes ; elle nous fait aussi perdre des rencontres dont nous ne saurons jamais qu’elles nous ont manqué, puisque, par définition, elles n’ont pas eu lieu. Depuis que ma cheville est guérie, je m’oblige, une fois par semaine, à rentrer par le chemin le plus long. Ma grand-mère, j’en suis sûr, trouverait cela un peu forcé. Elle aurait sans doute raison.",
+      "q": "Que suggère la dernière phrase, « Elle aurait sans doute raison » ?",
+      "options": [
+        "Une lenteur imposée par une règle perd de son naturel",
+        "Sa grand-mère se moquerait de son ancienne entorse",
+        "Il vaudrait mieux reprendre la voiture une fois guéri",
+        "Rentrer par le chemin le plus long fait perdre du temps"
+      ],
+      "answer": 0,
+      "explain": {
+        "en": "The author admits that forcing himself (‘je m’oblige’) to take the long way once a week is ‘un peu forcé’: a scheduled detour contradicts the spontaneous slowness his grandmother meant.",
+        "fr": "L’auteur reconnaît que s’obliger (« je m’oblige ») à faire un détour chaque semaine est « un peu forcé » : une lenteur planifiée trahit la flânerie spontanée que conseillait sa grand-mère."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout écrit, y compris les nuances fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    },
+    {
+      "id": "fce-072",
+      "skill": "reading",
+      "lang": "fr",
+      "level": "C2",
+      "theme": "transport",
+      "docId": "fce-d48",
+      "doc": "On présente souvent l’automobile comme l’instrument par excellence de la liberté. Elle l’est, assurément, au sens où elle permet d’aller où l’on veut, quand on veut, du moins en théorie. Car la pratique est plus têtue. Dans ma banlieue, aller chercher une baguette sans voiture relève de l’expédition : pas de trottoir sur la moitié du trajet, un boulevard à traverser sans feu, une boulangerie installée au milieu d’un vaste stationnement. Ici, la voiture n’est pas un choix ; c’est une condition d’existence sociale, au même titre qu’une adresse. Les adolescents attendent leur permis comme d’autres attendent leur majorité, et les personnes âgées qui doivent y renoncer perdent, du jour au lendemain, une bonne part de leur vie. Que la voiture tombe en panne, et c’est toute l’organisation familiale qui vacille. On peut appeler cela liberté. On peut aussi y voir l’une de ces libertés devenues obligatoires, dont la principale caractéristique est qu’on ne peut plus s’en passer. Je ne réclame pas qu’on interdise quoi que ce soit ; je me borne à constater qu’un quartier où l’on ne peut rien faire sans conduire a déjà, d’une certaine façon, décidé à notre place.",
+      "q": "Quel paradoxe l’auteur met-il en évidence ?",
+      "options": [
+        "Interdire la voiture rendrait les habitants plus libres",
+        "La banlieue offre plus de liberté que le centre-ville",
+        "La liberté qu’offre la voiture est devenue une contrainte",
+        "Renoncer à conduire libère les personnes âgées"
+      ],
+      "answer": 2,
+      "explain": {
+        "en": "The author calls car use ‘l’une de ces libertés devenues obligatoires’: where nothing can be done without driving, the car is ‘une condition d’existence sociale’. He explicitly refuses to demand a ban.",
+        "fr": "L’auteur parle de « libertés devenues obligatoires » : là où l’on ne peut rien faire sans conduire, la voiture est « une condition d’existence sociale ». Il précise qu’il ne réclame aucune interdiction."
+      },
+      "ref": {
+        "doc": "CECR, échelle globale (Conseil de l’Europe)",
+        "section": "Niveau C2 : comprendre sans effort presque tout écrit, y compris les nuances fines",
+        "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale"
+      }
+    }
+  ]
+}
